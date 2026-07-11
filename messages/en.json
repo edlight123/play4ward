@@ -132,11 +132,26 @@
       "eyebrow": "Our values",
       "title": "What guides us",
       "items": [
-        { "title": "Discipline", "body": "Consistency and effort, in training and beyond." },
-        { "title": "Leadership", "body": "Every player can learn to guide others." },
-        { "title": "Inclusion", "body": "Handball is open to girls and boys alike." },
-        { "title": "Teamwork", "body": "We win together, we learn together." },
-        { "title": "Opportunity", "body": "Opening the doors sport can open." }
+        {
+          "title": "Discipline",
+          "body": "Consistency and effort, in training and beyond."
+        },
+        {
+          "title": "Leadership",
+          "body": "Every player can learn to guide others."
+        },
+        {
+          "title": "Inclusion",
+          "body": "Handball is open to girls and boys alike."
+        },
+        {
+          "title": "Teamwork",
+          "body": "We win together, we learn together."
+        },
+        {
+          "title": "Opportunity",
+          "body": "Opening the doors sport can open."
+        }
       ]
     },
     "why": {
@@ -157,9 +172,21 @@
       "title": "The people behind Play4Ward",
       "intro": "[REPLACE: add a photo, role, and short bio for each member.]",
       "members": [
-        { "name": "[REPLACE: name]", "role": "Founder / Director", "bio": "[REPLACE: 2–3 sentence bio.]" },
-        { "name": "[REPLACE: name]", "role": "Head coach", "bio": "[REPLACE: 2–3 sentence bio.]" },
-        { "name": "[REPLACE: name]", "role": "Program coordination", "bio": "[REPLACE: 2–3 sentence bio.]" }
+        {
+          "name": "[REPLACE: name]",
+          "role": "Founder / Director",
+          "bio": "[REPLACE: 2–3 sentence bio.]"
+        },
+        {
+          "name": "[REPLACE: name]",
+          "role": "Head coach",
+          "bio": "[REPLACE: 2–3 sentence bio.]"
+        },
+        {
+          "name": "[REPLACE: name]",
+          "role": "Program coordination",
+          "bio": "[REPLACE: 2–3 sentence bio.]"
+        }
       ]
     },
     "governance": {
@@ -201,12 +228,30 @@
       ],
       "detailsTitle": "Practical details",
       "details": [
-        { "label": "Ages", "value": "13 to 18" },
-        { "label": "Location", "value": "[REPLACE: training location, Jacmel]" },
-        { "label": "Schedule", "value": "[REPLACE: days and times]" },
-        { "label": "Cost", "value": "[REPLACE: free or amount]" },
-        { "label": "Equipment provided", "value": "[REPLACE: what's provided]" },
-        { "label": "What to bring", "value": "[REPLACE: what participants bring]" }
+        {
+          "label": "Ages",
+          "value": "13 to 18"
+        },
+        {
+          "label": "Location",
+          "value": "[REPLACE: training location, Jacmel]"
+        },
+        {
+          "label": "Schedule",
+          "value": "[REPLACE: days and times]"
+        },
+        {
+          "label": "Cost",
+          "value": "[REPLACE: free or amount]"
+        },
+        {
+          "label": "Equipment provided",
+          "value": "[REPLACE: what's provided]"
+        },
+        {
+          "label": "What to bring",
+          "value": "[REPLACE: what participants bring]"
+        }
       ],
       "photo": "[REPLACE: photo — session at the training center]"
     },
@@ -261,14 +306,38 @@
       "title": "What we measure",
       "note": "The values below are placeholders — to be replaced with confirmed, documented numbers.",
       "stats": [
-        { "value": "[—]", "label": "Young participants" },
-        { "value": "[—]", "label": "Training sessions" },
-        { "value": "[—]", "label": "Schools represented" },
-        { "value": "[—]", "label": "Share of girls" },
-        { "value": "[—]", "label": "Coaches trained" },
-        { "value": "[—]", "label": "Tournaments organized" },
-        { "value": "[—]", "label": "Leadership workshops" },
-        { "value": "[—]", "label": "Equipment distributed" }
+        {
+          "value": "[—]",
+          "label": "Young participants"
+        },
+        {
+          "value": "[—]",
+          "label": "Training sessions"
+        },
+        {
+          "value": "[—]",
+          "label": "Schools represented"
+        },
+        {
+          "value": "[—]",
+          "label": "Share of girls"
+        },
+        {
+          "value": "[—]",
+          "label": "Coaches trained"
+        },
+        {
+          "value": "[—]",
+          "label": "Tournaments organized"
+        },
+        {
+          "value": "[—]",
+          "label": "Leadership workshops"
+        },
+        {
+          "value": "[—]",
+          "label": "Equipment distributed"
+        }
       ]
     },
     "stories": {
@@ -323,11 +392,26 @@
       "eyebrow": "Many ways to take part",
       "title": "Find your place",
       "items": [
-        { "title": "Join as an athlete", "body": "Ages 13–18 ready to train and grow." },
-        { "title": "Join as a coach", "body": "Share your experience and mentor the next generation." },
-        { "title": "Volunteer", "body": "Help at practices, events, and tournaments." },
-        { "title": "Host a program", "body": "Bring Play4Ward to your community." },
-        { "title": "Become a school partner", "body": "Offer handball and leadership to your students." }
+        {
+          "title": "Join as an athlete",
+          "body": "Ages 13–18 ready to train and grow."
+        },
+        {
+          "title": "Join as a coach",
+          "body": "Share your experience and mentor the next generation."
+        },
+        {
+          "title": "Volunteer",
+          "body": "Help at practices, events, and tournaments."
+        },
+        {
+          "title": "Host a program",
+          "body": "Bring Play4Ward to your community."
+        },
+        {
+          "title": "Become a school partner",
+          "body": "Offer handball and leadership to your students."
+        }
       ]
     },
     "safeguarding": {
@@ -345,10 +429,34 @@
     "upcomingTitle": "Upcoming",
     "note": "[REPLACE: real events with date, location, description, eligibility, and registration. The entries below are examples.]",
     "items": [
-      { "date": "12 SEP", "tag": "Recruitment", "title": "Recruitment day — 2026 season", "place": "[REPLACE: location, Jacmel]", "description": "Info session and tryouts for ages 13–18." },
-      { "date": "05 OCT", "tag": "Training", "title": "Weekly practices begin", "place": "[REPLACE: training center]", "description": "First coached sessions of the new season." },
-      { "date": "16 NOV", "tag": "Tournament", "title": "Autumn community tournament", "place": "[REPLACE: location]", "description": "Friendly matches between teams and demonstrations." },
-      { "date": "30 NOV", "tag": "Workshop", "title": "Leadership workshop", "place": "[REPLACE: location]", "description": "Communication, goal-setting, and teamwork." }
+      {
+        "date": "12 SEP",
+        "tag": "Recruitment",
+        "title": "Recruitment day — 2026 season",
+        "place": "[REPLACE: location, Jacmel]",
+        "description": "Info session and tryouts for ages 13–18."
+      },
+      {
+        "date": "05 OCT",
+        "tag": "Training",
+        "title": "Weekly practices begin",
+        "place": "[REPLACE: training center]",
+        "description": "First coached sessions of the new season."
+      },
+      {
+        "date": "16 NOV",
+        "tag": "Tournament",
+        "title": "Autumn community tournament",
+        "place": "[REPLACE: location]",
+        "description": "Friendly matches between teams and demonstrations."
+      },
+      {
+        "date": "30 NOV",
+        "tag": "Workshop",
+        "title": "Leadership workshop",
+        "place": "[REPLACE: location]",
+        "description": "Communication, goal-setting, and teamwork."
+      }
     ],
     "newsLink": "Read our news"
   },
@@ -360,9 +468,24 @@
     },
     "note": "[REPLACE: publish short articles — athlete achievements, tournament results, new partnerships, equipment donations, new coaches, community visits.]",
     "items": [
-      { "date": "[DATE]", "tag": "Program", "title": "[REPLACE: article title]", "excerpt": "[REPLACE: short summary of the news.]" },
-      { "date": "[DATE]", "tag": "Partnership", "title": "[REPLACE: article title]", "excerpt": "[REPLACE: short summary of the news.]" },
-      { "date": "[DATE]", "tag": "Community", "title": "[REPLACE: article title]", "excerpt": "[REPLACE: short summary of the news.]" }
+      {
+        "date": "[DATE]",
+        "tag": "Program",
+        "title": "[REPLACE: article title]",
+        "excerpt": "[REPLACE: short summary of the news.]"
+      },
+      {
+        "date": "[DATE]",
+        "tag": "Partnership",
+        "title": "[REPLACE: article title]",
+        "excerpt": "[REPLACE: short summary of the news.]"
+      },
+      {
+        "date": "[DATE]",
+        "tag": "Community",
+        "title": "[REPLACE: article title]",
+        "excerpt": "[REPLACE: short summary of the news.]"
+      }
     ],
     "instaNote": "Follow us on Instagram for day-to-day updates."
   },
@@ -377,10 +500,22 @@
       "title": "Give money",
       "note": "Example gifts — actual amounts will be calculated from Play4Ward's budget.",
       "tiers": [
-        { "amount": "$15", "body": "helps provide basic training supplies." },
-        { "amount": "$30", "body": "supports one athlete's equipment." },
-        { "amount": "$100", "body": "helps run a community clinic." },
-        { "amount": "$500", "body": "helps sponsor a tournament." }
+        {
+          "amount": "$15",
+          "body": "helps provide basic training supplies."
+        },
+        {
+          "amount": "$30",
+          "body": "supports one athlete's equipment."
+        },
+        {
+          "amount": "$100",
+          "body": "helps run a community clinic."
+        },
+        {
+          "amount": "$500",
+          "body": "helps sponsor a tournament."
+        }
       ],
       "cta": "Donate",
       "methodNote": "[REPLACE: real donation link or method.]"
@@ -406,11 +541,26 @@
       "eyebrow": "Sponsor a program",
       "title": "Sponsorship packages",
       "items": [
-        { "title": "Athlete Sponsor", "body": "Support one young person's journey for a season." },
-        { "title": "Training Partner", "body": "Fund coaching and regular sessions." },
-        { "title": "Tournament Partner", "body": "Make a competition and its awards possible." },
-        { "title": "Community Partner", "body": "Support outreach in schools and neighborhoods." },
-        { "title": "National Expansion Partner", "body": "Help Play4Ward grow beyond Jacmel." }
+        {
+          "title": "Athlete Sponsor",
+          "body": "Support one young person's journey for a season."
+        },
+        {
+          "title": "Training Partner",
+          "body": "Fund coaching and regular sessions."
+        },
+        {
+          "title": "Tournament Partner",
+          "body": "Make a competition and its awards possible."
+        },
+        {
+          "title": "Community Partner",
+          "body": "Support outreach in schools and neighborhoods."
+        },
+        {
+          "title": "National Expansion Partner",
+          "body": "Help Play4Ward grow beyond Jacmel."
+        }
       ]
     },
     "corporate": {
@@ -436,12 +586,30 @@
     },
     "note": "[REPLACE: for each partner — logo, short description, type of support, related program, and a link to their website.]",
     "categories": [
-      { "title": "Strategic partners", "body": "[REPLACE: organizations that shape our direction.]" },
-      { "title": "Financial sponsors", "body": "[REPLACE: funders and donors.]" },
-      { "title": "Program partners", "body": "[REPLACE: implementation partners.]" },
-      { "title": "School partners", "body": "[REPLACE: schools that host our activities.]" },
-      { "title": "Media partners", "body": "[REPLACE: communications and visibility support.]" },
-      { "title": "Equipment partners", "body": "[REPLACE: gear suppliers.]" }
+      {
+        "title": "Strategic partners",
+        "body": "[REPLACE: organizations that shape our direction.]"
+      },
+      {
+        "title": "Financial sponsors",
+        "body": "[REPLACE: funders and donors.]"
+      },
+      {
+        "title": "Program partners",
+        "body": "[REPLACE: implementation partners.]"
+      },
+      {
+        "title": "School partners",
+        "body": "[REPLACE: schools that host our activities.]"
+      },
+      {
+        "title": "Media partners",
+        "body": "[REPLACE: communications and visibility support.]"
+      },
+      {
+        "title": "Equipment partners",
+        "body": "[REPLACE: gear suppliers.]"
+      }
     ],
     "becomeTitle": "Become a partner",
     "becomeBody": "Share our belief that sport opens doors? Let's write the next chapter together.",
@@ -462,14 +630,23 @@
       "locationTitle": "Location",
       "location": "Jacmel, Haiti",
       "instagramTitle": "Instagram",
-      "instagram": "@REPLACE"
+      "instagram": "@play4ward_haiti"
     },
     "inquiries": {
       "title": "Specific inquiries",
       "items": [
-        { "title": "Partnerships", "value": "partnerships@play4ward.org [REPLACE]" },
-        { "title": "Press & media", "value": "media@play4ward.org [REPLACE]" },
-        { "title": "Volunteering", "value": "volunteer@play4ward.org [REPLACE]" }
+        {
+          "title": "Partnerships",
+          "value": "partnerships@play4ward.org [REPLACE]"
+        },
+        {
+          "title": "Press & media",
+          "value": "media@play4ward.org [REPLACE]"
+        },
+        {
+          "title": "Volunteering",
+          "value": "volunteer@play4ward.org [REPLACE]"
+        }
       ]
     },
     "privacyNote": "We don't publish a personal phone number. Inquiries go through the organization's addresses.",

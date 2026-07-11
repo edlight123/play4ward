@@ -135,11 +135,26 @@
       "eyebrow": "Valè nou yo",
       "title": "Sa ki gide nou",
       "items": [
-        { "title": "Disiplin", "body": "Konstans ak efò, nan antrènman ak pi lwen." },
-        { "title": "Lidèchip", "body": "Chak jwè ka aprann gide lòt yo." },
-        { "title": "Enklizyon", "body": "Andbòl ouvè pou tifi kou tigason." },
-        { "title": "Travay ann ekip", "body": "Nou genyen ansanm, nou aprann ansanm." },
-        { "title": "Opòtinite", "body": "Ouvè pòt espò ka ouvè yo." }
+        {
+          "title": "Disiplin",
+          "body": "Konstans ak efò, nan antrènman ak pi lwen."
+        },
+        {
+          "title": "Lidèchip",
+          "body": "Chak jwè ka aprann gide lòt yo."
+        },
+        {
+          "title": "Enklizyon",
+          "body": "Andbòl ouvè pou tifi kou tigason."
+        },
+        {
+          "title": "Travay ann ekip",
+          "body": "Nou genyen ansanm, nou aprann ansanm."
+        },
+        {
+          "title": "Opòtinite",
+          "body": "Ouvè pòt espò ka ouvè yo."
+        }
       ]
     },
     "why": {
@@ -160,9 +175,21 @@
       "title": "Moun ki dèyè PLAY4WARD",
       "intro": "[RANPLASE: ajoute yon foto, wòl ak yon ti biyografi pou chak manm.]",
       "members": [
-        { "name": "[RANPLASE: non]", "role": "Fondatè / Direktè", "bio": "[RANPLASE: biyografi 2–3 fraz.]" },
-        { "name": "[RANPLASE: non]", "role": "Antrenè prensipal", "bio": "[RANPLASE: biyografi 2–3 fraz.]" },
-        { "name": "[RANPLASE: non]", "role": "Kowòdinasyon pwogram", "bio": "[RANPLASE: biyografi 2–3 fraz.]" }
+        {
+          "name": "[RANPLASE: non]",
+          "role": "Fondatè / Direktè",
+          "bio": "[RANPLASE: biyografi 2–3 fraz.]"
+        },
+        {
+          "name": "[RANPLASE: non]",
+          "role": "Antrenè prensipal",
+          "bio": "[RANPLASE: biyografi 2–3 fraz.]"
+        },
+        {
+          "name": "[RANPLASE: non]",
+          "role": "Kowòdinasyon pwogram",
+          "bio": "[RANPLASE: biyografi 2–3 fraz.]"
+        }
       ]
     },
     "governance": {
@@ -204,12 +231,30 @@
       ],
       "detailsTitle": "Enfòmasyon pratik",
       "details": [
-        { "label": "Laj", "value": "13 a 18 an" },
-        { "label": "Kote", "value": "[RANPLASE: kote antrènman, Jakmèl]" },
-        { "label": "Orè", "value": "[RANPLASE: jou ak lè]" },
-        { "label": "Pri", "value": "[RANPLASE: gratis oswa montan]" },
-        { "label": "Ekipman yo bay", "value": "[RANPLASE: sa yo bay]" },
-        { "label": "Sa pou pote", "value": "[RANPLASE: sa patisipan yo pote]" }
+        {
+          "label": "Laj",
+          "value": "13 a 18 an"
+        },
+        {
+          "label": "Kote",
+          "value": "[RANPLASE: kote antrènman, Jakmèl]"
+        },
+        {
+          "label": "Orè",
+          "value": "[RANPLASE: jou ak lè]"
+        },
+        {
+          "label": "Pri",
+          "value": "[RANPLASE: gratis oswa montan]"
+        },
+        {
+          "label": "Ekipman yo bay",
+          "value": "[RANPLASE: sa yo bay]"
+        },
+        {
+          "label": "Sa pou pote",
+          "value": "[RANPLASE: sa patisipan yo pote]"
+        }
       ],
       "photo": "[RANPLASE: foto — sesyon nan sant antrènman an]"
     },
@@ -264,14 +309,38 @@
       "title": "Sa nou mezire",
       "note": "Valè ki anba yo se plas rezève — pou ranplase ak chif konfime epi dokimante.",
       "stats": [
-        { "value": "[—]", "label": "Jèn patisipan" },
-        { "value": "[—]", "label": "Sesyon antrènman" },
-        { "value": "[—]", "label": "Lekòl reprezante" },
-        { "value": "[—]", "label": "Pwopòsyon tifi" },
-        { "value": "[—]", "label": "Antrenè fòme" },
-        { "value": "[—]", "label": "Tounwa òganize" },
-        { "value": "[—]", "label": "Atelye lidèchip" },
-        { "value": "[—]", "label": "Ekipman distribye" }
+        {
+          "value": "[—]",
+          "label": "Jèn patisipan"
+        },
+        {
+          "value": "[—]",
+          "label": "Sesyon antrènman"
+        },
+        {
+          "value": "[—]",
+          "label": "Lekòl reprezante"
+        },
+        {
+          "value": "[—]",
+          "label": "Pwopòsyon tifi"
+        },
+        {
+          "value": "[—]",
+          "label": "Antrenè fòme"
+        },
+        {
+          "value": "[—]",
+          "label": "Tounwa òganize"
+        },
+        {
+          "value": "[—]",
+          "label": "Atelye lidèchip"
+        },
+        {
+          "value": "[—]",
+          "label": "Ekipman distribye"
+        }
       ]
     },
     "stories": {
@@ -326,11 +395,26 @@
       "eyebrow": "Plizyè fason pou patisipe",
       "title": "Jwenn plas ou",
       "items": [
-        { "title": "Antre kòm atlèt", "body": "Jèn 13 a 18 an ki pare pou antrene epi grandi." },
-        { "title": "Antre kòm antrenè", "body": "Pataje eksperyans ou epi ankadre pwochen jenerasyon an." },
-        { "title": "Vin volontè", "body": "Ede pandan antrènman, evènman ak tounwa." },
-        { "title": "Akeyi yon pwogram", "body": "Pote PLAY4WARD nan kominote ou." },
-        { "title": "Vin yon lekòl patnè", "body": "Ofri andbòl ak lidèchip pou elèv ou yo." }
+        {
+          "title": "Antre kòm atlèt",
+          "body": "Jèn 13 a 18 an ki pare pou antrene epi grandi."
+        },
+        {
+          "title": "Antre kòm antrenè",
+          "body": "Pataje eksperyans ou epi ankadre pwochen jenerasyon an."
+        },
+        {
+          "title": "Vin volontè",
+          "body": "Ede pandan antrènman, evènman ak tounwa."
+        },
+        {
+          "title": "Akeyi yon pwogram",
+          "body": "Pote PLAY4WARD nan kominote ou."
+        },
+        {
+          "title": "Vin yon lekòl patnè",
+          "body": "Ofri andbòl ak lidèchip pou elèv ou yo."
+        }
       ]
     },
     "safeguarding": {
@@ -348,10 +432,34 @@
     "upcomingTitle": "K ap vini",
     "note": "[RANPLASE: vrè evènman ak dat, kote, deskripsyon, kritè ak enskripsyon. Antre ki anba yo se egzanp.]",
     "items": [
-      { "date": "12 SEP", "tag": "Rekritman", "title": "Jou rekritman — sezon 2026", "place": "[RANPLASE: kote, Jakmèl]", "description": "Sesyon enfòmasyon ak tès pou jèn 13 a 18 an." },
-      { "date": "05 OKT", "tag": "Antrènman", "title": "Antrènman chak semèn kòmanse", "place": "[RANPLASE: sant antrènman]", "description": "Premye sesyon ankadre nan nouvo sezon an." },
-      { "date": "16 NOV", "tag": "Tounwa", "title": "Tounwa kominotè otòn", "place": "[RANPLASE: kote]", "description": "Match amikal ant ekip ak demonstrasyon." },
-      { "date": "30 NOV", "tag": "Atelye", "title": "Atelye lidèchip", "place": "[RANPLASE: kote]", "description": "Kominikasyon, fikse objektif ak travay ann ekip." }
+      {
+        "date": "12 SEP",
+        "tag": "Rekritman",
+        "title": "Jou rekritman — sezon 2026",
+        "place": "[RANPLASE: kote, Jakmèl]",
+        "description": "Sesyon enfòmasyon ak tès pou jèn 13 a 18 an."
+      },
+      {
+        "date": "05 OKT",
+        "tag": "Antrènman",
+        "title": "Antrènman chak semèn kòmanse",
+        "place": "[RANPLASE: sant antrènman]",
+        "description": "Premye sesyon ankadre nan nouvo sezon an."
+      },
+      {
+        "date": "16 NOV",
+        "tag": "Tounwa",
+        "title": "Tounwa kominotè otòn",
+        "place": "[RANPLASE: kote]",
+        "description": "Match amikal ant ekip ak demonstrasyon."
+      },
+      {
+        "date": "30 NOV",
+        "tag": "Atelye",
+        "title": "Atelye lidèchip",
+        "place": "[RANPLASE: kote]",
+        "description": "Kominikasyon, fikse objektif ak travay ann ekip."
+      }
     ],
     "newsLink": "Li nouvèl nou yo"
   },
@@ -363,9 +471,24 @@
     },
     "note": "[RANPLASE: pibliye kout atik — reyisit atlèt, rezilta tounwa, nouvo patenarya, don ekipman, nouvo antrenè, vizit kominotè.]",
     "items": [
-      { "date": "[DAT]", "tag": "Pwogram", "title": "[RANPLASE: tit atik la]", "excerpt": "[RANPLASE: kout rezime nouvèl la.]" },
-      { "date": "[DAT]", "tag": "Patenarya", "title": "[RANPLASE: tit atik la]", "excerpt": "[RANPLASE: kout rezime nouvèl la.]" },
-      { "date": "[DAT]", "tag": "Kominote", "title": "[RANPLASE: tit atik la]", "excerpt": "[RANPLASE: kout rezime nouvèl la.]" }
+      {
+        "date": "[DAT]",
+        "tag": "Pwogram",
+        "title": "[RANPLASE: tit atik la]",
+        "excerpt": "[RANPLASE: kout rezime nouvèl la.]"
+      },
+      {
+        "date": "[DAT]",
+        "tag": "Patenarya",
+        "title": "[RANPLASE: tit atik la]",
+        "excerpt": "[RANPLASE: kout rezime nouvèl la.]"
+      },
+      {
+        "date": "[DAT]",
+        "tag": "Kominote",
+        "title": "[RANPLASE: tit atik la]",
+        "excerpt": "[RANPLASE: kout rezime nouvèl la.]"
+      }
     ],
     "instaNote": "Swiv nou sou Instagram pou nouvèl chak jou."
   },
@@ -380,10 +503,22 @@
       "title": "Bay lajan",
       "note": "Egzanp don — vrè montan yo ap kalkile apati bidjè PLAY4WARD.",
       "tiers": [
-        { "amount": "15 $", "body": "ede bay founiti antrènman debaz." },
-        { "amount": "30 $", "body": "sipòte ekipman yon atlèt." },
-        { "amount": "100 $", "body": "ede fè yon klinik kominotè." },
-        { "amount": "500 $", "body": "ede parennen yon tounwa." }
+        {
+          "amount": "15 $",
+          "body": "ede bay founiti antrènman debaz."
+        },
+        {
+          "amount": "30 $",
+          "body": "sipòte ekipman yon atlèt."
+        },
+        {
+          "amount": "100 $",
+          "body": "ede fè yon klinik kominotè."
+        },
+        {
+          "amount": "500 $",
+          "body": "ede parennen yon tounwa."
+        }
       ],
       "cta": "Fè yon don",
       "methodNote": "[RANPLASE: vrè lyen oswa metòd don.]"
@@ -409,11 +544,26 @@
       "eyebrow": "Parennen yon pwogram",
       "title": "Fòmil parennaj",
       "items": [
-        { "title": "Paren yon atlèt", "body": "Sipòte pakou yon jèn pandan yon sezon." },
-        { "title": "Patnè antrènman", "body": "Finanse ankadreman ak sesyon regilye." },
-        { "title": "Patnè tounwa", "body": "Rann yon konpetisyon ak rekonpans li posib." },
-        { "title": "Patnè kominotè", "body": "Sipòte aksyon nan lekòl ak katye yo." },
-        { "title": "Patnè ekspansyon nasyonal", "body": "Ede PLAY4WARD grandi pi lwen pase Jakmèl." }
+        {
+          "title": "Paren yon atlèt",
+          "body": "Sipòte pakou yon jèn pandan yon sezon."
+        },
+        {
+          "title": "Patnè antrènman",
+          "body": "Finanse ankadreman ak sesyon regilye."
+        },
+        {
+          "title": "Patnè tounwa",
+          "body": "Rann yon konpetisyon ak rekonpans li posib."
+        },
+        {
+          "title": "Patnè kominotè",
+          "body": "Sipòte aksyon nan lekòl ak katye yo."
+        },
+        {
+          "title": "Patnè ekspansyon nasyonal",
+          "body": "Ede PLAY4WARD grandi pi lwen pase Jakmèl."
+        }
       ]
     },
     "corporate": {
@@ -439,12 +589,30 @@
     },
     "note": "[RANPLASE: pou chak patnè — logo, kout deskripsyon, tip sipò, pwogram ki asosye ak yon lyen sou sit yo.]",
     "categories": [
-      { "title": "Patnè estratejik", "body": "[RANPLASE: òganizasyon ki fòme oryantasyon nou.]" },
-      { "title": "Sponsò finansye", "body": "[RANPLASE: bayè ak donatè.]" },
-      { "title": "Patnè pwogram", "body": "[RANPLASE: patnè k ap mete an aplikasyon.]" },
-      { "title": "Lekòl patnè", "body": "[RANPLASE: lekòl ki akeyi aktivite nou.]" },
-      { "title": "Patnè medya", "body": "[RANPLASE: sipò kominikasyon ak vizibilite.]" },
-      { "title": "Patnè ekipman", "body": "[RANPLASE: founisè materyèl.]" }
+      {
+        "title": "Patnè estratejik",
+        "body": "[RANPLASE: òganizasyon ki fòme oryantasyon nou.]"
+      },
+      {
+        "title": "Sponsò finansye",
+        "body": "[RANPLASE: bayè ak donatè.]"
+      },
+      {
+        "title": "Patnè pwogram",
+        "body": "[RANPLASE: patnè k ap mete an aplikasyon.]"
+      },
+      {
+        "title": "Lekòl patnè",
+        "body": "[RANPLASE: lekòl ki akeyi aktivite nou.]"
+      },
+      {
+        "title": "Patnè medya",
+        "body": "[RANPLASE: sipò kominikasyon ak vizibilite.]"
+      },
+      {
+        "title": "Patnè ekipman",
+        "body": "[RANPLASE: founisè materyèl.]"
+      }
     ],
     "becomeTitle": "Vin yon patnè",
     "becomeBody": "Ou pataje konviksyon nou ke espò ouvè pòt? Ann ekri pwochen chapit la ansanm.",
@@ -465,14 +633,23 @@
       "locationTitle": "Kote",
       "location": "Jakmèl, Ayiti",
       "instagramTitle": "Instagram",
-      "instagram": "@RANPLASE"
+      "instagram": "@play4ward_haiti"
     },
     "inquiries": {
       "title": "Demann espesifik",
       "items": [
-        { "title": "Patenarya", "value": "patenarya@play4ward.org [RANPLASE]" },
-        { "title": "Près ak medya", "value": "medya@play4ward.org [RANPLASE]" },
-        { "title": "Volontarya", "value": "volontarya@play4ward.org [RANPLASE]" }
+        {
+          "title": "Patenarya",
+          "value": "patenarya@play4ward.org [RANPLASE]"
+        },
+        {
+          "title": "Près ak medya",
+          "value": "medya@play4ward.org [RANPLASE]"
+        },
+        {
+          "title": "Volontarya",
+          "value": "volontarya@play4ward.org [RANPLASE]"
+        }
       ]
     },
     "privacyNote": "Nou pa pibliye okenn nimewo pèsonèl. Demann yo pase atravè adrès òganizasyon an.",

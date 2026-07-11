@@ -132,11 +132,26 @@
       "eyebrow": "Nos valeurs",
       "title": "Ce qui nous guide",
       "items": [
-        { "title": "Discipline", "body": "La régularité et l'effort, à l'entraînement comme en dehors." },
-        { "title": "Leadership", "body": "Chaque joueur peut apprendre à guider les autres." },
-        { "title": "Inclusion", "body": "Le handball est ouvert aux filles comme aux garçons." },
-        { "title": "Esprit d'équipe", "body": "On gagne ensemble, on apprend ensemble." },
-        { "title": "Opportunité", "body": "Ouvrir des portes que le sport peut ouvrir." }
+        {
+          "title": "Discipline",
+          "body": "La régularité et l'effort, à l'entraînement comme en dehors."
+        },
+        {
+          "title": "Leadership",
+          "body": "Chaque joueur peut apprendre à guider les autres."
+        },
+        {
+          "title": "Inclusion",
+          "body": "Le handball est ouvert aux filles comme aux garçons."
+        },
+        {
+          "title": "Esprit d'équipe",
+          "body": "On gagne ensemble, on apprend ensemble."
+        },
+        {
+          "title": "Opportunité",
+          "body": "Ouvrir des portes que le sport peut ouvrir."
+        }
       ]
     },
     "why": {
@@ -157,9 +172,21 @@
       "title": "Les personnes derrière PLAY4WARD",
       "intro": "[REMPLACER : ajoutez photo, rôle et une courte biographie pour chaque membre.]",
       "members": [
-        { "name": "[REMPLACER : nom]", "role": "Fondateur / Directeur", "bio": "[REMPLACER : 2–3 phrases de biographie.]" },
-        { "name": "[REMPLACER : nom]", "role": "Entraîneur principal", "bio": "[REMPLACER : 2–3 phrases de biographie.]" },
-        { "name": "[REMPLACER : nom]", "role": "Coordination des programmes", "bio": "[REMPLACER : 2–3 phrases de biographie.]" }
+        {
+          "name": "[REMPLACER : nom]",
+          "role": "Fondateur / Directeur",
+          "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+        },
+        {
+          "name": "[REMPLACER : nom]",
+          "role": "Entraîneur principal",
+          "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+        },
+        {
+          "name": "[REMPLACER : nom]",
+          "role": "Coordination des programmes",
+          "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+        }
       ]
     },
     "governance": {
@@ -201,12 +228,30 @@
       ],
       "detailsTitle": "Informations pratiques",
       "details": [
-        { "label": "Âges", "value": "13 à 18 ans" },
-        { "label": "Lieu", "value": "[REMPLACER : lieu d'entraînement, Jacmel]" },
-        { "label": "Horaires", "value": "[REMPLACER : jours et heures]" },
-        { "label": "Coût", "value": "[REMPLACER : gratuit ou montant]" },
-        { "label": "Équipement fourni", "value": "[REMPLACER : ce qui est fourni]" },
-        { "label": "À apporter", "value": "[REMPLACER : ce que les participants apportent]" }
+        {
+          "label": "Âges",
+          "value": "13 à 18 ans"
+        },
+        {
+          "label": "Lieu",
+          "value": "[REMPLACER : lieu d'entraînement, Jacmel]"
+        },
+        {
+          "label": "Horaires",
+          "value": "[REMPLACER : jours et heures]"
+        },
+        {
+          "label": "Coût",
+          "value": "[REMPLACER : gratuit ou montant]"
+        },
+        {
+          "label": "Équipement fourni",
+          "value": "[REMPLACER : ce qui est fourni]"
+        },
+        {
+          "label": "À apporter",
+          "value": "[REMPLACER : ce que les participants apportent]"
+        }
       ],
       "photo": "[REMPLACER : photo — séance au centre d'entraînement]"
     },
@@ -261,14 +306,38 @@
       "title": "Ce que nous mesurons",
       "note": "Les valeurs ci-dessous sont des espaces réservés — à remplacer par des chiffres confirmés et documentés.",
       "stats": [
-        { "value": "[—]", "label": "Jeunes participants" },
-        { "value": "[—]", "label": "Séances d'entraînement" },
-        { "value": "[—]", "label": "Écoles représentées" },
-        { "value": "[—]", "label": "Part de filles" },
-        { "value": "[—]", "label": "Entraîneurs formés" },
-        { "value": "[—]", "label": "Tournois organisés" },
-        { "value": "[—]", "label": "Ateliers de leadership" },
-        { "value": "[—]", "label": "Équipements distribués" }
+        {
+          "value": "[—]",
+          "label": "Jeunes participants"
+        },
+        {
+          "value": "[—]",
+          "label": "Séances d'entraînement"
+        },
+        {
+          "value": "[—]",
+          "label": "Écoles représentées"
+        },
+        {
+          "value": "[—]",
+          "label": "Part de filles"
+        },
+        {
+          "value": "[—]",
+          "label": "Entraîneurs formés"
+        },
+        {
+          "value": "[—]",
+          "label": "Tournois organisés"
+        },
+        {
+          "value": "[—]",
+          "label": "Ateliers de leadership"
+        },
+        {
+          "value": "[—]",
+          "label": "Équipements distribués"
+        }
       ]
     },
     "stories": {
@@ -323,11 +392,26 @@
       "eyebrow": "Plusieurs façons de participer",
       "title": "Trouvez votre place",
       "items": [
-        { "title": "Rejoindre comme athlète", "body": "Jeunes de 13 à 18 ans prêts à s'entraîner et à progresser." },
-        { "title": "Rejoindre comme entraîneur", "body": "Partagez votre expérience et encadrez la prochaine génération." },
-        { "title": "Devenir bénévole", "body": "Aidez lors des entraînements, des événements et des tournois." },
-        { "title": "Accueillir un programme", "body": "Amenez PLAY4WARD dans votre communauté." },
-        { "title": "Devenir école partenaire", "body": "Proposez le handball et le leadership à vos élèves." }
+        {
+          "title": "Rejoindre comme athlète",
+          "body": "Jeunes de 13 à 18 ans prêts à s'entraîner et à progresser."
+        },
+        {
+          "title": "Rejoindre comme entraîneur",
+          "body": "Partagez votre expérience et encadrez la prochaine génération."
+        },
+        {
+          "title": "Devenir bénévole",
+          "body": "Aidez lors des entraînements, des événements et des tournois."
+        },
+        {
+          "title": "Accueillir un programme",
+          "body": "Amenez PLAY4WARD dans votre communauté."
+        },
+        {
+          "title": "Devenir école partenaire",
+          "body": "Proposez le handball et le leadership à vos élèves."
+        }
       ]
     },
     "safeguarding": {
@@ -345,10 +429,34 @@
     "upcomingTitle": "À venir",
     "note": "[REMPLACER : événements réels avec date, lieu, description, éligibilité et inscription. Les entrées ci-dessous sont des exemples.]",
     "items": [
-      { "date": "12 SEPT", "tag": "Recrutement", "title": "Journée de recrutement — saison 2026", "place": "[REMPLACER : lieu, Jacmel]", "description": "Session d'information et essais pour les jeunes de 13 à 18 ans." },
-      { "date": "05 OCT", "tag": "Entraînement", "title": "Début des entraînements hebdomadaires", "place": "[REMPLACER : centre d'entraînement]", "description": "Premières séances encadrées de la nouvelle saison." },
-      { "date": "16 NOV", "tag": "Tournoi", "title": "Tournoi communautaire d'automne", "place": "[REMPLACER : lieu]", "description": "Rencontres amicales entre équipes et démonstrations." },
-      { "date": "30 NOV", "tag": "Atelier", "title": "Atelier de leadership", "place": "[REMPLACER : lieu]", "description": "Communication, fixation d'objectifs et travail d'équipe." }
+      {
+        "date": "12 SEPT",
+        "tag": "Recrutement",
+        "title": "Journée de recrutement — saison 2026",
+        "place": "[REMPLACER : lieu, Jacmel]",
+        "description": "Session d'information et essais pour les jeunes de 13 à 18 ans."
+      },
+      {
+        "date": "05 OCT",
+        "tag": "Entraînement",
+        "title": "Début des entraînements hebdomadaires",
+        "place": "[REMPLACER : centre d'entraînement]",
+        "description": "Premières séances encadrées de la nouvelle saison."
+      },
+      {
+        "date": "16 NOV",
+        "tag": "Tournoi",
+        "title": "Tournoi communautaire d'automne",
+        "place": "[REMPLACER : lieu]",
+        "description": "Rencontres amicales entre équipes et démonstrations."
+      },
+      {
+        "date": "30 NOV",
+        "tag": "Atelier",
+        "title": "Atelier de leadership",
+        "place": "[REMPLACER : lieu]",
+        "description": "Communication, fixation d'objectifs et travail d'équipe."
+      }
     ],
     "newsLink": "Lire nos actualités"
   },
@@ -360,9 +468,24 @@
     },
     "note": "[REMPLACER : publiez de courts articles — réussites d'athlètes, résultats de tournois, nouveaux partenariats, dons d'équipement, nouveaux entraîneurs, visites communautaires.]",
     "items": [
-      { "date": "[DATE]", "tag": "Programme", "title": "[REMPLACER : titre de l'article]", "excerpt": "[REMPLACER : court résumé de l'actualité.]" },
-      { "date": "[DATE]", "tag": "Partenariat", "title": "[REMPLACER : titre de l'article]", "excerpt": "[REMPLACER : court résumé de l'actualité.]" },
-      { "date": "[DATE]", "tag": "Communauté", "title": "[REMPLACER : titre de l'article]", "excerpt": "[REMPLACER : court résumé de l'actualité.]" }
+      {
+        "date": "[DATE]",
+        "tag": "Programme",
+        "title": "[REMPLACER : titre de l'article]",
+        "excerpt": "[REMPLACER : court résumé de l'actualité.]"
+      },
+      {
+        "date": "[DATE]",
+        "tag": "Partenariat",
+        "title": "[REMPLACER : titre de l'article]",
+        "excerpt": "[REMPLACER : court résumé de l'actualité.]"
+      },
+      {
+        "date": "[DATE]",
+        "tag": "Communauté",
+        "title": "[REMPLACER : titre de l'article]",
+        "excerpt": "[REMPLACER : court résumé de l'actualité.]"
+      }
     ],
     "instaNote": "Suivez-nous sur Instagram pour les nouvelles au quotidien."
   },
@@ -377,10 +500,22 @@
       "title": "Donner de l'argent",
       "note": "Exemples de dons — les montants réels seront calculés à partir du budget de PLAY4WARD.",
       "tiers": [
-        { "amount": "15 $", "body": "contribue à des fournitures d'entraînement de base." },
-        { "amount": "30 $", "body": "soutient l'équipement d'un·e athlète." },
-        { "amount": "100 $", "body": "aide à organiser une clinique communautaire." },
-        { "amount": "500 $", "body": "contribue à parrainer un tournoi." }
+        {
+          "amount": "15 $",
+          "body": "contribue à des fournitures d'entraînement de base."
+        },
+        {
+          "amount": "30 $",
+          "body": "soutient l'équipement d'un·e athlète."
+        },
+        {
+          "amount": "100 $",
+          "body": "aide à organiser une clinique communautaire."
+        },
+        {
+          "amount": "500 $",
+          "body": "contribue à parrainer un tournoi."
+        }
       ],
       "cta": "Faire un don",
       "methodNote": "[REMPLACER : lien ou méthode de don réels.]"
@@ -406,11 +541,26 @@
       "eyebrow": "Parrainer un programme",
       "title": "Formules de parrainage",
       "items": [
-        { "title": "Parrain d'athlète", "body": "Soutenez le parcours d'un·e jeune sur une saison." },
-        { "title": "Partenaire d'entraînement", "body": "Financez l'encadrement et les séances régulières." },
-        { "title": "Partenaire de tournoi", "body": "Rendez possible une compétition et ses récompenses." },
-        { "title": "Partenaire communautaire", "body": "Soutenez les actions dans les écoles et les quartiers." },
-        { "title": "Partenaire d'expansion nationale", "body": "Aidez PLAY4WARD à grandir au-delà de Jacmel." }
+        {
+          "title": "Parrain d'athlète",
+          "body": "Soutenez le parcours d'un·e jeune sur une saison."
+        },
+        {
+          "title": "Partenaire d'entraînement",
+          "body": "Financez l'encadrement et les séances régulières."
+        },
+        {
+          "title": "Partenaire de tournoi",
+          "body": "Rendez possible une compétition et ses récompenses."
+        },
+        {
+          "title": "Partenaire communautaire",
+          "body": "Soutenez les actions dans les écoles et les quartiers."
+        },
+        {
+          "title": "Partenaire d'expansion nationale",
+          "body": "Aidez PLAY4WARD à grandir au-delà de Jacmel."
+        }
       ]
     },
     "corporate": {
@@ -436,12 +586,30 @@
     },
     "note": "[REMPLACER : pour chaque partenaire — logo, brève description, type de soutien, programme associé et lien vers le site.]",
     "categories": [
-      { "title": "Partenaires stratégiques", "body": "[REMPLACER : organisations qui façonnent notre orientation.]" },
-      { "title": "Mécènes financiers", "body": "[REMPLACER : bailleurs et donateurs.]" },
-      { "title": "Partenaires de programme", "body": "[REMPLACER : partenaires de mise en œuvre.]" },
-      { "title": "Écoles partenaires", "body": "[REMPLACER : écoles qui accueillent nos activités.]" },
-      { "title": "Partenaires médias", "body": "[REMPLACER : appuis en communication et visibilité.]" },
-      { "title": "Partenaires équipement", "body": "[REMPLACER : fournisseurs de matériel.]" }
+      {
+        "title": "Partenaires stratégiques",
+        "body": "[REMPLACER : organisations qui façonnent notre orientation.]"
+      },
+      {
+        "title": "Mécènes financiers",
+        "body": "[REMPLACER : bailleurs et donateurs.]"
+      },
+      {
+        "title": "Partenaires de programme",
+        "body": "[REMPLACER : partenaires de mise en œuvre.]"
+      },
+      {
+        "title": "Écoles partenaires",
+        "body": "[REMPLACER : écoles qui accueillent nos activités.]"
+      },
+      {
+        "title": "Partenaires médias",
+        "body": "[REMPLACER : appuis en communication et visibilité.]"
+      },
+      {
+        "title": "Partenaires équipement",
+        "body": "[REMPLACER : fournisseurs de matériel.]"
+      }
     ],
     "becomeTitle": "Devenir partenaire",
     "becomeBody": "Vous partagez notre conviction que le sport ouvre des portes ? Écrivons la suite ensemble.",
@@ -462,14 +630,23 @@
       "locationTitle": "Lieu",
       "location": "Jacmel, Haïti",
       "instagramTitle": "Instagram",
-      "instagram": "@REMPLACER"
+      "instagram": "@play4ward_haiti"
     },
     "inquiries": {
       "title": "Demandes spécifiques",
       "items": [
-        { "title": "Partenariats", "value": "partenariats@play4ward.org [REMPLACER]" },
-        { "title": "Presse et médias", "value": "medias@play4ward.org [REMPLACER]" },
-        { "title": "Bénévolat", "value": "benevolat@play4ward.org [REMPLACER]" }
+        {
+          "title": "Partenariats",
+          "value": "partenariats@play4ward.org [REMPLACER]"
+        },
+        {
+          "title": "Presse et médias",
+          "value": "medias@play4ward.org [REMPLACER]"
+        },
+        {
+          "title": "Bénévolat",
+          "value": "benevolat@play4ward.org [REMPLACER]"
+        }
       ]
     },
     "privacyNote": "Nous ne publions pas de numéro personnel. Les demandes passent par les adresses de l'organisation.",

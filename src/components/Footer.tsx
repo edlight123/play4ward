@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { primaryNav, secondaryNav } from '@/lib/nav';
+import { links } from '@/lib/config';
 import { Logo } from './Logo';
 import { GoalArc } from './GoalArc';
 
@@ -68,14 +69,14 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://instagram.com/REPLACE"
+                  href={links.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-grow hover:text-white"
                 >
                   Instagram
                 </a>
-                <span className="ml-1 text-white/40">[@REPLACE]</span>
+                <span className="ml-1 text-white/40">@play4ward_haiti</span>
               </li>
             </ul>
             <Link
