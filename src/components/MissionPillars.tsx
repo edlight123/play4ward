@@ -1,0 +1,27 @@
+import { useTranslations } from 'next-intl';
+
+// Play / Lead / Move Forward — the three-part framing from the brief.
+// These ARE a sequence (on the court → as a person → in the community),
+// so numbered markers carry real meaning here.
+const pillars = ['play', 'lead', 'moveForward'] as const;
+
+export function MissionPillars() {
+  const t = useTranslations('mission');
+  return (
+    <div className="grid gap-6 md:grid-cols-3">
+      {pillars.map((key, i) => (
+        <div
+          key={key}
+          className="relative overflow-hidden rounded-2xl border border-ink/10 bg-white p-8 shadow-card"
+        >
+          <span className="font-display text-6xl font-extrabold leading-none text-cream">
+            0{i + 1}
+          </span>
+          <h3 className="mt-4 text-2xl text-blue">{t(`${key}.title`)}</h3>
+          <p className="mt-3 leading-relaxed text-ink/75">{t(`${key}.body`)}</p>
+          <span className="absolute right-6 top-8 h-3 w-3 rounded-full bg-coral" />
+        </div>
+      ))}
+    </div>
+  );
+}

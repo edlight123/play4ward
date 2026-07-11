@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ink: #0f2f57;
+    --coral: #ff5a4d;
+    --gold: #f5b53d;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-sand text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--coral);
+    color: #fff;
+  }
+
+  /* Visible keyboard focus everywhere */
+  :focus-visible {
+    outline: 3px solid var(--coral);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tightest;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  /* Eyebrow label — small, wide, uppercase; encodes section role */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 font-display text-xs font-bold uppercase tracking-[0.22em];
+  }
+
+  .eyebrow::before {
+    content: '';
+    @apply inline-block h-2 w-2 rounded-full bg-coral;
+  }
+
+  /* Container */
+  .wrap {
+    @apply mx-auto w-full max-w-content px-5 sm:px-8;
+  }
+
+  /* Link underline that grows on hover */
+  .link-grow {
+    @apply relative inline-block;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    transition: background-size 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .link-grow:hover {
+    background-size: 100% 2px;
+  }
+}
+
+@layer utilities {
+  /* Court-line texture: faint parallel lines evoking a handball court */
+  .court-lines {
+    background-image: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 63px,
+      rgba(255, 255, 255, 0.05) 63px,
+      rgba(255, 255, 255, 0.05) 64px
+    );
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

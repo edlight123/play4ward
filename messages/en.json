@@ -1,0 +1,478 @@
+{
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "impact": "Impact",
+    "events": "Events",
+    "join": "Join",
+    "support": "Support Us",
+    "news": "News",
+    "partners": "Partners",
+    "contact": "Contact",
+    "donate": "Donate",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "cta": {
+    "title": "Help us create more opportunities for young people through handball.",
+    "donate": "Donate",
+    "partner": "Partner with us",
+    "volunteer": "Volunteer"
+  },
+  "footer": {
+    "tagline": "A youth-development initiative that uses handball as a tool for social transformation.",
+    "location": "Jacmel, Haiti",
+    "explore": "Explore",
+    "more": "More",
+    "getInTouch": "Get in touch",
+    "year": "2026",
+    "rights": "All rights reserved.",
+    "builtWith": "Trained on the court, built for the community."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Youth development through handball",
+      "titleLead": "Building Haiti's next generation through",
+      "titleAccent": "handball",
+      "body": "Play4Ward helps young people build athletic skill, confidence, leadership, and discipline — growing on the court and in life.",
+      "primary": "Join Play4Ward",
+      "secondary": "Support our mission",
+      "tertiary": "Become a partner",
+      "photo": "[REPLACE: action photo — young athletes training, Jacmel]",
+      "badgeTop": "Based in",
+      "badgeBottom": "Jacmel, Haiti"
+    },
+    "impactStrip": "Growing a new generation of handball players and leaders in Jacmel and across Haiti.",
+    "missionHead": {
+      "eyebrow": "Our approach",
+      "title": "Play. Lead. Move Forward.",
+      "intro": "Handball isn't only a sport at Play4Ward — it's how we help young people grow in confidence, discipline, and responsibility."
+    },
+    "programsHead": {
+      "eyebrow": "Our programs",
+      "title": "What we offer young people",
+      "intro": "Structured training, leadership, community outreach, and competition — built for ages 13 to 18.",
+      "cta": "Explore"
+    },
+    "storyHead": {
+      "eyebrow": "Portraits",
+      "title": "Stories that speak for themselves"
+    },
+    "activitiesHead": {
+      "eyebrow": "What's on",
+      "title": "Upcoming activities",
+      "intro": "Training, recruitment, tournaments, and community clinics. The dates below are examples — to be confirmed by Play4Ward.",
+      "cta": "See all events"
+    },
+    "partnersHead": {
+      "eyebrow": "They support us",
+      "title": "Our partners",
+      "intro": "We work with schools, organizations, and companies that believe in young people's potential.",
+      "note": "[REPLACE: logos of confirmed partners — include EdLight where appropriate]"
+    }
+  },
+  "mission": {
+    "play": {
+      "title": "Play",
+      "body": "Young people receive structured handball training, coaching, equipment, and opportunities to compete."
+    },
+    "lead": {
+      "title": "Lead",
+      "body": "Players develop communication, discipline, teamwork, responsibility, and leadership."
+    },
+    "moveForward": {
+      "title": "Move Forward",
+      "body": "Participants are encouraged to become positive contributors within their schools, teams, and communities."
+    }
+  },
+  "programCards": {
+    "center": {
+      "title": "Handball Training Center",
+      "desc": "Intensive, coached training for ages 13–18, with access to equipment.",
+      "photo": "[REPLACE: photo — training session]"
+    },
+    "leadership": {
+      "title": "Leadership through sport",
+      "desc": "Workshops that build communication, goal-setting, and community responsibility.",
+      "photo": "[REPLACE: photo — leadership workshop]"
+    },
+    "outreach": {
+      "title": "Schools & community",
+      "desc": "Intro clinics, demonstrations, and equipment donations in schools and neighborhoods.",
+      "photo": "[REPLACE: photo — school clinic]"
+    },
+    "tournaments": {
+      "title": "Tournaments & events",
+      "desc": "Chances to play, represent a team, and celebrate everyone's progress.",
+      "photo": "[REPLACE: photo — tournament day]"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Play4Ward",
+      "title": "Handball as a starting point, not the finish line",
+      "intro": "Play4Ward is a youth-development organization. We use handball to help young Haitians build skills, confidence, and leadership."
+    },
+    "story": {
+      "eyebrow": "Our story",
+      "title": "Why we exist",
+      "body1": "[REPLACE: tell Play4Ward's origin — who founded it, why the organization was created, and why the work began in Jacmel.]",
+      "body2": "[REPLACE: describe the problem Play4Ward is trying to solve — limited access to coached sport and leadership opportunities for young people.]",
+      "photo": "[REPLACE: photo — the team or the early days in Jacmel]"
+    },
+    "mv": {
+      "missionTitle": "Our mission",
+      "mission": "Play4Ward empowers young people in Haiti through handball, leadership development, and inclusive opportunities that help them thrive on and beyond the court.",
+      "visionTitle": "Our vision",
+      "vision": "A Haiti where every young person can access sport, develop their potential, and become a leader in their community."
+    },
+    "values": {
+      "eyebrow": "Our values",
+      "title": "What guides us",
+      "items": [
+        { "title": "Discipline", "body": "Consistency and effort, in training and beyond." },
+        { "title": "Leadership", "body": "Every player can learn to guide others." },
+        { "title": "Inclusion", "body": "Handball is open to girls and boys alike." },
+        { "title": "Teamwork", "body": "We win together, we learn together." },
+        { "title": "Opportunity", "body": "Opening the doors sport can open." }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why handball?",
+      "title": "A fast, team-based, accessible sport",
+      "intro": "Many visitors, especially international ones, don't know handball well. Here's why we chose it:",
+      "points": [
+        "Fast and accessible, with little equipment.",
+        "Deeply team-oriented: it teaches cooperation.",
+        "Suitable for girls and boys alike.",
+        "Great for building coordination, communication, and resilience.",
+        "Still underdeveloped in Haiti compared with other sports."
+      ],
+      "federation": "Haiti has an officially recognized national handball federation and has been an International Handball Federation member since 2004 — placing Play4Ward within a legitimate national sporting ecosystem."
+    },
+    "team": {
+      "eyebrow": "Team & leadership",
+      "title": "The people behind Play4Ward",
+      "intro": "[REPLACE: add a photo, role, and short bio for each member.]",
+      "members": [
+        { "name": "[REPLACE: name]", "role": "Founder / Director", "bio": "[REPLACE: 2–3 sentence bio.]" },
+        { "name": "[REPLACE: name]", "role": "Head coach", "bio": "[REPLACE: 2–3 sentence bio.]" },
+        { "name": "[REPLACE: name]", "role": "Program coordination", "bio": "[REPLACE: 2–3 sentence bio.]" }
+      ]
+    },
+    "governance": {
+      "eyebrow": "Governance & transparency",
+      "title": "Our commitment to transparency",
+      "intro": "As the organization grows, we'll publish here:",
+      "items": [
+        "Legal status and registration",
+        "Board members",
+        "Annual reports and financial summaries",
+        "Safeguarding and child-protection policy"
+      ],
+      "note": "[REPLACE: update as soon as these are available — essential for donations and international partnerships.]"
+    }
+  },
+  "programs": {
+    "hero": {
+      "eyebrow": "Programs",
+      "title": "Our programs",
+      "intro": "From daily training to tournaments, every program helps young people move forward on the court and in life."
+    },
+    "center": {
+      "eyebrow": "Training center",
+      "title": "Handball Training Center",
+      "whoTitle": "Who can join?",
+      "who": "Young people ages 13–18 interested in developing their handball and leadership skills.",
+      "receiveTitle": "What participants receive",
+      "receive": [
+        "Structured coaching and regular practices",
+        "Access to equipment",
+        "Team experiences and leadership workshops",
+        "Opportunities to compete"
+      ],
+      "expectTitle": "What we expect",
+      "expect": [
+        "Commitment and discipline",
+        "Respect and attendance",
+        "Teamwork and a willingness to grow"
+      ],
+      "detailsTitle": "Practical details",
+      "details": [
+        { "label": "Ages", "value": "13 to 18" },
+        { "label": "Location", "value": "[REPLACE: training location, Jacmel]" },
+        { "label": "Schedule", "value": "[REPLACE: days and times]" },
+        { "label": "Cost", "value": "[REPLACE: free or amount]" },
+        { "label": "Equipment provided", "value": "[REPLACE: what's provided]" },
+        { "label": "What to bring", "value": "[REPLACE: what participants bring]" }
+      ],
+      "photo": "[REPLACE: photo — session at the training center]"
+    },
+    "leadership": {
+      "eyebrow": "Leadership through sport",
+      "title": "Growing beyond the court",
+      "intro": "Our workshops connect sport to life skills. Play4Ward will develop and publish its own curriculum rather than make broad claims.",
+      "topics": [
+        "Communication",
+        "Team leadership",
+        "Goal setting",
+        "Conflict resolution",
+        "Community responsibility",
+        "Health and wellness",
+        "Inclusion and gender equity"
+      ]
+    },
+    "outreach": {
+      "eyebrow": "Schools & community",
+      "title": "Bringing handball to where young people live",
+      "items": [
+        "Intro handball clinics",
+        "School demonstrations",
+        "Coach training",
+        "Equipment donations",
+        "Community tournaments",
+        "Girls' participation initiatives"
+      ]
+    },
+    "tournaments": {
+      "eyebrow": "Tournaments & competitions",
+      "title": "Play, represent, celebrate",
+      "intro": "Tournaments give young people a concrete goal and a chance to put what they learn into practice.",
+      "items": [
+        "Tournament calendar",
+        "Participating teams and results",
+        "Photo galleries",
+        "Rules and registration",
+        "Partners and awards"
+      ],
+      "note": "[REPLACE: add the real calendar and results as they become available.]"
+    }
+  },
+  "impact": {
+    "hero": {
+      "eyebrow": "Impact",
+      "title": "Turning work into evidence",
+      "intro": "We'll only publish numbers Play4Ward can document. In the meantime, this page shows what we track."
+    },
+    "dashboard": {
+      "eyebrow": "Dashboard",
+      "title": "What we measure",
+      "note": "The values below are placeholders — to be replaced with confirmed, documented numbers.",
+      "stats": [
+        { "value": "[—]", "label": "Young participants" },
+        { "value": "[—]", "label": "Training sessions" },
+        { "value": "[—]", "label": "Schools represented" },
+        { "value": "[—]", "label": "Share of girls" },
+        { "value": "[—]", "label": "Coaches trained" },
+        { "value": "[—]", "label": "Tournaments organized" },
+        { "value": "[—]", "label": "Leadership workshops" },
+        { "value": "[—]", "label": "Equipment distributed" }
+      ]
+    },
+    "stories": {
+      "eyebrow": "Testimonials",
+      "title": "In their words",
+      "note": "[REPLACE: authentic interviews with players, parents, coaches, and school leaders.]"
+    },
+    "indicators": {
+      "eyebrow": "Before / after",
+      "title": "The indicators we track",
+      "items": [
+        "Attendance and retention",
+        "Fitness and skill development",
+        "Confidence",
+        "Leadership participation",
+        "School engagement",
+        "Teamwork and community service"
+      ],
+      "caution": "We avoid vague claims until we have data to support them."
+    },
+    "reports": {
+      "eyebrow": "Reports",
+      "title": "Coming soon",
+      "items": [
+        "Annual impact report",
+        "Program summaries",
+        "Financial report",
+        "Partner reports"
+      ]
+    }
+  },
+  "join": {
+    "hero": {
+      "eyebrow": "Join Play4Ward",
+      "title": "Ready to step onto the court?",
+      "intro": "Play4Ward is recruiting young people ages 13–18 who want to build their handball and leadership skills.",
+      "cta": "Open the registration form"
+    },
+    "who": {
+      "title": "Who can join?",
+      "body": "Young people ages 13–18 interested in developing their handball and leadership skills."
+    },
+    "receive": {
+      "title": "What participants receive",
+      "body": "Structured coaching, regular practices, access to equipment, team experiences, leadership workshops, and opportunities to compete."
+    },
+    "expect": {
+      "title": "What we expect",
+      "body": "Commitment, discipline, respect, attendance, teamwork, and a willingness to grow."
+    },
+    "options": {
+      "eyebrow": "Many ways to take part",
+      "title": "Find your place",
+      "items": [
+        { "title": "Join as an athlete", "body": "Ages 13–18 ready to train and grow." },
+        { "title": "Join as a coach", "body": "Share your experience and mentor the next generation." },
+        { "title": "Volunteer", "body": "Help at practices, events, and tournaments." },
+        { "title": "Host a program", "body": "Bring Play4Ward to your community." },
+        { "title": "Become a school partner", "body": "Offer handball and leadership to your students." }
+      ]
+    },
+    "safeguarding": {
+      "title": "Safeguarding & consent for minors",
+      "body": "Most of our participants are minors. Parental consent, emergency contacts, and media permissions are collected at registration. Child protection is never an afterthought.",
+      "formNote": "Registration is handled through our form. The button below opens Play4Ward's current Google Form in a new tab."
+    }
+  },
+  "events": {
+    "hero": {
+      "eyebrow": "Events",
+      "title": "What's happening at Play4Ward",
+      "intro": "Practices, recruitment days, clinics, matches, tournaments, workshops, and fundraisers."
+    },
+    "upcomingTitle": "Upcoming",
+    "note": "[REPLACE: real events with date, location, description, eligibility, and registration. The entries below are examples.]",
+    "items": [
+      { "date": "12 SEP", "tag": "Recruitment", "title": "Recruitment day — 2026 season", "place": "[REPLACE: location, Jacmel]", "description": "Info session and tryouts for ages 13–18." },
+      { "date": "05 OCT", "tag": "Training", "title": "Weekly practices begin", "place": "[REPLACE: training center]", "description": "First coached sessions of the new season." },
+      { "date": "16 NOV", "tag": "Tournament", "title": "Autumn community tournament", "place": "[REPLACE: location]", "description": "Friendly matches between teams and demonstrations." },
+      { "date": "30 NOV", "tag": "Workshop", "title": "Leadership workshop", "place": "[REPLACE: location]", "description": "Communication, goal-setting, and teamwork." }
+    ],
+    "newsLink": "Read our news"
+  },
+  "news": {
+    "hero": {
+      "eyebrow": "News",
+      "title": "News & stories",
+      "intro": "The website is the permanent record of Play4Ward's work. Instagram stays useful for day-to-day updates."
+    },
+    "note": "[REPLACE: publish short articles — athlete achievements, tournament results, new partnerships, equipment donations, new coaches, community visits.]",
+    "items": [
+      { "date": "[DATE]", "tag": "Program", "title": "[REPLACE: article title]", "excerpt": "[REPLACE: short summary of the news.]" },
+      { "date": "[DATE]", "tag": "Partnership", "title": "[REPLACE: article title]", "excerpt": "[REPLACE: short summary of the news.]" },
+      { "date": "[DATE]", "tag": "Community", "title": "[REPLACE: article title]", "excerpt": "[REPLACE: short summary of the news.]" }
+    ],
+    "instaNote": "Follow us on Instagram for day-to-day updates."
+  },
+  "support": {
+    "hero": {
+      "eyebrow": "Support Us",
+      "title": "What your support makes possible",
+      "intro": "There are many ways to contribute. Every gesture helps a young person play, lead, and move forward."
+    },
+    "money": {
+      "eyebrow": "Donate",
+      "title": "Give money",
+      "note": "Example gifts — actual amounts will be calculated from Play4Ward's budget.",
+      "tiers": [
+        { "amount": "$15", "body": "helps provide basic training supplies." },
+        { "amount": "$30", "body": "supports one athlete's equipment." },
+        { "amount": "$100", "body": "helps run a community clinic." },
+        { "amount": "$500", "body": "helps sponsor a tournament." }
+      ],
+      "cta": "Donate",
+      "methodNote": "[REPLACE: real donation link or method.]"
+    },
+    "equipment": {
+      "eyebrow": "In-kind gifts",
+      "title": "Give equipment",
+      "intro": "We accept the following items:",
+      "items": [
+        "Handballs",
+        "Goals or nets",
+        "Cones",
+        "Bibs",
+        "Whistles",
+        "First-aid materials",
+        "Athletic shoes",
+        "Uniforms",
+        "Water bottles"
+      ],
+      "note": "[REPLACE: state whether used items are accepted and where to deliver them.]"
+    },
+    "sponsor": {
+      "eyebrow": "Sponsor a program",
+      "title": "Sponsorship packages",
+      "items": [
+        { "title": "Athlete Sponsor", "body": "Support one young person's journey for a season." },
+        { "title": "Training Partner", "body": "Fund coaching and regular sessions." },
+        { "title": "Tournament Partner", "body": "Make a competition and its awards possible." },
+        { "title": "Community Partner", "body": "Support outreach in schools and neighborhoods." },
+        { "title": "National Expansion Partner", "body": "Help Play4Ward grow beyond Jacmel." }
+      ]
+    },
+    "corporate": {
+      "eyebrow": "Companies",
+      "title": "Corporate partnerships",
+      "intro": "Companies can contribute in many ways:",
+      "items": [
+        "Financial sponsorship",
+        "Equipment",
+        "Transportation",
+        "Venues",
+        "Employee volunteering",
+        "Communications support",
+        "Scholarships"
+      ]
+    }
+  },
+  "partners": {
+    "hero": {
+      "eyebrow": "Partners",
+      "title": "The people who back the mission",
+      "intro": "We don't present a casual supporter as an \"official partner\" unless the relationship is confirmed."
+    },
+    "note": "[REPLACE: for each partner — logo, short description, type of support, related program, and a link to their website.]",
+    "categories": [
+      { "title": "Strategic partners", "body": "[REPLACE: organizations that shape our direction.]" },
+      { "title": "Financial sponsors", "body": "[REPLACE: funders and donors.]" },
+      { "title": "Program partners", "body": "[REPLACE: implementation partners.]" },
+      { "title": "School partners", "body": "[REPLACE: schools that host our activities.]" },
+      { "title": "Media partners", "body": "[REPLACE: communications and visibility support.]" },
+      { "title": "Equipment partners", "body": "[REPLACE: gear suppliers.]" }
+    ],
+    "becomeTitle": "Become a partner",
+    "becomeBody": "Share our belief that sport opens doors? Let's write the next chapter together.",
+    "becomeCta": "Get in touch"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's connect",
+      "intro": "A question, an interest in joining, or a way to support us? Here's how to reach us."
+    },
+    "emailNote": "email to replace",
+    "methods": {
+      "generalTitle": "General email",
+      "general": "REPLACE@play4ward.org",
+      "whatsappTitle": "WhatsApp",
+      "whatsapp": "[REPLACE: organization WhatsApp number]",
+      "locationTitle": "Location",
+      "location": "Jacmel, Haiti",
+      "instagramTitle": "Instagram",
+      "instagram": "@REPLACE"
+    },
+    "inquiries": {
+      "title": "Specific inquiries",
+      "items": [
+        { "title": "Partnerships", "value": "partnerships@play4ward.org [REPLACE]" },
+        { "title": "Press & media", "value": "media@play4ward.org [REPLACE]" },
+        { "title": "Volunteering", "value": "volunteer@play4ward.org [REPLACE]" }
+      ]
+    },
+    "privacyNote": "We don't publish a personal phone number. Inquiries go through the organization's addresses.",
+    "joinCta": "Want to take part? Join Play4Ward"
+  }
+}

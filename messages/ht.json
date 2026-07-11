@@ -1,0 +1,481 @@
+{
+  "_meta": {
+    "review": "TRADIKSYON PREMYE VÈSYON — DWE REVIZE PA YON MOUN KI PALE KREYÒL NATIF. FIRST-PASS TRANSLATION — MUST BE REVIEWED BY A NATIVE HAITIAN CREOLE SPEAKER BEFORE LAUNCH."
+  },
+  "nav": {
+    "skip": "Ale nan kontni an",
+    "home": "Akèy",
+    "about": "Kiyès nou ye",
+    "programs": "Pwogram",
+    "impact": "Enpak",
+    "events": "Evènman",
+    "join": "Antre",
+    "support": "Sipòte nou",
+    "news": "Nouvèl",
+    "partners": "Patnè",
+    "contact": "Kontakte nou",
+    "donate": "Fè yon don",
+    "menu": "Meni",
+    "close": "Fèmen"
+  },
+  "cta": {
+    "title": "Ede nou kreye plis opòtinite pou jèn yo atravè andbòl.",
+    "donate": "Fè yon don",
+    "partner": "Vin yon patnè",
+    "volunteer": "Vin volontè"
+  },
+  "footer": {
+    "tagline": "Yon inisyativ devlopman jèn ki sèvi ak andbòl kòm yon zouti pou transfòmasyon sosyal.",
+    "location": "Jakmèl, Ayiti",
+    "explore": "Eksplore",
+    "more": "Plis",
+    "getInTouch": "Kontakte nou",
+    "year": "2026",
+    "rights": "Tout dwa rezève.",
+    "builtWith": "Fòme sou teren an, bati pou kominote a."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Devlopman jèn atravè andbòl",
+      "titleLead": "N ap fòme pwochen jenerasyon lidè ann Ayiti atravè",
+      "titleAccent": "andbòl",
+      "body": "PLAY4WARD ede jèn yo devlope kapasite espòtif yo, konfyans yo, disiplin yo ak lidèchip yo — pou yo grandi sou teren an ak nan lavi a.",
+      "primary": "Antre nan PLAY4WARD",
+      "secondary": "Sipòte misyon nou",
+      "tertiary": "Vin yon patnè",
+      "photo": "[RANPLASE: foto aksyon — jèn k ap antrene, Jakmèl]",
+      "badgeTop": "Baze nan",
+      "badgeBottom": "Jakmèl, Ayiti"
+    },
+    "impactStrip": "N ap fè grandi yon nouvo jenerasyon jwè ak lidè andbòl nan Jakmèl ak toupatou ann Ayiti.",
+    "missionHead": {
+      "eyebrow": "Apwòch nou",
+      "title": "Jwe. Dirije. Avanse.",
+      "intro": "Andbòl se pa senpleman yon espò nan PLAY4WARD — se fason nou ede jèn yo grandi nan konfyans, disiplin ak responsablite."
+    },
+    "programsHead": {
+      "eyebrow": "Pwogram nou yo",
+      "title": "Sa nou ofri jèn yo",
+      "intro": "Antrènman estriktire, lidèchip, aksyon kominotè ak konpetisyon — fèt pou jèn 13 a 18 an.",
+      "cta": "Dekouvri"
+    },
+    "storyHead": {
+      "eyebrow": "Pòtre",
+      "title": "Istwa ki pale pou tèt yo"
+    },
+    "activitiesHead": {
+      "eyebrow": "Ajanda",
+      "title": "Aktivite k ap vini",
+      "intro": "Antrènman, rekritman, tounwa ak klinik kominotè. Dat ki anba yo se egzanp — PLAY4WARD gen pou konfime yo.",
+      "cta": "Wè tout evènman yo"
+    },
+    "partnersHead": {
+      "eyebrow": "Yo sipòte nou",
+      "title": "Patnè nou yo",
+      "intro": "Nou travay ak lekòl, òganizasyon ak konpayi ki kwè nan potansyèl jèn yo.",
+      "note": "[RANPLASE: logo patnè ki konfime yo — mete EdLight kote sa apwopriye]"
+    }
+  },
+  "mission": {
+    "play": {
+      "title": "Jwe",
+      "body": "Jèn yo resevwa antrènman andbòl estriktire, ankadreman, ekipman ak okazyon pou yo konpetisyone."
+    },
+    "lead": {
+      "title": "Dirije",
+      "body": "Jwè yo devlope kominikasyon, disiplin, travay ann ekip, sans responsablite ak lidèchip."
+    },
+    "moveForward": {
+      "title": "Avanse",
+      "body": "Nou ankouraje patisipan yo vin moun ki pote yon kontribisyon pozitif nan lekòl yo, ekip yo ak kominote yo."
+    }
+  },
+  "programCards": {
+    "center": {
+      "title": "Sant Antrènman Andbòl",
+      "desc": "Antrènman entansif ak ankadreman pou jèn 13 a 18 an, ak aksè ak ekipman.",
+      "photo": "[RANPLASE: foto — sesyon antrènman]"
+    },
+    "leadership": {
+      "title": "Lidèchip atravè espò",
+      "desc": "Atelye pou devlope kominikasyon, fikse objektif ak responsablite kominotè.",
+      "photo": "[RANPLASE: foto — atelye lidèchip]"
+    },
+    "outreach": {
+      "title": "Lekòl ak kominote",
+      "desc": "Klinik entwodiksyon, demonstrasyon ak don ekipman nan lekòl ak katye yo.",
+      "photo": "[RANPLASE: foto — klinik nan lekòl]"
+    },
+    "tournaments": {
+      "title": "Tounwa ak konpetisyon",
+      "desc": "Okazyon pou jwe, reprezante yon ekip ak selebre pwogrè tout moun.",
+      "photo": "[RANPLASE: foto — jou tounwa]"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Sou PLAY4WARD",
+      "title": "Andbòl kòm yon pwen depa, se pa liy arive a",
+      "intro": "PLAY4WARD se yon òganizasyon devlopman jèn. Nou sèvi ak andbòl pou ede jèn Ayisyen yo devlope konpetans, konfyans ak lidèchip."
+    },
+    "story": {
+      "eyebrow": "Istwa nou",
+      "title": "Poukisa nou egziste",
+      "body1": "[RANPLASE: rakonte orijin PLAY4WARD — kiyès ki fonde l, poukisa yo kreye òganizasyon an, ak poukisa travay la te kòmanse nan Jakmèl.]",
+      "body2": "[RANPLASE: dekri pwoblèm PLAY4WARD ap eseye rezoud — aksè limite ak espò ankadre ak opòtinite lidèchip pou jèn yo.]",
+      "photo": "[RANPLASE: foto — ekip la oswa premye jou yo nan Jakmèl]"
+    },
+    "mv": {
+      "missionTitle": "Misyon nou",
+      "mission": "PLAY4WARD bay jèn ann Ayiti mwayen pou yo reyisi atravè andbòl, devlopman lidèchip ak opòtinite enklizif ki ede yo pwospere sou teren an ak pi lwen.",
+      "visionTitle": "Vizyon nou",
+      "vision": "Yon Ayiti kote chak jèn ka gen aksè ak espò, devlope potansyèl yo epi vin yon lidè nan kominote yo."
+    },
+    "values": {
+      "eyebrow": "Valè nou yo",
+      "title": "Sa ki gide nou",
+      "items": [
+        { "title": "Disiplin", "body": "Konstans ak efò, nan antrènman ak pi lwen." },
+        { "title": "Lidèchip", "body": "Chak jwè ka aprann gide lòt yo." },
+        { "title": "Enklizyon", "body": "Andbòl ouvè pou tifi kou tigason." },
+        { "title": "Travay ann ekip", "body": "Nou genyen ansanm, nou aprann ansanm." },
+        { "title": "Opòtinite", "body": "Ouvè pòt espò ka ouvè yo." }
+      ]
+    },
+    "why": {
+      "eyebrow": "Poukisa andbòl?",
+      "title": "Yon espò rapid, kolektif epi aksesib",
+      "intro": "Anpil vizitè, sitou sou plan entènasyonal, pa konnen andbòl byen. Men poukisa nou chwazi l:",
+      "points": [
+        "Rapid epi aksesib, ak ti kras ekipman.",
+        "Vrèman kolektif: li anseye koperasyon.",
+        "Apwopriye pou tifi kou tigason.",
+        "Ideyal pou devlope kowòdinasyon, kominikasyon ak rezilyans.",
+        "Toujou pa twò devlope ann Ayiti konpare ak lòt espò."
+      ],
+      "federation": "Ayiti gen yon federasyon nasyonal andbòl ki rekonèt ofisyèlman epi li manm Federasyon Entènasyonal Andbòl depi 2004 — sa mete PLAY4WARD anndan yon ekosistèm espòtif nasyonal lejitim."
+    },
+    "team": {
+      "eyebrow": "Ekip ak ankadreman",
+      "title": "Moun ki dèyè PLAY4WARD",
+      "intro": "[RANPLASE: ajoute yon foto, wòl ak yon ti biyografi pou chak manm.]",
+      "members": [
+        { "name": "[RANPLASE: non]", "role": "Fondatè / Direktè", "bio": "[RANPLASE: biyografi 2–3 fraz.]" },
+        { "name": "[RANPLASE: non]", "role": "Antrenè prensipal", "bio": "[RANPLASE: biyografi 2–3 fraz.]" },
+        { "name": "[RANPLASE: non]", "role": "Kowòdinasyon pwogram", "bio": "[RANPLASE: biyografi 2–3 fraz.]" }
+      ]
+    },
+    "governance": {
+      "eyebrow": "Gouvènans ak transparans",
+      "title": "Angajman nou pou transparans",
+      "intro": "Antan òganizasyon an ap grandi, n ap pibliye isit la:",
+      "items": [
+        "Estati legal ak anrejistreman",
+        "Manm konsèy administrasyon an",
+        "Rapò anyèl ak rezime finansye",
+        "Politik sovgad ak pwoteksyon timoun"
+      ],
+      "note": "[RANPLASE: mete ajou depi eleman sa yo disponib — esansyèl pou don ak patenarya entènasyonal.]"
+    }
+  },
+  "programs": {
+    "hero": {
+      "eyebrow": "Pwogram",
+      "title": "Pwogram nou yo",
+      "intro": "Soti nan antrènman chak jou rive nan tounwa, chak pwogram ede jèn yo avanse sou teren an ak nan lavi a."
+    },
+    "center": {
+      "eyebrow": "Sant antrènman",
+      "title": "Sant Antrènman Andbòl",
+      "whoTitle": "Kiyès ki ka patisipe?",
+      "who": "Jèn 13 a 18 an ki vle devlope konpetans andbòl ak lidèchip yo.",
+      "receiveTitle": "Sa patisipan yo resevwa",
+      "receive": [
+        "Ankadreman estriktire ak antrènman regilye",
+        "Aksè ak ekipman",
+        "Eksperyans ann ekip ak atelye lidèchip",
+        "Okazyon pou konpetisyone"
+      ],
+      "expectTitle": "Sa nou atann",
+      "expect": [
+        "Angajman ak disiplin",
+        "Respè ak prezans",
+        "Travay ann ekip ak volonte pou grandi"
+      ],
+      "detailsTitle": "Enfòmasyon pratik",
+      "details": [
+        { "label": "Laj", "value": "13 a 18 an" },
+        { "label": "Kote", "value": "[RANPLASE: kote antrènman, Jakmèl]" },
+        { "label": "Orè", "value": "[RANPLASE: jou ak lè]" },
+        { "label": "Pri", "value": "[RANPLASE: gratis oswa montan]" },
+        { "label": "Ekipman yo bay", "value": "[RANPLASE: sa yo bay]" },
+        { "label": "Sa pou pote", "value": "[RANPLASE: sa patisipan yo pote]" }
+      ],
+      "photo": "[RANPLASE: foto — sesyon nan sant antrènman an]"
+    },
+    "leadership": {
+      "eyebrow": "Lidèchip atravè espò",
+      "title": "Grandi pi lwen pase teren an",
+      "intro": "Atelye nou yo konekte espò ak konpetans lavi. PLAY4WARD ap devlope epi pibliye pwòp pwogram li olye pou l fè pwomès vag.",
+      "topics": [
+        "Kominikasyon",
+        "Lidèchip ann ekip",
+        "Fikse objektif",
+        "Rezolisyon konfli",
+        "Responsablite kominotè",
+        "Sante ak byennèt",
+        "Enklizyon ak egalite tifi-tigason"
+      ]
+    },
+    "outreach": {
+      "eyebrow": "Lekòl ak kominote",
+      "title": "Pote andbòl kote jèn yo ap viv",
+      "items": [
+        "Klinik entwodiksyon andbòl",
+        "Demonstrasyon nan lekòl",
+        "Fòmasyon antrenè",
+        "Don ekipman",
+        "Tounwa kominotè",
+        "Inisyativ pou patisipasyon tifi yo"
+      ]
+    },
+    "tournaments": {
+      "eyebrow": "Tounwa ak konpetisyon",
+      "title": "Jwe, reprezante, selebre",
+      "intro": "Tounwa bay jèn yo yon objektif konkrè ak yon okazyon pou mete an pratik sa yo aprann.",
+      "items": [
+        "Kalandriye tounwa",
+        "Ekip k ap patisipe ak rezilta",
+        "Galri foto",
+        "Règleman ak enskripsyon",
+        "Patnè ak rekonpans"
+      ],
+      "note": "[RANPLASE: ajoute vrè kalandriye a ak rezilta yo depi yo disponib.]"
+    }
+  },
+  "impact": {
+    "hero": {
+      "eyebrow": "Enpak",
+      "title": "Transfòme travay la an prèv",
+      "intro": "Nou p ap pibliye pase chif PLAY4WARD ka dokimante. Pandan tan an, paj sa a montre sa n ap swiv."
+    },
+    "dashboard": {
+      "eyebrow": "Tablo bò",
+      "title": "Sa nou mezire",
+      "note": "Valè ki anba yo se plas rezève — pou ranplase ak chif konfime epi dokimante.",
+      "stats": [
+        { "value": "[—]", "label": "Jèn patisipan" },
+        { "value": "[—]", "label": "Sesyon antrènman" },
+        { "value": "[—]", "label": "Lekòl reprezante" },
+        { "value": "[—]", "label": "Pwopòsyon tifi" },
+        { "value": "[—]", "label": "Antrenè fòme" },
+        { "value": "[—]", "label": "Tounwa òganize" },
+        { "value": "[—]", "label": "Atelye lidèchip" },
+        { "value": "[—]", "label": "Ekipman distribye" }
+      ]
+    },
+    "stories": {
+      "eyebrow": "Temwayaj",
+      "title": "Nan pawòl yo",
+      "note": "[RANPLASE: entèvyou otantik ak jwè, paran, antrenè ak responsab lekòl.]"
+    },
+    "indicators": {
+      "eyebrow": "Anvan / apre",
+      "title": "Endikatè n ap swiv yo",
+      "items": [
+        "Prezans ak fidelite",
+        "Kondisyon fizik ak devlopman teknik",
+        "Konfyans nan tèt",
+        "Patisipasyon nan lidèchip",
+        "Angajman lekòl",
+        "Travay ann ekip ak sèvis kominotè"
+      ],
+      "caution": "Nou evite deklarasyon vag toutotan nou pa gen done pou sipòte yo."
+    },
+    "reports": {
+      "eyebrow": "Rapò",
+      "title": "K ap vini",
+      "items": [
+        "Rapò enpak anyèl",
+        "Rezime pwogram",
+        "Rapò finansye",
+        "Rapò pou patnè"
+      ]
+    }
+  },
+  "join": {
+    "hero": {
+      "eyebrow": "Antre nan PLAY4WARD",
+      "title": "Ou pare pou monte sou teren an?",
+      "intro": "PLAY4WARD ap rekrite jèn 13 a 18 an ki vle devlope konpetans andbòl ak lidèchip yo.",
+      "cta": "Ouvè fòm enskripsyon an"
+    },
+    "who": {
+      "title": "Kiyès ki ka antre?",
+      "body": "Jèn 13 a 18 an ki enterese devlope konpetans andbòl ak lidèchip yo."
+    },
+    "receive": {
+      "title": "Sa patisipan yo resevwa",
+      "body": "Ankadreman estriktire, antrènman regilye, aksè ak ekipman, eksperyans ann ekip, atelye lidèchip ak okazyon pou konpetisyone."
+    },
+    "expect": {
+      "title": "Sa nou atann",
+      "body": "Angajman, disiplin, respè, prezans, travay ann ekip ak volonte pou grandi."
+    },
+    "options": {
+      "eyebrow": "Plizyè fason pou patisipe",
+      "title": "Jwenn plas ou",
+      "items": [
+        { "title": "Antre kòm atlèt", "body": "Jèn 13 a 18 an ki pare pou antrene epi grandi." },
+        { "title": "Antre kòm antrenè", "body": "Pataje eksperyans ou epi ankadre pwochen jenerasyon an." },
+        { "title": "Vin volontè", "body": "Ede pandan antrènman, evènman ak tounwa." },
+        { "title": "Akeyi yon pwogram", "body": "Pote PLAY4WARD nan kominote ou." },
+        { "title": "Vin yon lekòl patnè", "body": "Ofri andbòl ak lidèchip pou elèv ou yo." }
+      ]
+    },
+    "safeguarding": {
+      "title": "Pwoteksyon ak konsantman pou minè",
+      "body": "Pifò nan patisipan nou yo se minè. Nou mande konsantman paran, kontak dijans ak otorizasyon foto lè yo enskri. Pwoteksyon timoun pa janm yon bagay nou panse apre.",
+      "formNote": "Enskripsyon fèt atravè fòm nou an. Bouton ki anba a ouvè fòm Google aktyèl PLAY4WARD nan yon nouvo onglè."
+    }
+  },
+  "events": {
+    "hero": {
+      "eyebrow": "Evènman",
+      "title": "Sa k ap pase nan PLAY4WARD",
+      "intro": "Antrènman, jou rekritman, klinik, match, tounwa, atelye ak kanpay lajan."
+    },
+    "upcomingTitle": "K ap vini",
+    "note": "[RANPLASE: vrè evènman ak dat, kote, deskripsyon, kritè ak enskripsyon. Antre ki anba yo se egzanp.]",
+    "items": [
+      { "date": "12 SEP", "tag": "Rekritman", "title": "Jou rekritman — sezon 2026", "place": "[RANPLASE: kote, Jakmèl]", "description": "Sesyon enfòmasyon ak tès pou jèn 13 a 18 an." },
+      { "date": "05 OKT", "tag": "Antrènman", "title": "Antrènman chak semèn kòmanse", "place": "[RANPLASE: sant antrènman]", "description": "Premye sesyon ankadre nan nouvo sezon an." },
+      { "date": "16 NOV", "tag": "Tounwa", "title": "Tounwa kominotè otòn", "place": "[RANPLASE: kote]", "description": "Match amikal ant ekip ak demonstrasyon." },
+      { "date": "30 NOV", "tag": "Atelye", "title": "Atelye lidèchip", "place": "[RANPLASE: kote]", "description": "Kominikasyon, fikse objektif ak travay ann ekip." }
+    ],
+    "newsLink": "Li nouvèl nou yo"
+  },
+  "news": {
+    "hero": {
+      "eyebrow": "Nouvèl",
+      "title": "Nouvèl ak istwa",
+      "intro": "Sit entènèt la se tras pèmanan travay PLAY4WARD. Instagram rete itil pou kominikasyon chak jou."
+    },
+    "note": "[RANPLASE: pibliye kout atik — reyisit atlèt, rezilta tounwa, nouvo patenarya, don ekipman, nouvo antrenè, vizit kominotè.]",
+    "items": [
+      { "date": "[DAT]", "tag": "Pwogram", "title": "[RANPLASE: tit atik la]", "excerpt": "[RANPLASE: kout rezime nouvèl la.]" },
+      { "date": "[DAT]", "tag": "Patenarya", "title": "[RANPLASE: tit atik la]", "excerpt": "[RANPLASE: kout rezime nouvèl la.]" },
+      { "date": "[DAT]", "tag": "Kominote", "title": "[RANPLASE: tit atik la]", "excerpt": "[RANPLASE: kout rezime nouvèl la.]" }
+    ],
+    "instaNote": "Swiv nou sou Instagram pou nouvèl chak jou."
+  },
+  "support": {
+    "hero": {
+      "eyebrow": "Sipòte nou",
+      "title": "Sa sipò ou pèmèt",
+      "intro": "Gen plizyè fason pou kontribye. Chak jès ede yon jèn jwe, dirije epi avanse."
+    },
+    "money": {
+      "eyebrow": "Fè yon don",
+      "title": "Bay lajan",
+      "note": "Egzanp don — vrè montan yo ap kalkile apati bidjè PLAY4WARD.",
+      "tiers": [
+        { "amount": "15 $", "body": "ede bay founiti antrènman debaz." },
+        { "amount": "30 $", "body": "sipòte ekipman yon atlèt." },
+        { "amount": "100 $", "body": "ede fè yon klinik kominotè." },
+        { "amount": "500 $", "body": "ede parennen yon tounwa." }
+      ],
+      "cta": "Fè yon don",
+      "methodNote": "[RANPLASE: vrè lyen oswa metòd don.]"
+    },
+    "equipment": {
+      "eyebrow": "Don an nati",
+      "title": "Bay ekipman",
+      "intro": "Nou aksepte atik sa yo:",
+      "items": [
+        "Balon andbòl",
+        "Gòl oswa filè",
+        "Kòn",
+        "Chemiz distenktif (chasib)",
+        "Siflèt",
+        "Materyèl premye swen",
+        "Soulye espò",
+        "Inifòm",
+        "Boutèy dlo"
+      ],
+      "note": "[RANPLASE: presize si materyèl ki sèvi deja aksepte epi kote pou depoze l.]"
+    },
+    "sponsor": {
+      "eyebrow": "Parennen yon pwogram",
+      "title": "Fòmil parennaj",
+      "items": [
+        { "title": "Paren yon atlèt", "body": "Sipòte pakou yon jèn pandan yon sezon." },
+        { "title": "Patnè antrènman", "body": "Finanse ankadreman ak sesyon regilye." },
+        { "title": "Patnè tounwa", "body": "Rann yon konpetisyon ak rekonpans li posib." },
+        { "title": "Patnè kominotè", "body": "Sipòte aksyon nan lekòl ak katye yo." },
+        { "title": "Patnè ekspansyon nasyonal", "body": "Ede PLAY4WARD grandi pi lwen pase Jakmèl." }
+      ]
+    },
+    "corporate": {
+      "eyebrow": "Konpayi",
+      "title": "Patenarya antrepriz",
+      "intro": "Konpayi yo ka kontribye nan anpil fason:",
+      "items": [
+        "Parennaj finansye",
+        "Ekipman",
+        "Transpò",
+        "Kote pou aktivite",
+        "Volontarya anplwaye yo",
+        "Sipò kominikasyon",
+        "Bous etid"
+      ]
+    }
+  },
+  "partners": {
+    "hero": {
+      "eyebrow": "Patnè",
+      "title": "Moun ki sipòte misyon an",
+      "intro": "Nou pa prezante yon senp senpatizan kòm yon « patnè ofisyèl » toutotan relasyon an pa konfime."
+    },
+    "note": "[RANPLASE: pou chak patnè — logo, kout deskripsyon, tip sipò, pwogram ki asosye ak yon lyen sou sit yo.]",
+    "categories": [
+      { "title": "Patnè estratejik", "body": "[RANPLASE: òganizasyon ki fòme oryantasyon nou.]" },
+      { "title": "Sponsò finansye", "body": "[RANPLASE: bayè ak donatè.]" },
+      { "title": "Patnè pwogram", "body": "[RANPLASE: patnè k ap mete an aplikasyon.]" },
+      { "title": "Lekòl patnè", "body": "[RANPLASE: lekòl ki akeyi aktivite nou.]" },
+      { "title": "Patnè medya", "body": "[RANPLASE: sipò kominikasyon ak vizibilite.]" },
+      { "title": "Patnè ekipman", "body": "[RANPLASE: founisè materyèl.]" }
+    ],
+    "becomeTitle": "Vin yon patnè",
+    "becomeBody": "Ou pataje konviksyon nou ke espò ouvè pòt? Ann ekri pwochen chapit la ansanm.",
+    "becomeCta": "Kontakte nou"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Kontak",
+      "title": "Ann konekte",
+      "intro": "Yon kesyon, yon anvi antre oswa yon fason pou sipòte nou? Men kijan pou jwenn nou."
+    },
+    "emailNote": "adrès pou ranplase",
+    "methods": {
+      "generalTitle": "Imel jeneral",
+      "general": "RANPLASE@play4ward.org",
+      "whatsappTitle": "WhatsApp",
+      "whatsapp": "[RANPLASE: nimewo WhatsApp òganizasyon an]",
+      "locationTitle": "Kote",
+      "location": "Jakmèl, Ayiti",
+      "instagramTitle": "Instagram",
+      "instagram": "@RANPLASE"
+    },
+    "inquiries": {
+      "title": "Demann espesifik",
+      "items": [
+        { "title": "Patenarya", "value": "patenarya@play4ward.org [RANPLASE]" },
+        { "title": "Près ak medya", "value": "medya@play4ward.org [RANPLASE]" },
+        { "title": "Volontarya", "value": "volontarya@play4ward.org [RANPLASE]" }
+      ]
+    },
+    "privacyNote": "Nou pa pibliye okenn nimewo pèsonèl. Demann yo pase atravè adrès òganizasyon an.",
+    "joinCta": "Ou vle patisipe? Antre nan PLAY4WARD"
+  }
+}
