@@ -7,6 +7,9 @@ that uses handball as a tool for youth development, leadership, and inclusion.
 Built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and
 **next-intl**. All pages are statically prerendered.
 
+**Live:** <https://play4ward.vercel.app> — deployed on Vercel under the
+`edlight-initiative` team. Redeploy with `vercel --prod --scope edlight-initiative`.
+
 ---
 
 ## Quick start
