@@ -100,6 +100,37 @@ easy to find — search the codebase for `ImagePlaceholder`.
 
 ---
 
+## Content editing for the team (TinaCMS)
+
+Non-technical staff can edit all site text, numbers, and photos — and set the
+Google Form / donation / Instagram links — through a visual admin at **`/admin`**,
+with no code. Saving commits to GitHub, which triggers a redeploy.
+
+- **What's editable:** every field in `messages/{fr,ht,en}.json` (organized by
+  section: Home, About, Programs, Impact, Events, etc., per language) and the
+  links in `content/settings.json`. Photos upload to `public/uploads`.
+- **Local editing/testing:** `npm run dev` starts Tina + Next; open
+  `http://localhost:3000/admin` (works without any cloud account).
+
+### One-time setup to make `/admin` work in production
+
+1. **Push the repo to GitHub** (see Deploying below).
+2. Go to **<https://app.tina.io>**, sign in with GitHub, create a project, and
+   connect the `play4ward` repo.
+3. TinaCloud gives you a **Client ID** and lets you generate a **Read-Only
+   Token**.
+4. In **Vercel → Project → Settings → Environment Variables**, add:
+   - `NEXT_PUBLIC_TINA_CLIENT_ID` = the Client ID
+   - `TINA_TOKEN` = the Read-Only Token
+   - `NEXT_PUBLIC_TINA_BRANCH` = `main`
+5. In **Vercel → Settings → Build & Development**, set the **Build Command** to
+   `npm run build:cms` (this runs `tinacms build && next build`).
+6. In **Vercel → Settings → Git**, connect the GitHub repo so content commits
+   auto-deploy. Then redeploy.
+
+After that, editors visit `https://play4ward.vercel.app/admin`, log in via
+TinaCloud, edit, and hit save — changes go live automatically.
+
 ## Deploying
 
 **Vercel (easiest):** push to GitHub and import the repo at vercel.com. No config
