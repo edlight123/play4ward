@@ -1,9 +1,10 @@
-// Play4Ward external links. Replace these placeholders with real URLs.
-// See README.md → "Things to replace".
+import settings from '../../content/settings.json';
+
+// Play4Ward external links. These are editable in the TinaCMS admin (/admin)
+// under "Site settings" — the team can drop in the real Google Form, donation,
+// and Instagram URLs without touching code. Values live in content/settings.json.
 export const links = {
-  // The current public Google Form the Join button points to.
-  registrationForm: 'https://forms.gle/REPLACE',
-  instagram: 'https://www.instagram.com/play4ward_haiti/',
-  // Where the Donate button should send people (payment link / page).
-  donate: 'https://REPLACE-donation-link',
+  registrationForm: settings.registrationForm,
+  instagram: settings.instagram,
+  donate: settings.donate,
 };

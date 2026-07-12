@@ -5,3 +5,7 @@ out/
 *.log
 .env*
 .vercel
+
+# TinaCMS (regenerated on build)
+tina/__generated__/
+public/admin/

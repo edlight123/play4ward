@@ -1,0 +1,1854 @@
+[
+  {
+    "type": "object",
+    "name": "nav",
+    "label": "Nav",
+    "fields": [
+      {
+        "type": "string",
+        "name": "skip",
+        "label": "Skip"
+      },
+      {
+        "type": "string",
+        "name": "home",
+        "label": "Home"
+      },
+      {
+        "type": "string",
+        "name": "about",
+        "label": "About"
+      },
+      {
+        "type": "string",
+        "name": "programs",
+        "label": "Programs"
+      },
+      {
+        "type": "string",
+        "name": "impact",
+        "label": "Impact"
+      },
+      {
+        "type": "string",
+        "name": "events",
+        "label": "Events"
+      },
+      {
+        "type": "string",
+        "name": "join",
+        "label": "Join"
+      },
+      {
+        "type": "string",
+        "name": "support",
+        "label": "Support"
+      },
+      {
+        "type": "string",
+        "name": "news",
+        "label": "News"
+      },
+      {
+        "type": "string",
+        "name": "partners",
+        "label": "Partners"
+      },
+      {
+        "type": "string",
+        "name": "contact",
+        "label": "Contact"
+      },
+      {
+        "type": "string",
+        "name": "donate",
+        "label": "Donate"
+      },
+      {
+        "type": "string",
+        "name": "menu",
+        "label": "Menu"
+      },
+      {
+        "type": "string",
+        "name": "close",
+        "label": "Close"
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "cta",
+    "label": "CTA",
+    "fields": [
+      {
+        "type": "string",
+        "name": "title",
+        "label": "Title"
+      },
+      {
+        "type": "string",
+        "name": "donate",
+        "label": "Donate"
+      },
+      {
+        "type": "string",
+        "name": "partner",
+        "label": "Partner"
+      },
+      {
+        "type": "string",
+        "name": "volunteer",
+        "label": "Volunteer"
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "footer",
+    "label": "Footer",
+    "fields": [
+      {
+        "type": "string",
+        "name": "tagline",
+        "label": "Tagline",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
+        "type": "string",
+        "name": "location",
+        "label": "Location"
+      },
+      {
+        "type": "string",
+        "name": "explore",
+        "label": "Explore"
+      },
+      {
+        "type": "string",
+        "name": "more",
+        "label": "More"
+      },
+      {
+        "type": "string",
+        "name": "getInTouch",
+        "label": "Get In Touch"
+      },
+      {
+        "type": "string",
+        "name": "year",
+        "label": "Year"
+      },
+      {
+        "type": "string",
+        "name": "rights",
+        "label": "Rights"
+      },
+      {
+        "type": "string",
+        "name": "builtWith",
+        "label": "Built With"
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "home",
+    "label": "Home",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "titleLead",
+            "label": "Title Lead"
+          },
+          {
+            "type": "string",
+            "name": "titleAccent",
+            "label": "Title Accent"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "primary",
+            "label": "Primary"
+          },
+          {
+            "type": "string",
+            "name": "secondary",
+            "label": "Secondary"
+          },
+          {
+            "type": "string",
+            "name": "tertiary",
+            "label": "Tertiary"
+          },
+          {
+            "type": "string",
+            "name": "photo",
+            "label": "Photo"
+          },
+          {
+            "type": "string",
+            "name": "badgeTop",
+            "label": "Badge Top"
+          },
+          {
+            "type": "string",
+            "name": "badgeBottom",
+            "label": "Badge Bottom"
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "impactStrip",
+        "label": "Impact Strip",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
+        "type": "object",
+        "name": "missionHead",
+        "label": "Mission Head",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "programsHead",
+        "label": "Programs Head",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "cta",
+            "label": "CTA"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "storyHead",
+        "label": "Story Head",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "activitiesHead",
+        "label": "Activities Head",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "cta",
+            "label": "CTA"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "partnersHead",
+        "label": "Partners Head",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "note",
+            "label": "Note"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "mission",
+    "label": "Mission",
+    "fields": [
+      {
+        "type": "object",
+        "name": "play",
+        "label": "Play",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "lead",
+        "label": "Lead",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "moveForward",
+        "label": "Move Forward",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "programCards",
+    "label": "Program Cards",
+    "fields": [
+      {
+        "type": "object",
+        "name": "center",
+        "label": "Center",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "desc",
+            "label": "Desc",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "photo",
+            "label": "Photo"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "leadership",
+        "label": "Leadership",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "desc",
+            "label": "Desc",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "photo",
+            "label": "Photo"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "outreach",
+        "label": "Outreach",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "desc",
+            "label": "Desc",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "photo",
+            "label": "Photo"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "tournaments",
+        "label": "Tournaments",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "desc",
+            "label": "Desc",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "photo",
+            "label": "Photo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "about",
+    "label": "About",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "story",
+        "label": "Story",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body1",
+            "label": "Body1",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "body2",
+            "label": "Body2",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "photo",
+            "label": "Photo"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "mv",
+        "label": "Mission & Vision",
+        "fields": [
+          {
+            "type": "string",
+            "name": "missionTitle",
+            "label": "Mission Title"
+          },
+          {
+            "type": "string",
+            "name": "mission",
+            "label": "Mission",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "visionTitle",
+            "label": "Vision Title"
+          },
+          {
+            "type": "string",
+            "name": "vision",
+            "label": "Vision",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "values",
+        "label": "Values",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "object",
+            "name": "items",
+            "label": "Items",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "title",
+                "label": "Title"
+              },
+              {
+                "type": "string",
+                "name": "body",
+                "label": "Body"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "why",
+        "label": "Why",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "points",
+            "label": "Points",
+            "list": true
+          },
+          {
+            "type": "string",
+            "name": "federation",
+            "label": "Federation",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "team",
+        "label": "Team",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro"
+          },
+          {
+            "type": "object",
+            "name": "members",
+            "label": "Members",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "name",
+                "label": "Name"
+              },
+              {
+                "type": "string",
+                "name": "role",
+                "label": "Role"
+              },
+              {
+                "type": "string",
+                "name": "bio",
+                "label": "Bio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "governance",
+        "label": "Governance",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro"
+          },
+          {
+            "type": "string",
+            "name": "items",
+            "label": "Items",
+            "list": true
+          },
+          {
+            "type": "string",
+            "name": "note",
+            "label": "Note",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "programs",
+    "label": "Programs",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "center",
+        "label": "Center",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "whoTitle",
+            "label": "Who Title"
+          },
+          {
+            "type": "string",
+            "name": "who",
+            "label": "Who",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "receiveTitle",
+            "label": "Receive Title"
+          },
+          {
+            "type": "string",
+            "name": "receive",
+            "label": "Receive",
+            "list": true
+          },
+          {
+            "type": "string",
+            "name": "expectTitle",
+            "label": "Expect Title"
+          },
+          {
+            "type": "string",
+            "name": "expect",
+            "label": "Expect",
+            "list": true
+          },
+          {
+            "type": "string",
+            "name": "detailsTitle",
+            "label": "Details Title"
+          },
+          {
+            "type": "object",
+            "name": "details",
+            "label": "Details",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "label",
+                "label": "Label"
+              },
+              {
+                "type": "string",
+                "name": "value",
+                "label": "Value"
+              }
+            ]
+          },
+          {
+            "type": "string",
+            "name": "photo",
+            "label": "Photo"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "leadership",
+        "label": "Leadership",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "topics",
+            "label": "Topics",
+            "list": true
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "outreach",
+        "label": "Outreach",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "items",
+            "label": "Items",
+            "list": true
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "tournaments",
+        "label": "Tournaments",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "items",
+            "label": "Items",
+            "list": true
+          },
+          {
+            "type": "string",
+            "name": "note",
+            "label": "Note",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "impact",
+    "label": "Impact",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "dashboard",
+        "label": "Dashboard",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "note",
+            "label": "Note",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "object",
+            "name": "stats",
+            "label": "Stats",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "value",
+                "label": "Value"
+              },
+              {
+                "type": "string",
+                "name": "label",
+                "label": "Label"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "stories",
+        "label": "Stories",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "note",
+            "label": "Note",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "indicators",
+        "label": "Indicators",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "items",
+            "label": "Items",
+            "list": true
+          },
+          {
+            "type": "string",
+            "name": "caution",
+            "label": "Caution",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "reports",
+        "label": "Reports",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "items",
+            "label": "Items",
+            "list": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "join",
+    "label": "Join",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "cta",
+            "label": "CTA"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "who",
+        "label": "Who",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "receive",
+        "label": "Receive",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "expect",
+        "label": "Expect",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "options",
+        "label": "Options",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "object",
+            "name": "items",
+            "label": "Items",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "title",
+                "label": "Title"
+              },
+              {
+                "type": "string",
+                "name": "body",
+                "label": "Body"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "safeguarding",
+        "label": "Safeguarding",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "formNote",
+            "label": "Form Note",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "events",
+    "label": "Events",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "upcomingTitle",
+        "label": "Upcoming Title"
+      },
+      {
+        "type": "string",
+        "name": "note",
+        "label": "Note",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
+        "type": "object",
+        "name": "items",
+        "label": "Items",
+        "list": true,
+        "fields": [
+          {
+            "type": "string",
+            "name": "date",
+            "label": "Date"
+          },
+          {
+            "type": "string",
+            "name": "tag",
+            "label": "Tag"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "place",
+            "label": "Place"
+          },
+          {
+            "type": "string",
+            "name": "description",
+            "label": "Description"
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "newsLink",
+        "label": "News Link"
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "news",
+    "label": "News",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "note",
+        "label": "Note",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
+        "type": "object",
+        "name": "items",
+        "label": "Items",
+        "list": true,
+        "fields": [
+          {
+            "type": "string",
+            "name": "date",
+            "label": "Date"
+          },
+          {
+            "type": "string",
+            "name": "tag",
+            "label": "Tag"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "excerpt",
+            "label": "Excerpt"
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "instaNote",
+        "label": "Insta Note"
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "support",
+    "label": "Support",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "money",
+        "label": "Money",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "note",
+            "label": "Note",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "object",
+            "name": "tiers",
+            "label": "Tiers",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "amount",
+                "label": "Amount"
+              },
+              {
+                "type": "string",
+                "name": "body",
+                "label": "Body"
+              }
+            ]
+          },
+          {
+            "type": "string",
+            "name": "cta",
+            "label": "CTA"
+          },
+          {
+            "type": "string",
+            "name": "methodNote",
+            "label": "Method Note"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "equipment",
+        "label": "Equipment",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro"
+          },
+          {
+            "type": "string",
+            "name": "items",
+            "label": "Items",
+            "list": true
+          },
+          {
+            "type": "string",
+            "name": "note",
+            "label": "Note"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "sponsor",
+        "label": "Sponsor",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "object",
+            "name": "items",
+            "label": "Items",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "title",
+                "label": "Title"
+              },
+              {
+                "type": "string",
+                "name": "body",
+                "label": "Body"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "corporate",
+        "label": "Corporate",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro"
+          },
+          {
+            "type": "string",
+            "name": "items",
+            "label": "Items",
+            "list": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "partners",
+    "label": "Partners",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "note",
+        "label": "Note",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
+        "type": "object",
+        "name": "categories",
+        "label": "Categories",
+        "list": true,
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body"
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "becomeTitle",
+        "label": "Become Title"
+      },
+      {
+        "type": "string",
+        "name": "becomeBody",
+        "label": "Become Body",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
+        "type": "string",
+        "name": "becomeCta",
+        "label": "Become Cta"
+      }
+    ]
+  },
+  {
+    "type": "object",
+    "name": "contact",
+    "label": "Contact",
+    "fields": [
+      {
+        "type": "object",
+        "name": "hero",
+        "label": "Hero",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "emailNote",
+        "label": "Email Note"
+      },
+      {
+        "type": "object",
+        "name": "methods",
+        "label": "Methods",
+        "fields": [
+          {
+            "type": "string",
+            "name": "generalTitle",
+            "label": "General Title"
+          },
+          {
+            "type": "string",
+            "name": "general",
+            "label": "General"
+          },
+          {
+            "type": "string",
+            "name": "whatsappTitle",
+            "label": "Whatsapp Title"
+          },
+          {
+            "type": "string",
+            "name": "whatsapp",
+            "label": "Whatsapp"
+          },
+          {
+            "type": "string",
+            "name": "locationTitle",
+            "label": "Location Title"
+          },
+          {
+            "type": "string",
+            "name": "location",
+            "label": "Location"
+          },
+          {
+            "type": "string",
+            "name": "instagramTitle",
+            "label": "Instagram Title"
+          },
+          {
+            "type": "string",
+            "name": "instagram",
+            "label": "Instagram"
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "inquiries",
+        "label": "Inquiries",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "object",
+            "name": "items",
+            "label": "Items",
+            "list": true,
+            "fields": [
+              {
+                "type": "string",
+                "name": "title",
+                "label": "Title"
+              },
+              {
+                "type": "string",
+                "name": "value",
+                "label": "Value"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "name": "privacyNote",
+        "label": "Privacy Note",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
+        "type": "string",
+        "name": "joinCta",
+        "label": "Join Cta"
+      }
+    ]
+  }
+]
