@@ -133,6 +133,13 @@ with no code. Saving commits to GitHub, which triggers a redeploy.
    - `NEXT_PUBLIC_TINA_BRANCH` = `main`
 5. In **Vercel → Settings → Build & Development**, set the **Build Command** to
    `npm run build:cms` (this runs `tinacms build && next build`).
+
+   > **Note:** `build:cms` currently passes `--skip-cloud-checks`. The committed
+   > `tina/tina-lock.json` is the compiled schema TinaCloud reads, and it is stale
+   > — it predates the `mission`/`about.team`/`impact.sdg`/`programs.*.body` field
+   > changes. Without the flag the build fails with `ERR_CLOUD_CHECK_FAILED`.
+   > Regenerate the lock with `tinacms build` somewhere that has the real
+   > `TINA_TOKEN`, commit it, then drop the flag. See CONTENT-CHECKLIST.md → CMS.
 6. In **Vercel → Settings → Git**, connect the GitHub repo so content commits
    auto-deploy. Then redeploy.
 
