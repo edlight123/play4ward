@@ -1,32 +1,32 @@
+import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 
-// Play4Ward's official logo (pulled from their Instagram profile).
-// NOTE: this is a low-resolution (100×100) copy — the only version available
-// without logging in. For crisp display and a transparent/dark-bg version,
-// replace public/play4ward-logo.jpg with the original logo files.
+// Play4Ward's official logo lockup (mark + wordmark), from the organization's
+// brand files. The mark's player silhouette is black, so on dark backgrounds the
+// lockup sits in a white pill rather than being recoloured — this keeps the
+// official blue/gold wordmark intact instead of flattening it to one colour.
 export function Logo({ onDark = false }: { onDark?: boolean }) {
   return (
     <Link
       href="/"
-      className="group inline-flex items-center gap-2.5"
+      className="group inline-flex items-center"
       aria-label="Play4Ward — home"
     >
-      <span className="inline-flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-black/5">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/play4ward-logo.jpg"
-          alt="Play4Ward"
-          width={100}
-          height={100}
-          className="h-full w-full object-contain"
-        />
-      </span>
       <span
-        className={`font-display text-xl font-extrabold tracking-tightest ${
-          onDark ? 'text-white' : 'text-ink'
-        }`}
+        className={
+          onDark
+            ? 'inline-flex items-center rounded-xl bg-white px-3 py-2 shadow-sm'
+            : 'inline-flex items-center'
+        }
       >
-        PLAY<span className="text-coral">4</span>WARD
+        <Image
+          src="/logo-play4ward.png"
+          alt="Play4Ward"
+          width={1200}
+          height={638}
+          priority
+          className="h-11 w-auto sm:h-12"
+        />
       </span>
     </Link>
   );

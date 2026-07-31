@@ -1,45 +1,103 @@
 # Content to collect before launch
 
-The website structure is complete. To replace the placeholders with real
-content, gather the following (from the original brief). Nothing on the site is
-fabricated — every item below currently shows as a clearly-marked placeholder.
+The website structure is complete. Nothing on the site is fabricated — every
+outstanding item below still shows as a clearly-marked placeholder.
+
+**Last content drop:** the `WEBSITE` folder shared by `play4wardsport@gmail.com`
+(official brand doc, Instagram carousel slides, logo, two photos). Items marked
+✅ came from there.
 
 ## Brand & identity
-- [ ] Official logo files (SVG + PNG) → `src/components/Logo.tsx`
-- [ ] Confirmed brand colors and fonts (current palette is a starting point → `tailwind.config.ts`)
+- [x] ✅ Official logo → `public/logo-play4ward.png`, wired into `src/components/Logo.tsx`
+- [ ] Logo as **SVG**, plus a light/knockout version for dark backgrounds
+      (the footer currently sets the PNG in a white pill because the mark is black)
+- [ ] Confirmed brand colors and fonts. Note the official assets use a
+      **blue + gold** palette; `tailwind.config.ts` still uses coral as the accent.
 
 ## Organization
-- [ ] Mission and vision statements (draft copy already in place → `about.mv`)
-- [ ] Founder story / why Play4Ward exists → `about.story`
+- [x] ✅ Mission and vision — official wording, from the brand doc → `about.mv`
+- [x] ✅ Founder story / why Play4Ward exists → `about.story`
+- [x] ✅ Values — the three official values replace the earlier five → `about.values`
+- [x] ✅ Four official pillars (Inclusion, Youth Leadership, Empowerment, Resilience) → `mission`
+- [x] ✅ Team names and roles → `about.team.groups`
+- [ ] **Team bios** (2–3 sentences each) and **portraits** for all four people →
+      `about.team.groups[].members[].bio`
 - [ ] Legal registration status → `about.governance`
-- [ ] Team names, roles, and 2–3 sentence bios → `about.team.members`
 - [ ] Safeguarding & parental-consent procedures → `join.safeguarding`
 
 ## Programs
-- [ ] Program descriptions (drafts in place)
-- [ ] Training schedule and location → `programs.center.details`
-- [ ] Registration criteria and cost → `programs.center.details`
+- [x] ✅ Program card descriptions — official "Ce que nous faisons" wording → `programCards`
+- [ ] Training schedule, location, and cost → `programs.center.details` (5 fields)
+- [ ] What equipment is provided vs. what participants bring → `programs.center.details`
 
 ## Proof & media
-- [ ] At least 20 high-quality photos (training, tournaments, workshops, coaches, athletes — from Jacmel, not stock)
+- [x] ✅ Team photo with banner → `public/photos/team-banner.jpg` (home hero)
+- [x] ✅ Training-session graphic → `public/photos/training-session.jpg`
+      (about story, training-centre card and section)
+- [ ] Photos for the remaining slots: **leadership workshop**, **school clinic**,
+      **tournament day**, and **athlete portraits**. Note the two photos above are
+      reused across pages; more variety would help.
+- [ ] A clean training photo **without** the SDG/title overlay baked in —
+      `training-session.jpg` is a designed graphic, not a plain photograph
 - [ ] 3 participant or parent testimonials → `impact.stories`, home featured story
-- [ ] Confirmed, documented impact numbers → `impact.dashboard.stats`
+- [ ] Confirmed, documented impact numbers → `impact.dashboard.stats` (8 values, all `[—]`)
 
 ## Partners & support
-- [ ] Partner logos + permission to display them → `partners`, home partners strip
-- [ ] Donation method / link → `src/lib/config.ts` (`donate`)
+- [x] ✅ Confirmed supporters named: IOC Young Leaders / Olympism 365, and the
+      EdLight Initiative → `partners.note`, `home.partnersHead.note`
+- [ ] Partner **logo files** + permission to display them (the home partners strip
+      is still four placeholder tiles)
+- [ ] Which category each supporter belongs to → `partners.categories` (5 of 6 still
+      placeholders; only "Strategic partners" is filled)
+- [ ] Donation method / link → `content/settings.json` (`donate`)
 - [ ] Real donation amounts calculated from budget → `support.money.tiers`
+- [ ] Whether used equipment is accepted, and where to deliver it → `support.equipment.note`
 
 ## Contact & channels
-- [ ] General organization email → `contact.methods.general`, `footer`
+- [x] ✅ General organization email (`play4wardsport@gmail.com`) → `contact.methods.general`,
+      `contact.inquiries`
+- [x] ✅ Instagram handle `@play4ward_haiti` → already correct in `content/settings.json`
 - [ ] WhatsApp / phone (organization, not personal) → `contact.methods.whatsapp`
-- [ ] Instagram handle + link → `src/lib/config.ts`, `contact`, `footer`
-- [ ] Registration form URL → `src/lib/config.ts` (`registrationForm`)
+- [ ] **Registration form URL** → `content/settings.json` (`registrationForm`).
+      The "Formulaire de recrutement" in the shared folder is a **private copy** —
+      it returns HTTP 401. It must be published and set to accept responses before
+      the Join button can point at it.
+- [ ] Dedicated role addresses, if wanted. All three inquiry types currently route
+      to the single general address.
 
 ## Ongoing
 - [ ] Upcoming event details (date, location, description, eligibility) → `events.items`
-- [ ] News articles → `news.items`
+      (4 example entries, places still placeholders)
+- [ ] News articles → `news.items` (3 placeholder entries)
+
+## SDG alignment
+- [x] ✅ SDG section added to the impact page (`impact.sdg`, rendered by
+      `src/components/SdgGoals.tsx`) — SDG 3, 5, and 10 with the doc's full
+      write-ups. French goal names are taken verbatim from the organization's own
+      "HAITI HANDBALL" graphic, so those are official.
+- [ ] **Official UN SDG icon files.** The cards use each goal's real UN brand
+      colour, but the UN's icon artwork is not bundled — nothing on the page
+      imitates an official SDG badge. Drop the icons in beside the number in
+      `SdgGoals.tsx` once you have them (they're free from the UN's
+      communications-materials page, subject to their guidelines).
+
+## Programs long-form
+- [x] ✅ The doc's Training Sessions / Workshops / Tournaments write-ups are now
+      on the programs page as `programs.{center,leadership,tournaments}.body`
+      (two paragraphs each, editable in `/admin`).
+- [ ] Nothing outstanding — everything usable from the brand doc has been placed.
 
 ## Translation
-- [ ] **Haitian Creole review by a native speaker** → `messages/ht.json`
-      (currently a first-pass translation, marked in the file's `_meta.review`)
+- [ ] **Haitian Creole review by a native speaker** → `messages/ht.json`.
+      All Creole copy is first-pass, including everything added in this content
+      drop (story, mission, vision, values, pillars).
+- [ ] French review — the mission, vision, "who we are", "what we do", and pillar
+      titles are taken **verbatim from the official French slides**, so those are
+      brand-approved. The story and value write-ups are translations and would
+      benefit from a read-through.
+
+## CMS
+- [ ] TinaCloud is not configured yet, so `npm run build:cms` fails locally with
+      "Client not configured properly. Missing clientId, token." See README →
+      "One-time setup to make `/admin` work in production". `npm run build`
+      (without the CMS) is unaffected.

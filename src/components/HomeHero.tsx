@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import { Button } from './Button';
 import { Link } from '@/i18n/navigation';
 import { GoalArc } from './GoalArc';
-import { ImagePlaceholder } from './ImagePlaceholder';
+import { Photo } from './Photo';
 
 export function HomeHero() {
   const t = useTranslations('home.hero');
@@ -63,11 +63,13 @@ export function HomeHero() {
         {/* Framed photo block */}
         <div className="relative animate-rise-in" style={{ animationDelay: '260ms' }}>
           <div className="relative">
-            <ImagePlaceholder
+            <Photo
+              src="/photos/team-banner.jpg"
               label={t('photo')}
-              ratio="aspect-[4/5]"
-              tone="coral"
-              className="border-white/20 bg-white/5 text-white/70"
+              ratio="aspect-[4/3]"
+              priority
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="ring-1 ring-white/20"
             />
             {/* corner badge */}
             <div className="absolute -bottom-5 -left-5 hidden rounded-2xl bg-gold px-5 py-4 text-ink shadow-lift sm:block">

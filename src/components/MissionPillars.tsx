@@ -1,14 +1,14 @@
 import { useTranslations } from 'next-intl';
 
-// Play / Lead / Move Forward — the three-part framing from the brief.
-// These ARE a sequence (on the court → as a person → in the community),
-// so numbered markers carry real meaning here.
-const pillars = ['play', 'lead', 'moveForward'] as const;
+// Play4Ward's four official pillars. Unlike a sequence, these are four parallel
+// commitments — so they're numbered only as visual anchors, and laid out 2×2
+// rather than 4-across because the official copy for each runs several lines.
+const pillars = ['inclusion', 'youthLeadership', 'empowerment', 'resilience'] as const;
 
 export function MissionPillars() {
   const t = useTranslations('mission');
   return (
-    <div className="grid gap-6 md:grid-cols-3">
+    <div className="grid gap-6 md:grid-cols-2">
       {pillars.map((key, i) => (
         <div
           key={key}

@@ -29,7 +29,7 @@
     "getInTouch": "Get in touch",
     "year": "2026",
     "rights": "All rights reserved.",
-    "builtWith": "Trained on the court, built for the community."
+    "builtWith": "Playing for a brighter future."
   },
   "home": {
     "hero": {
@@ -40,15 +40,15 @@
       "primary": "Join Play4Ward",
       "secondary": "Support our mission",
       "tertiary": "Become a partner",
-      "photo": "[REPLACE: action photo — young athletes training, Jacmel]",
+      "photo": "Play4Ward athletes holding the team banner after training in Jacmel",
       "badgeTop": "Based in",
       "badgeBottom": "Jacmel, Haiti"
     },
     "impactStrip": "Growing a new generation of handball players and leaders in Jacmel and across Haiti.",
     "missionHead": {
-      "eyebrow": "Our approach",
-      "title": "Play. Lead. Move Forward.",
-      "intro": "Handball isn't only a sport at Play4Ward — it's how we help young people grow in confidence, discipline, and responsibility."
+      "eyebrow": "Our pillars",
+      "title": "Play. Learn. Grow. Shine.",
+      "intro": "Handball isn't only a sport at Play4Ward — it's how we help young people grow in confidence, discipline, and responsibility. Four pillars guide everything we do."
     },
     "programsHead": {
       "eyebrow": "Our programs",
@@ -70,42 +70,46 @@
       "eyebrow": "They support us",
       "title": "Our partners",
       "intro": "We work with schools, organizations, and companies that believe in young people's potential.",
-      "note": "[REPLACE: logos of confirmed partners — include EdLight where appropriate]"
+      "note": "Play4Ward is supported by the IOC Young Leaders programme and Olympism 365, with additional support from the EdLight Initiative."
     }
   },
   "mission": {
-    "play": {
-      "title": "Play",
-      "body": "Young people receive structured handball training, coaching, equipment, and opportunities to compete."
+    "inclusion": {
+      "title": "Inclusion",
+      "body": "We believe the handball court is a place for everyone. By intentionally bringing together youth from diverse socioeconomic, cultural, and geographic backgrounds, we use sport to break down societal barriers. Our program guarantees a safe, welcoming, and respectful space where every young person feels valued and accepted."
     },
-    "lead": {
-      "title": "Lead",
-      "body": "Players develop communication, discipline, teamwork, responsibility, and leadership."
+    "youthLeadership": {
+      "title": "Youth leadership",
+      "body": "We are committed to shaping the leaders of tomorrow, on and off the court. Through targeted workshops, peer mentorship, and team activities, we equip young people with essential communication and decision-making skills, and encourage them to take initiative and become proactive role models in their communities."
     },
-    "moveForward": {
-      "title": "Move Forward",
-      "body": "Participants are encouraged to become positive contributors within their schools, teams, and communities."
+    "empowerment": {
+      "title": "Empowerment",
+      "body": "Our program goes beyond the mechanics of handball; it is a catalyst for personal growth. By providing quality resources, dedicated coaching, and a platform for their voices to be heard, we give youth the confidence to realize their potential, set ambitious goals, and take control of their own futures."
+    },
+    "resilience": {
+      "title": "Resilience",
+      "body": "Sport is one of the greatest teachers of how to handle both victory and defeat. Through the physical and mental demands of training and tournaments, our youth learn to overcome adversity and bounce back from setbacks — strength that carries directly into their daily lives."
     }
   },
   "programCards": {
     "center": {
       "title": "Handball Training Center",
-      "desc": "Intensive, coached training for ages 13–18, with access to equipment.",
-      "photo": "[REPLACE: photo — training session]"
+      "desc": "Coached handball training sessions with proper equipment.",
+      "photo": "Young athletes running agility drills at a Play4Ward session"
     },
     "leadership": {
       "title": "Leadership through sport",
-      "desc": "Workshops that build communication, goal-setting, and community responsibility.",
+      "desc": "Leadership, well-being, and personal development workshops.",
       "photo": "[REPLACE: photo — leadership workshop]"
     },
     "outreach": {
       "title": "Schools & community",
-      "desc": "Intro clinics, demonstrations, and equipment donations in schools and neighborhoods.",
+      "desc": "Spaces where young people from different backgrounds meet and play together.",
       "photo": "[REPLACE: photo — school clinic]"
     },
     "tournaments": {
       "title": "Tournaments & events",
-      "desc": "Chances to play, represent a team, and celebrate everyone's progress.",
+      "desc": "Tournaments and community events.",
       "photo": "[REPLACE: photo — tournament day]"
     }
   },
@@ -113,44 +117,36 @@
     "hero": {
       "eyebrow": "About Play4Ward",
       "title": "Handball as a starting point, not the finish line",
-      "intro": "Play4Ward is a youth-development organization. We use handball to help young Haitians build skills, confidence, and leadership."
+      "intro": "Play4Ward is a youth handball initiative that uses sport as a tool for personal development, confidence, and teamwork in a safe and inclusive setting."
     },
     "story": {
       "eyebrow": "Our story",
       "title": "Why we exist",
-      "body1": "[REPLACE: tell Play4Ward's origin — who founded it, why the organization was created, and why the work began in Jacmel.]",
-      "body2": "[REPLACE: describe the problem Play4Ward is trying to solve — limited access to coached sport and leadership opportunities for young people.]",
-      "photo": "[REPLACE: photo — the team or the early days in Jacmel]"
+      "body1": "Play4Ward was founded by Rony Francillon and Vasty Jean François, who grew up playing handball in Haiti. In high school there was no sports field in their community and no money for shoes or gear. Their mother was already stretching to pay for a good education, so the Saturday sports academies many of their classmates attended stayed out of reach. They played anyway — goals made from backpacks, and a football standing in for a handball because their coach only had a few.",
+      "body2": "Handball was barely known at their school, so it was never given much importance. Those conversations were frustrating, but out on the playing field that same group of friends found real community and belonging. That contrast is why Play4Ward exists. Young people in Jacmel who want to play still have little access to coached sport, proper equipment, or the leadership opportunities a team brings — so we are building the space we didn't have, and building it so everyone gets to take part, whatever their background.",
+      "photo": "A Play4Ward training session in Jacmel"
     },
     "mv": {
       "missionTitle": "Our mission",
-      "mission": "Play4Ward empowers young people in Haiti through handball, leadership development, and inclusive opportunities that help them thrive on and beyond the court.",
+      "mission": "Our goal is to provide young people with a safe and inclusive space where handball serves as a tool to build confidence, teamwork, and essential life skills.",
       "visionTitle": "Our vision",
-      "vision": "A Haiti where every young person can access sport, develop their potential, and become a leader in their community."
+      "vision": "Our vision is to be the national home of youth handball in Haiti, where sport builds character, community, and champions."
     },
     "values": {
       "eyebrow": "Our values",
       "title": "What guides us",
       "items": [
         {
-          "title": "Discipline",
-          "body": "Consistency and effort, in training and beyond."
+          "title": "Social inclusion",
+          "body": "Our program creates a safe and respectful space where marginalized and underrepresented youth can connect, grow, and thrive alongside their peers — regardless of gender, race, ethnicity, religion, or socioeconomic background."
         },
         {
-          "title": "Leadership",
-          "body": "Every player can learn to guide others."
+          "title": "Positive youth development",
+          "body": "We use sport to create structured, supportive environments where young people build confidence, discipline, teamwork, and a sense of belonging. Through consistent engagement and mentorship, we help guide youth toward healthy choices."
         },
         {
-          "title": "Inclusion",
-          "body": "Handball is open to girls and boys alike."
-        },
-        {
-          "title": "Teamwork",
-          "body": "We win together, we learn together."
-        },
-        {
-          "title": "Opportunity",
-          "body": "Opening the doors sport can open."
+          "title": "Civic engagement",
+          "body": "We empower young people to form their own opinions, express themselves confidently, and make informed decisions — recognizing their role as active citizens who can contribute positively to their community and country."
         }
       ]
     },
@@ -170,24 +166,40 @@
     "team": {
       "eyebrow": "Team & leadership",
       "title": "The people behind Play4Ward",
-      "intro": "[REPLACE: add a photo, role, and short bio for each member.]",
-      "members": [
+      "intro": "The founders and coaching staff who lead Play4Ward, on and off the court.",
+      "groups": [
         {
-          "name": "[REPLACE: name]",
-          "role": "Founder / Director",
-          "bio": "[REPLACE: 2–3 sentence bio.]"
+          "title": "Founders",
+          "members": [
+            {
+              "name": "Rony Francillon",
+              "role": "Co-founder",
+              "bio": "[REPLACE: 2–3 sentence bio.]"
+            },
+            {
+              "name": "Vasty Jean François",
+              "role": "Co-founder",
+              "bio": "[REPLACE: 2–3 sentence bio.]"
+            }
+          ]
         },
         {
-          "name": "[REPLACE: name]",
-          "role": "Head coach",
-          "bio": "[REPLACE: 2–3 sentence bio.]"
-        },
-        {
-          "name": "[REPLACE: name]",
-          "role": "Program coordination",
-          "bio": "[REPLACE: 2–3 sentence bio.]"
+          "title": "Coaching staff",
+          "members": [
+            {
+              "name": "Marc Kingsley-Désir",
+              "role": "Head coach",
+              "bio": "[REPLACE: 2–3 sentence bio.]"
+            },
+            {
+              "name": "Steeve Jeudy",
+              "role": "Assistant coach",
+              "bio": "[REPLACE: 2–3 sentence bio.]"
+            }
+          ]
         }
-      ]
+      ],
+      "portraitLabel": "[REPLACE: portrait]"
     },
     "governance": {
       "eyebrow": "Governance & transparency",
@@ -211,6 +223,10 @@
     "center": {
       "eyebrow": "Training center",
       "title": "Handball Training Center",
+      "body": [
+        "Our training sessions put a strong emphasis on collaboration, teamwork, and the ability to work harmoniously with people regardless of their cultural, economic, or social background. Because we believe in social inclusion through sport, these sessions are designed as safe, structured, and respectful spaces where marginalized and underrepresented youth can grow and thrive alongside their peers.",
+        "Young people play handball with high-quality gear in an adapted environment, and our coaching staff works to ensure every athlete has access to well-equipped facilities to safely explore their talents and build discipline. Ultimately these practices are not only about athletic excellence — they are a vehicle for self-confidence, a sense of belonging, and essential life skills."
+      ],
       "whoTitle": "Who can join?",
       "who": "Young people ages 13–18 interested in developing their handball and leadership skills.",
       "receiveTitle": "What participants receive",
@@ -253,12 +269,16 @@
           "value": "[REPLACE: what participants bring]"
         }
       ],
-      "photo": "[REPLACE: photo — session at the training center]"
+      "photo": "Young athletes training at the Play4Ward centre"
     },
     "leadership": {
       "eyebrow": "Leadership through sport",
       "title": "Growing beyond the court",
-      "intro": "Our workshops connect sport to life skills. Play4Ward will develop and publish its own curriculum rather than make broad claims.",
+      "intro": "Beyond the court, our leadership, well-being, and personal development workshops create an inspiring and educational space.",
+      "body": [
+        "These sessions let young people interact directly with players from the Haitian national selection and other inspiring community figures, connecting with mentors through storytelling. By sharing their own stories and listening to others, our youth align their visions and goals in a supportive setting.",
+        "That fosters a real sense of community and helps them see what they can accomplish together. Through consistent engagement and mentorship, we aim to forge character, break down social barriers, and guide young people toward healthy choices and positive personal growth."
+      ],
       "topics": [
         "Communication",
         "Team leadership",
@@ -284,7 +304,11 @@
     "tournaments": {
       "eyebrow": "Tournaments & competitions",
       "title": "Play, represent, celebrate",
-      "intro": "Tournaments give young people a concrete goal and a chance to put what they learn into practice.",
+      "intro": "We organize and take part in local and regional tournaments so young people can test their skills and teamwork.",
+      "body": [
+        "They experience the thrill of the game both in their own neighbourhoods and in entirely new environments. These events go well beyond standard competition: they are a platform for our players to meet, compete, and share meaningful experiences with youth from different economic and social backgrounds.",
+        "By bridging those divides we champion social inclusion and respect for all, regardless of gender, religion, or socioeconomic status. Tournaments reinforce our vision of sport as a tool to build stronger communities, forge lasting friendships, and shape the champions of tomorrow — on and off the court."
+      ],
       "items": [
         "Tournament calendar",
         "Participating teams and results",
@@ -337,6 +361,29 @@
         {
           "value": "[—]",
           "label": "Equipment distributed"
+        }
+      ]
+    },
+    "sdg": {
+      "eyebrow": "Sustainable Development Goals",
+      "title": "How our work maps to the SDGs",
+      "intro": "Play4Ward contributes to three of the United Nations Sustainable Development Goals. These are the goals our programming is built around.",
+      "abbr": "SDG",
+      "items": [
+        {
+          "number": "3",
+          "title": "Good health & well-being",
+          "body": "Through regular handball practices and personal development workshops, we promote healthy lifestyles for our youth. By keeping young people physically active and mentally supported in a safe environment, we foster both physical fitness and emotional resilience, guiding them toward healthy choices."
+        },
+        {
+          "number": "5",
+          "title": "Gender equality",
+          "body": "We are committed to empowering girls and young women by ensuring equal access to our training sessions, mentorship programs, and leadership workshops. By promoting female participation in handball and breaking down gender stereotypes in sport, we create an environment where everyone has the opportunity to lead and succeed."
+        },
+        {
+          "number": "10",
+          "title": "Reduced inequalities",
+          "body": "By providing quality gear, coaching, and facilities to marginalized and underrepresented youth, we level the playing field. Our program deliberately brings together young people from diverse socioeconomic and cultural backgrounds — in practice and in tournaments — fostering mutual respect and breaking down societal barriers."
         }
       ]
     },
@@ -584,11 +631,11 @@
       "title": "The people who back the mission",
       "intro": "We don't present a casual supporter as an \"official partner\" unless the relationship is confirmed."
     },
-    "note": "[REPLACE: for each partner — logo, short description, type of support, related program, and a link to their website.]",
+    "note": "Confirmed supporters: the IOC Young Leaders programme (Advancing Olympism 365) and the EdLight Initiative. [REPLACE: add each remaining partner — logo, short description, type of support, related program, and a link to their website.]",
     "categories": [
       {
         "title": "Strategic partners",
-        "body": "[REPLACE: organizations that shape our direction.]"
+        "body": "EdLight Initiative."
       },
       {
         "title": "Financial sponsors",
@@ -621,10 +668,10 @@
       "title": "Let's connect",
       "intro": "A question, an interest in joining, or a way to support us? Here's how to reach us."
     },
-    "emailNote": "email to replace",
+    "emailNote": "All inquiries go through our general address.",
     "methods": {
       "generalTitle": "General email",
-      "general": "REPLACE@play4ward.org",
+      "general": "play4wardsport@gmail.com",
       "whatsappTitle": "WhatsApp",
       "whatsapp": "[REPLACE: organization WhatsApp number]",
       "locationTitle": "Location",
@@ -637,15 +684,15 @@
       "items": [
         {
           "title": "Partnerships",
-          "value": "partnerships@play4ward.org [REPLACE]"
+          "value": "play4wardsport@gmail.com"
         },
         {
           "title": "Press & media",
-          "value": "media@play4ward.org [REPLACE]"
+          "value": "play4wardsport@gmail.com"
         },
         {
           "title": "Volunteering",
-          "value": "volunteer@play4ward.org [REPLACE]"
+          "value": "play4wardsport@gmail.com"
         }
       ]
     },

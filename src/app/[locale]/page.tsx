@@ -10,8 +10,10 @@ import { CTASection } from '@/components/CTASection';
 import { ImagePlaceholder } from '@/components/ImagePlaceholder';
 import { Button } from '@/components/Button';
 
+// `photo` is set only where Play4Ward has a real image; the others keep their
+// labelled placeholders until photos arrive (see CONTENT-CHECKLIST.md).
 const programKeys = [
-  { key: 'center', href: '/programs#center' },
+  { key: 'center', href: '/programs#center', photo: '/photos/training-session.jpg' },
   { key: 'leadership', href: '/programs#leadership' },
   { key: 'outreach', href: '/programs#outreach' },
   { key: 'tournaments', href: '/programs#tournaments' },
@@ -68,6 +70,7 @@ export default function HomePage({
               href={p.href}
               cta={t('programsHead.cta')}
               photoLabel={tp(`${p.key}.photo`)}
+              photoSrc={'photo' in p ? p.photo : undefined}
             />
           ))}
         </div>

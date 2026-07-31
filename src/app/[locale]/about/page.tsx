@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { PageHero } from '@/components/PageHero';
 import { Section } from '@/components/Section';
 import { ImagePlaceholder } from '@/components/ImagePlaceholder';
+import { Photo } from '@/components/Photo';
 import { CTASection } from '@/components/CTASection';
 
 export default function AboutPage({
@@ -17,10 +18,9 @@ export default function AboutPage({
   const t = useTranslations('about');
   const values = t.raw('values.items') as { title: string; body: string }[];
   const points = t.raw('why.points') as string[];
-  const members = t.raw('team.members') as {
-    name: string;
-    role: string;
-    bio: string;
+  const teamGroups = t.raw('team.groups') as {
+    title: string;
+    members: { name: string; role: string; bio: string }[];
   }[];
   const gov = t.raw('governance.items') as string[];
 
@@ -41,7 +41,11 @@ export default function AboutPage({
             <p className="mt-5 leading-relaxed text-ink/75">{t('story.body1')}</p>
             <p className="mt-4 leading-relaxed text-ink/75">{t('story.body2')}</p>
           </div>
-          <ImagePlaceholder label={t('story.photo')} ratio="aspect-[4/3]" />
+          <Photo
+            src="/photos/training-session.jpg"
+            label={t('story.photo')}
+            ratio="aspect-[3/2]"
+          />
         </div>
       </Section>
 
@@ -65,7 +69,7 @@ export default function AboutPage({
         eyebrow={t('values.eyebrow')}
         title={t('values.title')}
       >
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {values.map((v, i) => (
             <div key={i} className="rounded-2xl bg-sand p-6">
               <span className="font-display text-sm font-bold text-coral">
@@ -97,20 +101,29 @@ export default function AboutPage({
         </div>
       </Section>
 
-      {/* Team */}
+      {/* Team — grouped: founders, then coaching staff */}
       <Section tone="white" eyebrow={t('team.eyebrow')} title={t('team.title')} intro={t('team.intro')}>
-        <div className="grid gap-6 sm:grid-cols-3">
-          {members.map((m, i) => (
-            <div key={i} className="overflow-hidden rounded-2xl bg-sand shadow-card">
-              <ImagePlaceholder
-                label="[REPLACE: portrait]"
-                ratio="aspect-square"
-                className="rounded-none border-0"
-              />
-              <div className="p-6">
-                <h3 className="text-lg">{m.name}</h3>
-                <p className="text-sm font-semibold text-coral">{m.role}</p>
-                <p className="mt-3 text-sm leading-relaxed text-ink/70">{m.bio}</p>
+        <div className="space-y-12">
+          {teamGroups.map((group, gi) => (
+            <div key={gi}>
+              <h3 className="font-display text-sm font-bold uppercase tracking-wide text-coral">
+                {group.title}
+              </h3>
+              <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {group.members.map((m, i) => (
+                  <div key={i} className="overflow-hidden rounded-2xl bg-sand shadow-card">
+                    <ImagePlaceholder
+                      label={t('team.portraitLabel')}
+                      ratio="aspect-square"
+                      className="rounded-none border-0"
+                    />
+                    <div className="p-6">
+                      <h4 className="text-lg">{m.name}</h4>
+                      <p className="text-sm font-semibold text-coral">{m.role}</p>
+                      <p className="mt-3 text-sm leading-relaxed text-ink/70">{m.bio}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           ))}

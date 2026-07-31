@@ -29,7 +29,7 @@
     "getInTouch": "Nous contacter",
     "year": "2026",
     "rights": "Tous droits réservés.",
-    "builtWith": "Formé sur le terrain, construit pour la communauté."
+    "builtWith": "Jouer pour un avenir meilleur."
   },
   "home": {
     "hero": {
@@ -40,15 +40,15 @@
       "primary": "Rejoindre PLAY4WARD",
       "secondary": "Soutenir notre mission",
       "tertiary": "Devenir partenaire",
-      "photo": "[REMPLACER : photo d'action — jeunes à l'entraînement, Jacmel]",
+      "photo": "Des athlètes de PLAY4WARD tenant la bannière de l'équipe après un entraînement à Jacmel",
       "badgeTop": "Basé à",
       "badgeBottom": "Jacmel, Haïti"
     },
     "impactStrip": "Nous formons une nouvelle génération de joueurs et de leaders de handball à Jacmel et à travers Haïti.",
     "missionHead": {
-      "eyebrow": "Notre approche",
-      "title": "Jouer. Diriger. Avancer.",
-      "intro": "Le handball n'est pas seulement un sport chez PLAY4WARD — c'est un moyen d'aider les jeunes à grandir en confiance, en discipline et en responsabilité."
+      "eyebrow": "Nos piliers",
+      "title": "Jouer. Apprendre. Grandir. Briller.",
+      "intro": "Le handball n'est pas seulement un sport chez PLAY4WARD — c'est un moyen d'aider les jeunes à grandir en confiance, en discipline et en responsabilité. Quatre piliers guident tout ce que nous faisons."
     },
     "programsHead": {
       "eyebrow": "Nos programmes",
@@ -70,42 +70,46 @@
       "eyebrow": "Ils nous soutiennent",
       "title": "Nos partenaires",
       "intro": "Nous travaillons avec des écoles, des organisations et des entreprises qui croient au potentiel des jeunes.",
-      "note": "[REMPLACER : logos des partenaires confirmés — inclure EdLight le cas échéant]"
+      "note": "PLAY4WARD est soutenu par le programme IOC Young Leaders et Olympism 365, avec l'appui complémentaire de l'EdLight Initiative."
     }
   },
   "mission": {
-    "play": {
-      "title": "Jouer",
-      "body": "Les jeunes bénéficient d'un entraînement structuré au handball, d'un encadrement, d'équipements et d'occasions de compétition."
+    "inclusion": {
+      "title": "Inclusion",
+      "body": "Nous croyons que le terrain de handball est un lieu pour tous. En réunissant délibérément des jeunes de milieux socio-économiques, culturels et géographiques différents, nous utilisons le sport pour faire tomber les barrières sociales. Notre programme garantit un espace sûr, accueillant et respectueux où chaque jeune se sent reconnu et accepté."
     },
-    "lead": {
-      "title": "Diriger",
-      "body": "Les joueurs développent la communication, la discipline, l'esprit d'équipe, le sens des responsabilités et le leadership."
+    "youthLeadership": {
+      "title": "Leadership des jeunes",
+      "body": "Nous nous engageons à former les leaders de demain, sur le terrain comme en dehors. À travers des ateliers ciblés, le mentorat entre pairs et les activités d'équipe, nous transmettons aux jeunes des compétences essentielles de communication et de prise de décision, et nous les encourageons à prendre des initiatives et à devenir des modèles actifs dans leur communauté."
     },
-    "moveForward": {
-      "title": "Avancer",
-      "body": "Les participants sont encouragés à devenir des acteurs positifs au sein de leur école, de leur équipe et de leur communauté."
+    "empowerment": {
+      "title": "Autonomisation",
+      "body": "Notre programme ne se limite pas à la technique du handball : il est un moteur de développement personnel. En offrant des ressources de qualité, un encadrement dévoué et un espace où leur voix compte, nous donnons aux jeunes la confiance nécessaire pour révéler leur potentiel, se fixer des objectifs ambitieux et prendre leur avenir en main."
+    },
+    "resilience": {
+      "title": "Résilience",
+      "body": "Le sport est l'une des meilleures écoles pour apprendre à gérer la victoire comme la défaite. À travers les exigences physiques et mentales de l'entraînement et des tournois, nos jeunes apprennent à surmonter l'adversité et à rebondir après un échec — une force qui se transpose directement dans leur vie quotidienne."
     }
   },
   "programCards": {
     "center": {
       "title": "Centre d'entraînement de handball",
-      "desc": "Un entraînement intensif et encadré pour les jeunes de 13 à 18 ans, avec accès à l'équipement.",
-      "photo": "[REMPLACER : photo — séance d'entraînement]"
+      "desc": "Séances d'entraînement en handball avec encadrement et matériel adapté.",
+      "photo": "De jeunes athlètes à l'entraînement lors d'une séance PLAY4WARD"
     },
     "leadership": {
       "title": "Leadership par le sport",
-      "desc": "Des ateliers pour développer la communication, la fixation d'objectifs et la responsabilité communautaire.",
+      "desc": "Ateliers de leadership, bien-être et développement personnel.",
       "photo": "[REMPLACER : photo — atelier de leadership]"
     },
     "outreach": {
       "title": "Écoles et communauté",
-      "desc": "Des cliniques d'initiation, des démonstrations et des dons d'équipement dans les écoles et les quartiers.",
+      "desc": "Des espaces de rencontre entre jeunes de différents milieux.",
       "photo": "[REMPLACER : photo — clinique en milieu scolaire]"
     },
     "tournaments": {
       "title": "Tournois et compétitions",
-      "desc": "Des occasions de jouer, de représenter son équipe et de célébrer les progrès de chacun.",
+      "desc": "Tournois et événements communautaires.",
       "photo": "[REMPLACER : photo — jour de tournoi]"
     }
   },
@@ -113,44 +117,36 @@
     "hero": {
       "eyebrow": "À propos de PLAY4WARD",
       "title": "Le handball comme point de départ, pas comme finalité",
-      "intro": "PLAY4WARD est une organisation de développement des jeunes. Nous utilisons le handball pour aider les jeunes Haïtiens à développer leurs compétences, leur confiance et leur leadership."
+      "intro": "PLAY4WARD est une initiative de handball pour les jeunes, qui utilise le sport comme un outil de développement personnel, de confiance et d'esprit d'équipe dans un cadre sûr et inclusif."
     },
     "story": {
       "eyebrow": "Notre histoire",
       "title": "Pourquoi nous existons",
-      "body1": "[REMPLACER : racontez l'origine de PLAY4WARD — qui l'a fondé, pourquoi l'organisation a été créée, et pourquoi le travail a commencé à Jacmel.]",
-      "body2": "[REMPLACER : décrivez le problème que PLAY4WARD cherche à résoudre — l'accès limité au sport encadré et aux opportunités de leadership pour les jeunes.]",
-      "photo": "[REMPLACER : photo — l'équipe ou les débuts à Jacmel]"
+      "body1": "PLAY4WARD a été fondé par Rony Francillon et Vasty Jean François, qui ont grandi en jouant au handball en Haïti. Au lycée, il n'y avait aucun terrain de sport dans leur communauté, ni de quoi s'acheter des chaussures ou du matériel. Leur mère faisait déjà de son mieux pour leur offrir une bonne école : les académies sportives du samedi, que fréquentaient beaucoup de leurs camarades, restaient hors de portée. Ils ont joué quand même — des buts faits avec leurs sacs à dos, et un ballon de football en guise de ballon de handball, faute d'équipement.",
+      "body2": "Le handball était à peine connu dans leur école, et n'y recevait donc que peu d'attention. Ces conversations étaient frustrantes, mais sur le terrain, ce même groupe d'amis trouvait une véritable communauté et un sentiment d'appartenance. C'est de ce contraste qu'est né PLAY4WARD. À Jacmel, les jeunes qui veulent jouer n'ont toujours qu'un accès limité au sport encadré, à un équipement correct et aux occasions de leadership qu'offre une équipe. Nous construisons donc l'espace qui nous a manqué — et nous le construisons pour que chacun puisse y participer, quel que soit son milieu.",
+      "photo": "Une séance d'entraînement PLAY4WARD à Jacmel"
     },
     "mv": {
       "missionTitle": "Notre mission",
-      "mission": "PLAY4WARD donne aux jeunes d'Haïti les moyens de s'épanouir grâce au handball, au développement du leadership et à des opportunités inclusives, sur le terrain comme au-delà.",
+      "mission": "Notre objectif est d'offrir aux jeunes un espace sûr et inclusif où le handball est un moyen de développer la confiance, l'esprit d'équipe et des compétences de vie.",
       "visionTitle": "Notre vision",
-      "vision": "Une Haïti où chaque jeune peut accéder au sport, développer son potentiel et devenir un leader dans sa communauté."
+      "vision": "Notre vision est de devenir la référence nationale du handball pour les jeunes, où le sport forge le caractère, renforce la communauté et forme des champions."
     },
     "values": {
       "eyebrow": "Nos valeurs",
       "title": "Ce qui nous guide",
       "items": [
         {
-          "title": "Discipline",
-          "body": "La régularité et l'effort, à l'entraînement comme en dehors."
+          "title": "Inclusion sociale",
+          "body": "Notre programme crée un espace sûr et respectueux où les jeunes marginalisés et sous-représentés peuvent se rencontrer, grandir et s'épanouir aux côtés de leurs pairs — sans distinction de genre, d'origine, d'ethnie, de religion ou de milieu social."
         },
         {
-          "title": "Leadership",
-          "body": "Chaque joueur peut apprendre à guider les autres."
+          "title": "Développement positif des jeunes",
+          "body": "Nous utilisons le sport pour créer des environnements structurés et bienveillants où les jeunes développent confiance, discipline, esprit d'équipe et sentiment d'appartenance. Par un accompagnement régulier et du mentorat, nous les aidons à faire des choix sains."
         },
         {
-          "title": "Inclusion",
-          "body": "Le handball est ouvert aux filles comme aux garçons."
-        },
-        {
-          "title": "Esprit d'équipe",
-          "body": "On gagne ensemble, on apprend ensemble."
-        },
-        {
-          "title": "Opportunité",
-          "body": "Ouvrir des portes que le sport peut ouvrir."
+          "title": "Engagement citoyen",
+          "body": "Nous donnons aux jeunes les moyens de se forger leur propre opinion, de s'exprimer avec assurance et de prendre des décisions éclairées — en reconnaissant leur rôle de citoyens actifs, capables de contribuer positivement à leur communauté et à leur pays."
         }
       ]
     },
@@ -170,24 +166,40 @@
     "team": {
       "eyebrow": "Équipe et encadrement",
       "title": "Les personnes derrière PLAY4WARD",
-      "intro": "[REMPLACER : ajoutez photo, rôle et une courte biographie pour chaque membre.]",
-      "members": [
+      "intro": "Les fondateurs et l'encadrement technique qui font vivre PLAY4WARD, sur le terrain et en dehors.",
+      "groups": [
         {
-          "name": "[REMPLACER : nom]",
-          "role": "Fondateur / Directeur",
-          "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+          "title": "Fondateurs",
+          "members": [
+            {
+              "name": "Rony Francillon",
+              "role": "Co-fondateur",
+              "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+            },
+            {
+              "name": "Vasty Jean François",
+              "role": "Co-fondateur",
+              "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+            }
+          ]
         },
         {
-          "name": "[REMPLACER : nom]",
-          "role": "Entraîneur principal",
-          "bio": "[REMPLACER : 2–3 phrases de biographie.]"
-        },
-        {
-          "name": "[REMPLACER : nom]",
-          "role": "Coordination des programmes",
-          "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+          "title": "Encadrement technique",
+          "members": [
+            {
+              "name": "Marc Kingsley-Désir",
+              "role": "Entraîneur principal",
+              "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+            },
+            {
+              "name": "Steeve Jeudy",
+              "role": "Entraîneur adjoint",
+              "bio": "[REMPLACER : 2–3 phrases de biographie.]"
+            }
+          ]
         }
-      ]
+      ],
+      "portraitLabel": "[REMPLACER : portrait]"
     },
     "governance": {
       "eyebrow": "Gouvernance et transparence",
@@ -211,6 +223,10 @@
     "center": {
       "eyebrow": "Centre d'entraînement",
       "title": "Centre d'entraînement de handball",
+      "body": [
+        "Nos séances d'entraînement mettent l'accent sur la collaboration, l'esprit d'équipe et la capacité à travailler en harmonie avec les autres, quel que soit leur milieu culturel, économique ou social. Parce que nous croyons à l'inclusion sociale par le sport, ces séances sont conçues comme des espaces sûrs, structurés et respectueux où les jeunes marginalisés et sous-représentés peuvent grandir et s'épanouir aux côtés de leurs pairs.",
+        "Les jeunes jouent au handball avec du matériel de qualité, dans un environnement adapté, et notre encadrement veille à ce que chaque athlète dispose d'installations bien équipées pour explorer ses talents en toute sécurité et développer sa discipline. Ces entraînements ne visent pas seulement l'excellence sportive : ils sont un moyen de bâtir la confiance en soi, un sentiment d'appartenance et des compétences essentielles pour la vie."
+      ],
       "whoTitle": "Qui peut participer ?",
       "who": "Les jeunes de 13 à 18 ans désireux de développer leurs compétences en handball et en leadership.",
       "receiveTitle": "Ce que reçoivent les participants",
@@ -253,12 +269,16 @@
           "value": "[REMPLACER : ce que les participants apportent]"
         }
       ],
-      "photo": "[REMPLACER : photo — séance au centre d'entraînement]"
+      "photo": "De jeunes athlètes à l'entraînement au centre PLAY4WARD"
     },
     "leadership": {
       "eyebrow": "Leadership par le sport",
       "title": "Grandir au-delà du terrain",
-      "intro": "Nos ateliers relient le sport aux compétences de vie. PLAY4WARD développera et publiera son propre programme plutôt que de faire des promesses vagues.",
+      "intro": "Au-delà du terrain, nos ateliers de leadership, de bien-être et de développement personnel créent un espace inspirant et éducatif.",
+      "body": [
+        "Ces séances permettent aux jeunes d'échanger directement avec des joueurs de la sélection nationale haïtienne et d'autres figures inspirantes de la communauté, et de nouer un lien avec des mentors par la force du récit. En partageant leur propre histoire et en écoutant celle des autres, nos jeunes alignent leurs visions et leurs objectifs dans un cadre bienveillant.",
+        "Cela nourrit un véritable sentiment de communauté et leur fait entrevoir ce qu'ils peuvent accomplir ensemble. Par cet accompagnement régulier et ce mentorat, nous cherchons à forger le caractère, à faire tomber les barrières sociales et à guider les jeunes vers des choix sains et une croissance personnelle positive."
+      ],
       "topics": [
         "Communication",
         "Leadership d'équipe",
@@ -284,7 +304,11 @@
     "tournaments": {
       "eyebrow": "Tournois et compétitions",
       "title": "Jouer, représenter, célébrer",
-      "intro": "Les tournois donnent aux jeunes un but concret et une occasion de mettre en pratique ce qu'ils apprennent.",
+      "intro": "Nous organisons et participons à des tournois locaux et régionaux pour que les jeunes mettent à l'épreuve leurs compétences et leur esprit d'équipe.",
+      "body": [
+        "Ils y vivent l'intensité du jeu, dans leur propre quartier comme dans des environnements entièrement nouveaux. Ces rendez-vous dépassent largement la simple compétition : ils offrent à nos joueurs une occasion de se rencontrer, de s'affronter et de partager des expériences fortes avec des jeunes venus de milieux économiques et sociaux différents.",
+        "En jetant des ponts entre ces mondes, nous défendons l'inclusion sociale et le respect de chacun, sans distinction de genre, de religion ou de milieu social. Les tournois renforcent notre vision d'un sport qui bâtit des communautés plus fortes, crée des amitiés durables et forme les champions de demain, sur le terrain comme en dehors."
+      ],
       "items": [
         "Calendrier des tournois",
         "Équipes participantes et résultats",
@@ -337,6 +361,29 @@
         {
           "value": "[—]",
           "label": "Équipements distribués"
+        }
+      ]
+    },
+    "sdg": {
+      "eyebrow": "Objectifs de développement durable",
+      "title": "Comment notre action rejoint les ODD",
+      "intro": "PLAY4WARD contribue à trois des Objectifs de développement durable des Nations unies. Ce sont les objectifs autour desquels nos programmes sont construits.",
+      "abbr": "ODD",
+      "items": [
+        {
+          "number": "3",
+          "title": "Bonne santé et bien-être",
+          "body": "À travers nos entraînements réguliers de handball et nos ateliers de développement personnel, nous encourageons des modes de vie sains chez les jeunes. En les maintenant physiquement actifs et soutenus mentalement dans un cadre sûr, nous développons à la fois la condition physique et la résilience émotionnelle, et nous les guidons vers des choix sains."
+        },
+        {
+          "number": "5",
+          "title": "Égalité entre les sexes",
+          "body": "Nous nous engageons à donner aux filles et aux jeunes femmes les moyens d'agir, en garantissant un accès égal à nos entraînements, à nos programmes de mentorat et à nos ateliers de leadership. En favorisant la participation féminine au handball et en faisant tomber les stéréotypes de genre dans le sport, nous créons un environnement où chacune et chacun a la possibilité de diriger et de réussir."
+        },
+        {
+          "number": "10",
+          "title": "Réduction des inégalités",
+          "body": "En offrant du matériel de qualité, un encadrement et des installations aux jeunes marginalisés et sous-représentés, nous rétablissons l'équité des chances. Notre programme réunit délibérément des jeunes de milieux socio-économiques et culturels différents — à l'entraînement comme en tournoi — ce qui nourrit le respect mutuel et fait tomber les barrières sociales."
         }
       ]
     },
@@ -584,11 +631,11 @@
       "title": "Celles et ceux qui soutiennent la mission",
       "intro": "Nous ne présentons pas un simple sympathisant comme un « partenaire officiel » tant que la relation n'est pas confirmée."
     },
-    "note": "[REMPLACER : pour chaque partenaire — logo, brève description, type de soutien, programme associé et lien vers le site.]",
+    "note": "Soutiens confirmés : le programme IOC Young Leaders (Advancing Olympism 365) et l'EdLight Initiative. [REMPLACER : ajoutez pour chaque autre partenaire — logo, courte description, type de soutien, programme concerné et lien vers son site.]",
     "categories": [
       {
         "title": "Partenaires stratégiques",
-        "body": "[REMPLACER : organisations qui façonnent notre orientation.]"
+        "body": "EdLight Initiative."
       },
       {
         "title": "Mécènes financiers",
@@ -621,10 +668,10 @@
       "title": "Entrons en contact",
       "intro": "Une question, une envie de rejoindre l'équipe ou de nous soutenir ? Voici comment nous joindre."
     },
-    "emailNote": "adresse à remplacer",
+    "emailNote": "Toutes les demandes passent par notre adresse générale.",
     "methods": {
       "generalTitle": "Email général",
-      "general": "REMPLACER@play4ward.org",
+      "general": "play4wardsport@gmail.com",
       "whatsappTitle": "WhatsApp",
       "whatsapp": "[REMPLACER : numéro WhatsApp de l'organisation]",
       "locationTitle": "Lieu",
@@ -637,15 +684,15 @@
       "items": [
         {
           "title": "Partenariats",
-          "value": "partenariats@play4ward.org [REMPLACER]"
+          "value": "play4wardsport@gmail.com"
         },
         {
           "title": "Presse et médias",
-          "value": "medias@play4ward.org [REMPLACER]"
+          "value": "play4wardsport@gmail.com"
         },
         {
           "title": "Bénévolat",
-          "value": "benevolat@play4ward.org [REMPLACER]"
+          "value": "play4wardsport@gmail.com"
         }
       ]
     },

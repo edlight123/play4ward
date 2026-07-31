@@ -68,27 +68,35 @@ node -e "const f=require('./messages/fr.json'),e=require('./messages/en.json'),h
 
 ## Things to replace before launch
 
-Everything that needs real content is marked **`[REPLACE: …]`** (English/Creole)
-or **`[REMPLACER : …]`** (French) directly in the copy, and appears as a labelled
-placeholder block on the page. There are **no fabricated numbers, logos,
-testimonials, or bios** anywhere.
+Everything that still needs real content is marked **`[REPLACE: …]`** (English),
+**`[REMPLACER : …]`** (French), or **`[RANPLASE: …]`** (Creole) directly in the
+copy, and appears as a labelled placeholder block on the page. There are **no
+fabricated numbers, logos, testimonials, or bios** anywhere.
 
-Key spots:
+`CONTENT-CHECKLIST.md` is the full, current list. Already supplied from the
+official brand folder: the logo, mission, vision, values, the four pillars, the
+founder story, team names and roles, the general email, and two photos.
 
-1. **Links** — `src/lib/config.ts`
-   - `registrationForm` → the Join button opens this (currently the Google Form placeholder)
-   - `instagram` → your Instagram profile
-   - `donate` → your donation link/page
-2. **Contact details** — `messages/*.json` under `contact.*` and `footer` (email, WhatsApp, Instagram handle)
-3. **Photos** — every `[REPLACE]` image block names the asset it needs (see `CONTENT-CHECKLIST.md`)
-4. **Impact numbers** — `messages/*.json` under `impact.dashboard.stats` (all currently `[—]`)
-5. **Team bios** — `about.team.members`
-6. **Donation amounts** — `support.money.tiers` (currently marked as examples)
-7. **Logo** — `src/components/Logo.tsx` (swap the placeholder mark for official logo files)
+Key spots still outstanding:
 
-Replacing real photos: swap `<ImagePlaceholder … />` usages for Next.js
-`<Image>` (put files in `public/` and import). The placeholders are intentionally
-easy to find — search the codebase for `ImagePlaceholder`.
+1. **Registration form** — `content/settings.json` (`registrationForm`). The
+   recruitment form in the shared Drive folder is a private copy (HTTP 401); it
+   has to be published and accepting responses before the Join button can use it.
+2. **Donation link** — `content/settings.json` (`donate`)
+3. **WhatsApp number** — `messages/*.json` under `contact.methods.whatsapp`
+4. **Impact numbers** — `impact.dashboard.stats` (8 values, all `[—]`)
+5. **Team bios and portraits** — `about.team.groups[].members[]`
+6. **Training schedule, location, cost** — `programs.center.details`
+7. **Photos** — leadership workshop, school clinic, tournament day, athlete
+   portraits. Every remaining image block names the asset it needs.
+8. **Partner logos** — the home partners strip is still four placeholder tiles.
+9. **Events and news** — `events.items`, `news.items`
+
+Adding real photos: use the `<Photo>` component (`src/components/Photo.tsx`) in
+place of `<ImagePlaceholder>` — it takes the same `label` / `ratio` / `className`
+props, so the swap is one-for-one, and `label` becomes the alt text. Put files in
+`public/photos/`. The remaining placeholders are easy to find: search for
+`ImagePlaceholder`.
 
 ---
 

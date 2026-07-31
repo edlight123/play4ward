@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import { Link } from '@/i18n/navigation';
 import { ImagePlaceholder } from './ImagePlaceholder';
+import { Photo } from './Photo';
 
 /* ---- ProgramCard ---------------------------------------------------- */
 export function ProgramCard({
@@ -10,6 +11,7 @@ export function ProgramCard({
   href,
   cta,
   photoLabel,
+  photoSrc,
 }: {
   index: string;
   title: string;
@@ -17,13 +19,25 @@ export function ProgramCard({
   href: string;
   cta: string;
   photoLabel: string;
+  /** Real photo, where Play4Ward has one. Falls back to a labelled placeholder. */
+  photoSrc?: string;
 }) {
   return (
     <Link
       href={href}
       className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-card transition-all hover:-translate-y-1 hover:shadow-lift"
     >
-      <ImagePlaceholder label={photoLabel} ratio="aspect-[16/10]" className="rounded-none border-0" />
+      {photoSrc ? (
+        <Photo
+          src={photoSrc}
+          label={photoLabel}
+          ratio="aspect-[16/10]"
+          className="rounded-none"
+          sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+        />
+      ) : (
+        <ImagePlaceholder label={photoLabel} ratio="aspect-[16/10]" className="rounded-none border-0" />
+      )}
       <div className="flex flex-1 flex-col p-6">
         <span className="font-display text-sm font-bold text-coral">{index}</span>
         <h3 className="mt-2 text-xl">{title}</h3>

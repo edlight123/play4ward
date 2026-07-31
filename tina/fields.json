@@ -363,12 +363,12 @@
   {
     "type": "object",
     "name": "mission",
-    "label": "Mission",
+    "label": "Pillars",
     "fields": [
       {
         "type": "object",
-        "name": "play",
-        "label": "Play",
+        "name": "inclusion",
+        "label": "Inclusion",
         "fields": [
           {
             "type": "string",
@@ -387,8 +387,8 @@
       },
       {
         "type": "object",
-        "name": "lead",
-        "label": "Lead",
+        "name": "youthLeadership",
+        "label": "Youth Leadership",
         "fields": [
           {
             "type": "string",
@@ -407,8 +407,28 @@
       },
       {
         "type": "object",
-        "name": "moveForward",
-        "label": "Move Forward",
+        "name": "empowerment",
+        "label": "Empowerment",
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "resilience",
+        "label": "Resilience",
         "fields": [
           {
             "type": "string",
@@ -730,25 +750,56 @@
             "label": "Intro"
           },
           {
+            "type": "string",
+            "name": "portraitLabel",
+            "label": "Portrait placeholder label"
+          },
+          {
             "type": "object",
-            "name": "members",
-            "label": "Members",
+            "name": "groups",
+            "label": "Groups (e.g. Founders, Coaching staff)",
             "list": true,
+            "ui": {
+              "itemProps": {
+                "label": "title"
+              }
+            },
             "fields": [
               {
                 "type": "string",
-                "name": "name",
-                "label": "Name"
+                "name": "title",
+                "label": "Group title"
               },
               {
-                "type": "string",
-                "name": "role",
-                "label": "Role"
-              },
-              {
-                "type": "string",
-                "name": "bio",
-                "label": "Bio"
+                "type": "object",
+                "name": "members",
+                "label": "Members",
+                "list": true,
+                "ui": {
+                  "itemProps": {
+                    "label": "name"
+                  }
+                },
+                "fields": [
+                  {
+                    "type": "string",
+                    "name": "name",
+                    "label": "Name"
+                  },
+                  {
+                    "type": "string",
+                    "name": "role",
+                    "label": "Role"
+                  },
+                  {
+                    "type": "string",
+                    "name": "bio",
+                    "label": "Bio",
+                    "ui": {
+                      "component": "textarea"
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -836,6 +887,15 @@
             "type": "string",
             "name": "title",
             "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body paragraphs",
+            "list": true,
+            "ui": {
+              "component": "textarea"
+            }
           },
           {
             "type": "string",
@@ -927,6 +987,15 @@
           },
           {
             "type": "string",
+            "name": "body",
+            "label": "Body paragraphs",
+            "list": true,
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
             "name": "topics",
             "label": "Topics",
             "list": true
@@ -975,6 +1044,15 @@
             "type": "string",
             "name": "intro",
             "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "body",
+            "label": "Body paragraphs",
+            "list": true,
             "ui": {
               "component": "textarea"
             }
@@ -1065,6 +1143,67 @@
                 "type": "string",
                 "name": "label",
                 "label": "Label"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "object",
+        "name": "sdg",
+        "label": "SDG alignment",
+        "fields": [
+          {
+            "type": "string",
+            "name": "eyebrow",
+            "label": "Eyebrow"
+          },
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "intro",
+            "label": "Intro",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "abbr",
+            "label": "Abbreviation (SDG / ODD)"
+          },
+          {
+            "type": "object",
+            "name": "items",
+            "label": "Goals",
+            "list": true,
+            "ui": {
+              "itemProps": {
+                "label": "title"
+              }
+            },
+            "fields": [
+              {
+                "type": "string",
+                "name": "number",
+                "label": "UN goal number (3, 5, 10 — sets the official colour)"
+              },
+              {
+                "type": "string",
+                "name": "title",
+                "label": "Goal title"
+              },
+              {
+                "type": "string",
+                "name": "body",
+                "label": "Body",
+                "ui": {
+                  "component": "textarea"
+                }
               }
             ]
           }
