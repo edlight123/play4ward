@@ -17,8 +17,10 @@
  * `category` indexes into `partners.categories` in messages/*.json:
  *   0 Strategic partners   1 Financial sponsors   2 Program partners
  *   3 School partners      4 Media partners       5 Equipment partners
- * Both sit in 0: they are supporters, and calling either a "financial sponsor"
- * would claim more than we know.
+ *
+ * IOC Young Leaders sits in 1 (financial sponsors): they awarded Play4Ward a grant.
+ * EdLight sits in 0 (strategic partners) deliberately — the nature of their support
+ * is not public, so the site names them without characterising what they provide.
  */
 export type Partner = {
   name: string;
@@ -35,7 +37,7 @@ export const confirmedPartners: Partner[] = [
     logo: '/partners/ioc-young-leaders.png',
     width: 450,
     height: 82,
-    category: 0,
+    category: 1,
   },
   {
     name: 'EdLight Initiative',

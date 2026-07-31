@@ -57,6 +57,11 @@
       "intro": "Un entraînement structuré, du leadership, des actions communautaires et des compétitions — pensés pour les 12 à 19 ans.",
       "cta": "Découvrir"
     },
+    "videoHead": {
+      "eyebrow": "En action",
+      "title": "Une séance à Jacmel",
+      "intro": "Une minute sur le terrain avec nos jeunes : travail d'agilité, exercices de balle, et l'équipe qui vient chaque semaine."
+    },
     "storyHead": {
       "eyebrow": "Portraits",
       "title": "Des parcours qui parlent d'eux-mêmes"
@@ -71,7 +76,7 @@
       "eyebrow": "Ils nous soutiennent",
       "title": "Nos partenaires",
       "intro": "Nous travaillons avec des écoles, des organisations et des entreprises qui croient au potentiel des jeunes.",
-      "note": "PLAY4WARD est soutenu par le programme IOC Young Leaders et Olympism 365, avec l'appui complémentaire de l'EdLight Initiative."
+      "note": "Le travail de PLAY4WARD est financé en partie par une subvention du programme IOC Young Leaders, dans le cadre d'Olympism 365, avec l'appui complémentaire de l'EdLight Initiative."
     }
   },
   "mission": {
@@ -639,7 +644,7 @@
       "title": "Celles et ceux qui soutiennent la mission",
       "intro": "Nous ne présentons pas un simple sympathisant comme un « partenaire officiel » tant que la relation n'est pas confirmée."
     },
-    "note": "Soutiens confirmés : le programme IOC Young Leaders (Advancing Olympism 365) et l'EdLight Initiative. [REMPLACER : ajoutez pour chaque autre partenaire — logo, courte description, type de soutien, programme concerné et lien vers son site.]",
+    "note": "Soutiens confirmés : le programme IOC Young Leaders (Advancing Olympism 365), qui a accordé une subvention à PLAY4WARD, et l'EdLight Initiative. [REMPLACER : ajoutez pour chaque autre partenaire — logo, courte description, type de soutien, programme concerné et lien vers son site.]",
     "categories": [
       {
         "title": "Partenaires stratégiques",
@@ -647,7 +652,7 @@
       },
       {
         "title": "Mécènes financiers",
-        "body": "[REMPLACER : bailleurs et donateurs.]"
+        "body": "Financement par subvention du programme IOC Young Leaders, dans le cadre d'Olympism 365."
       },
       {
         "title": "Partenaires de programme",

@@ -57,6 +57,11 @@
       "intro": "Structured training, leadership, community outreach, and competition — built for ages 12 to 19.",
       "cta": "Explore"
     },
+    "videoHead": {
+      "eyebrow": "In action",
+      "title": "See a session in Jacmel",
+      "intro": "A minute on the court with our players — agility work, ball drills, and the team that turns up every week."
+    },
     "storyHead": {
       "eyebrow": "Portraits",
       "title": "Stories that speak for themselves"
@@ -71,7 +76,7 @@
       "eyebrow": "They support us",
       "title": "Our partners",
       "intro": "We work with schools, organizations, and companies that believe in young people's potential.",
-      "note": "Play4Ward is supported by the IOC Young Leaders programme and Olympism 365, with additional support from the EdLight Initiative."
+      "note": "Play4Ward's work is funded in part by a grant from the IOC Young Leaders programme, advancing Olympism 365, with further support from the EdLight Initiative."
     }
   },
   "mission": {
@@ -639,7 +644,7 @@
       "title": "The people who back the mission",
       "intro": "We don't present a casual supporter as an \"official partner\" unless the relationship is confirmed."
     },
-    "note": "Confirmed supporters: the IOC Young Leaders programme (Advancing Olympism 365) and the EdLight Initiative. [REPLACE: add each remaining partner — logo, short description, type of support, related program, and a link to their website.]",
+    "note": "Confirmed supporters: the IOC Young Leaders programme (Advancing Olympism 365), which awarded Play4Ward a grant, and the EdLight Initiative. [REPLACE: add each remaining partner — logo, short description, type of support, related program, and a link to their website.]",
     "categories": [
       {
         "title": "Strategic partners",
@@ -647,7 +652,7 @@
       },
       {
         "title": "Financial sponsors",
-        "body": "[REPLACE: funders and donors.]"
+        "body": "Grant funding from the IOC Young Leaders programme, advancing Olympism 365."
       },
       {
         "title": "Program partners",

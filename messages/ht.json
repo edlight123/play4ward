@@ -57,6 +57,11 @@
       "intro": "Antrènman estriktire, lidèchip, aksyon kominotè ak konpetisyon — fèt pou jèn 12–19 an.",
       "cta": "Dekouvri"
     },
+    "videoHead": {
+      "eyebrow": "Nan aksyon",
+      "title": "Yon sesyon nan Jakmèl",
+      "intro": "Yon minit sou teren an ak jèn nou yo: travay ajilite, egzèsis ak boul la, ak ekip la ki vini chak semèn."
+    },
     "storyHead": {
       "eyebrow": "Pòtre",
       "title": "Istwa ki pale pou tèt yo"
@@ -71,7 +76,7 @@
       "eyebrow": "Yo sipòte nou",
       "title": "Patnè nou yo",
       "intro": "Nou travay ak lekòl, òganizasyon ak konpayi ki kwè nan potansyèl jèn yo.",
-      "note": "PLAY4WARD gen sipò pwogram IOC Young Leaders ak Olympism 365, ansanm ak sipò EdLight Initiative."
+      "note": "Travay PLAY4WARD an finanse an pati pa yon sibvansyon nan men pwogram IOC Young Leaders, nan kad Olympism 365, ansanm ak sipò EdLight Initiative."
     }
   },
   "mission": {
@@ -639,7 +644,7 @@
       "title": "Moun ki sipòte misyon an",
       "intro": "Nou pa prezante yon senp senpatizan kòm yon « patnè ofisyèl » toutotan relasyon an pa konfime."
     },
-    "note": "Sipò ki konfime: pwogram IOC Young Leaders (Advancing Olympism 365) ak EdLight Initiative. [RANPLASE: ajoute pou chak lòt patnè — logo, yon ti deskripsyon, kalite sipò, pwogram ki konsène ak yon lyen sou sit li.]",
+    "note": "Sipò ki konfime: pwogram IOC Young Leaders (Advancing Olympism 365), ki bay PLAY4WARD yon sibvansyon, ak EdLight Initiative. [RANPLASE: ajoute pou chak lòt patnè — logo, yon ti deskripsyon, kalite sipò, pwogram ki konsène ak yon lyen sou sit li.]",
     "categories": [
       {
         "title": "Patnè estratejik",
@@ -647,7 +652,7 @@
       },
       {
         "title": "Sponsò finansye",
-        "body": "[RANPLASE: bayè ak donatè.]"
+        "body": "Finansman sibvansyon nan men pwogram IOC Young Leaders, nan kad Olympism 365."
       },
       {
         "title": "Patnè pwogram",
