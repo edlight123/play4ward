@@ -475,6 +475,7 @@
     },
     "upcomingTitle": "Upcoming",
     "note": "[REPLACE: real events with date, location, description, eligibility, and registration. The entries below are examples.]",
+    "empty": "No events scheduled yet. Follow us on Instagram for day-to-day updates.",
     "items": [
       {
         "date": "12 SEP",
@@ -514,6 +515,7 @@
       "intro": "The website is the permanent record of Play4Ward's work. Instagram stays useful for day-to-day updates."
     },
     "note": "[REPLACE: publish short articles — athlete achievements, tournament results, new partnerships, equipment donations, new coaches, community visits.]",
+    "empty": "No articles published yet. Follow us on Instagram for day-to-day updates.",
     "items": [
       {
         "date": "[DATE]",

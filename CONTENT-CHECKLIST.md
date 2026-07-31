@@ -1,7 +1,24 @@
 # Content to collect before launch
 
-The website structure is complete. Nothing on the site is fabricated — every
-outstanding item below still shows as a clearly-marked placeholder.
+The website structure is complete. Nothing on the site is fabricated.
+
+**Placeholders are hidden from visitors, not deleted.** The markers below still
+live in `messages/*.json` — that is what the team sees as a prompt in `/admin` —
+but the pages treat `[REPLACE: …]`, `[REMPLACER : …]`, `[RANPLASE: …]`, `[—]` and
+`[DATE]` as "no value" and hide the surrounding row, block, or section
+(`src/lib/placeholder.ts`). **Fill a value in `/admin` and it appears on its own** —
+no code change needed. So the checklist below is still the to-do list; it is just
+no longer visible on the public site.
+
+Currently hidden for want of content: the impact dashboard (8 empty stats), the
+testimonials block, the home featured story, all news articles, all events, team
+bios and portraits, 5 of 6 partner category descriptions, cost / what-to-bring,
+the donation-method and equipment notes, and 3 program-card photos. The Events and
+News pages stay in the nav and show an honest "nothing yet, follow us on Instagram"
+message instead.
+
+Note: the four sample events (12 SEP, 05 OCT, 16 NOV, 30 NOV) were **invented
+dates** being shown publicly as if real. They are no longer rendered.
 
 **Last content drop:** the `WEBSITE` folder shared by `play4wardsport@gmail.com`
 (official brand doc, Instagram carousel slides, logo, two photos). Items marked

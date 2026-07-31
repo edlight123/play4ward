@@ -5,8 +5,8 @@ import { PageHero } from '@/components/PageHero';
 import { Section } from '@/components/Section';
 import { StatGrid } from '@/components/Stats';
 import { SdgGoals } from '@/components/SdgGoals';
-import { StoryCard } from '@/components/Cards';
 import { CTASection } from '@/components/CTASection';
+import { realItems, real } from '@/lib/placeholder';
 
 export default function ImpactPage({
   params,
@@ -17,7 +17,12 @@ export default function ImpactPage({
   setRequestLocale(locale);
 
   const t = useTranslations('impact');
-  const stats = t.raw('dashboard.stats') as { value: string; label: string }[];
+  // Only stats Play4Ward can document. All eight are unfilled today, so the
+  // dashboard hides itself; it returns as soon as any number is entered.
+  const stats = realItems(
+    t.raw('dashboard.stats') as { value: string; label: string }[],
+    'value',
+  );
   const indicators = t.raw('indicators.items') as string[];
   const reports = t.raw('reports.items') as string[];
 
@@ -25,11 +30,15 @@ export default function ImpactPage({
     <>
       <PageHero eyebrow={t('hero.eyebrow')} title={t('hero.title')} intro={t('hero.intro')} />
 
-      {/* Dashboard */}
-      <Section tone="sand" eyebrow={t('dashboard.eyebrow')} title={t('dashboard.title')}>
-        <StatGrid stats={stats} />
-        <p className="mt-6 text-sm text-ink/50">{t('dashboard.note')}</p>
-      </Section>
+      {/* Dashboard — only once there are documented numbers */}
+      {stats.length > 0 && (
+        <Section tone="sand" eyebrow={t('dashboard.eyebrow')} title={t('dashboard.title')}>
+          <StatGrid stats={stats} />
+          {real(t('dashboard.note')) && (
+            <p className="mt-6 text-sm text-ink/50">{t('dashboard.note')}</p>
+          )}
+        </Section>
+      )}
 
       {/* SDG alignment */}
       <Section
@@ -39,17 +48,6 @@ export default function ImpactPage({
         intro={t('sdg.intro')}
       >
         <SdgGoals />
-      </Section>
-
-      {/* Stories */}
-      <Section tone="sand" eyebrow={t('stories.eyebrow')} title={t('stories.title')}>
-        <StoryCard
-          quote="[REPLACE: citation authentique d'un·e joueur·se, parent, entraîneur ou responsable scolaire.]"
-          name="[REMPLACER : nom]"
-          role="[REMPLACER : rôle]"
-          photoLabel="[REMPLACER : portrait]"
-        />
-        <p className="mt-6 text-sm text-ink/50">{t('stories.note')}</p>
       </Section>
 
       {/* Indicators */}

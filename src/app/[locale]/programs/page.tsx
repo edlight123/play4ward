@@ -6,6 +6,7 @@ import { Section } from '@/components/Section';
 import { Photo } from '@/components/Photo';
 import { Button } from '@/components/Button';
 import { CTASection } from '@/components/CTASection';
+import { realItems, real } from '@/lib/placeholder';
 
 // Multi-paragraph body copy. `dark` matches Section's own dark-tone text colour.
 function Prose({ paragraphs, dark = false }: { paragraphs: string[]; dark?: boolean }) {
@@ -48,7 +49,11 @@ export default function ProgramsPage({
   const centerBody = t.raw('center.body') as string[];
   const receive = t.raw('center.receive') as string[];
   const expect = t.raw('center.expect') as string[];
-  const details = t.raw('center.details') as { label: string; value: string }[];
+  // Rows whose value is still unfilled (cost, what to bring) are omitted.
+  const details = realItems(
+    t.raw('center.details') as { label: string; value: string }[],
+    'value',
+  );
   const leadershipBody = t.raw('leadership.body') as string[];
   const topics = t.raw('leadership.topics') as string[];
   const outreach = t.raw('outreach.items') as string[];
@@ -150,7 +155,9 @@ export default function ProgramsPage({
             </div>
           ))}
         </div>
-        <p className="mt-6 text-sm text-white/50">{t('tournaments.note')}</p>
+        {real(t('tournaments.note')) && (
+          <p className="mt-6 text-sm text-white/50">{t('tournaments.note')}</p>
+        )}
       </Section>
 
       <CTASection />

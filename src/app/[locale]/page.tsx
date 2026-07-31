@@ -5,19 +5,12 @@ import { HomeHero } from '@/components/HomeHero';
 import { ImpactStrip } from '@/components/Stats';
 import { MissionPillars } from '@/components/MissionPillars';
 import { Section } from '@/components/Section';
-import { ProgramCard, StoryCard, EventCard } from '@/components/Cards';
+import { ProgramCard, EventCard } from '@/components/Cards';
 import { CTASection } from '@/components/CTASection';
-import { ImagePlaceholder } from '@/components/ImagePlaceholder';
 import { Photo } from '@/components/Photo';
 import { Button } from '@/components/Button';
-
-// Supporters we hold an actual logo file for. Names are proper nouns, so they
-// are not translated. Remaining tiles stay labelled placeholders until the other
-// logos arrive — notably IOC Young Leaders / Olympism 365, which we only have
-// embedded in composite graphics, not as a standalone asset.
-const confirmedPartners = [
-  { name: 'EdLight Initiative', logo: '/partners/edlight-initiative.png' },
-] as const;
+import { realItems } from '@/lib/placeholder';
+import { confirmedPartners } from '@/lib/partners';
 
 // `photo` is set only where Play4Ward has a real image; the others keep their
 // labelled placeholders until photos arrive (see CONTENT-CHECKLIST.md).
@@ -39,13 +32,19 @@ export default function HomePage({
   const t = useTranslations('home');
   const tp = useTranslations('programCards');
   const te = useTranslations('events');
-  const events = te.raw('items') as {
-    date: string;
-    tag: string;
-    title: string;
-    place: string;
-    description: string;
-  }[];
+  // Same rule as the events page: no invented dates on a public page.
+  const events = realItems(
+    te.raw('items') as {
+      date: string;
+      tag: string;
+      title: string;
+      place: string;
+      description: string;
+    }[],
+    'date',
+    'title',
+    'place',
+  );
 
   return (
     <>
@@ -85,34 +84,26 @@ export default function HomePage({
         </div>
       </Section>
 
-      {/* Featured story */}
-      <Section tone="sand" eyebrow={t('storyHead.eyebrow')} title={t('storyHead.title')}>
-        <StoryCard
-          quote="[REPLACE: « Avant de rejoindre Play4Ward… » — récit authentique d'un·e jeune athlète.]"
-          name="[REMPLACER : nom]"
-          role="[REMPLACER : âge · école · quartier]"
-          photoLabel="[REMPLACER : portrait de l'athlète]"
-        />
-      </Section>
-
-      {/* Upcoming activities */}
-      <Section
-        tone="white"
-        eyebrow={t('activitiesHead.eyebrow')}
-        title={t('activitiesHead.title')}
-        intro={t('activitiesHead.intro')}
-      >
-        <div className="grid gap-4 sm:grid-cols-2">
-          {events.slice(0, 4).map((e, i) => (
-            <EventCard key={i} {...e} />
-          ))}
-        </div>
-        <div className="mt-8">
-          <Button href="/events" variant="outline">
-            {t('activitiesHead.cta')}
-          </Button>
-        </div>
-      </Section>
+      {/* Upcoming activities — only when there are real, dated events */}
+      {events.length > 0 && (
+        <Section
+          tone="white"
+          eyebrow={t('activitiesHead.eyebrow')}
+          title={t('activitiesHead.title')}
+          intro={t('activitiesHead.intro')}
+        >
+          <div className="grid gap-4 sm:grid-cols-2">
+            {events.slice(0, 4).map((e, i) => (
+              <EventCard key={i} {...e} />
+            ))}
+          </div>
+          <div className="mt-8">
+            <Button href="/events" variant="outline">
+              {t('activitiesHead.cta')}
+            </Button>
+          </div>
+        </Section>
+      )}
 
       {/* Partners */}
       <Section
@@ -136,14 +127,6 @@ export default function HomePage({
                 className="rounded-none"
               />
             </div>
-          ))}
-          {Array.from({ length: Math.max(0, 4 - confirmedPartners.length) }).map((_, i) => (
-            <ImagePlaceholder
-              key={`slot-${i}`}
-              label="[REPLACE: partner logo]"
-              ratio="aspect-[3/2]"
-              tone="sand"
-            />
           ))}
         </div>
         <p className="mt-6 text-sm text-ink/50">{t('partnersHead.note')}</p>

@@ -9,3 +9,6 @@ out/
 # TinaCMS (regenerated on build)
 tina/__generated__/
 public/admin/
+
+# TypeScript incremental build cache
+*.tsbuildinfo

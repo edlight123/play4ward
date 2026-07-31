@@ -5,6 +5,7 @@ import { PageHero } from '@/components/PageHero';
 import { Section } from '@/components/Section';
 import { Button } from '@/components/Button';
 import { links } from '@/lib/config';
+import { isPlaceholder } from '@/lib/placeholder';
 
 export default function ContactPage({
   params,
@@ -17,19 +18,20 @@ export default function ContactPage({
   const t = useTranslations('contact');
   const inquiries = t.raw('inquiries.items') as { title: string; value: string }[];
 
+  // Play4Ward does not publish a phone number, so there is no WhatsApp row.
+  // Anything still unfilled drops out rather than showing a placeholder.
   const methods = [
     { title: t('methods.generalTitle'), value: t('methods.general'), href: `mailto:${t('methods.general')}` },
-    { title: t('methods.whatsappTitle'), value: t('methods.whatsapp') },
     { title: t('methods.locationTitle'), value: t('methods.location') },
     { title: t('methods.instagramTitle'), value: t('methods.instagram'), href: links.instagram, external: true },
-  ];
+  ].filter((m) => !isPlaceholder(m.value));
 
   return (
     <>
       <PageHero eyebrow={t('hero.eyebrow')} title={t('hero.title')} intro={t('hero.intro')} />
 
       <Section tone="sand">
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {methods.map((m, i) => (
             <div key={i} className="rounded-2xl bg-white p-6 shadow-card">
               <h3 className="font-display text-xs font-bold uppercase tracking-[0.18em] text-coral">

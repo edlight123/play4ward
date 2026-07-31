@@ -3,8 +3,8 @@ import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { PageHero } from '@/components/PageHero';
 import { Section } from '@/components/Section';
-import { ImagePlaceholder } from '@/components/ImagePlaceholder';
 import { Photo } from '@/components/Photo';
+import { real } from '@/lib/placeholder';
 import { CTASection } from '@/components/CTASection';
 
 export default function AboutPage({
@@ -113,15 +113,12 @@ export default function AboutPage({
               <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {group.members.map((m, i) => (
                   <div key={i} className="overflow-hidden rounded-2xl bg-sand shadow-card">
-                    <ImagePlaceholder
-                      label={t('team.portraitLabel')}
-                      ratio="aspect-square"
-                      className="rounded-none border-0"
-                    />
                     <div className="p-6">
                       <h4 className="text-lg">{m.name}</h4>
                       <p className="text-sm font-semibold text-coral">{m.role}</p>
-                      <p className="mt-3 text-sm leading-relaxed text-ink/70">{m.bio}</p>
+                      {real(m.bio) && (
+                        <p className="mt-3 text-sm leading-relaxed text-ink/70">{m.bio}</p>
+                      )}
                     </div>
                   </div>
                 ))}
@@ -141,7 +138,9 @@ export default function AboutPage({
             </div>
           ))}
         </div>
-        <p className="mt-6 text-sm text-white/50">{t('governance.note')}</p>
+        {real(t('governance.note')) && (
+          <p className="mt-6 text-sm text-white/50">{t('governance.note')}</p>
+        )}
       </Section>
 
       <CTASection />

@@ -27,7 +27,7 @@ export function ProgramCard({
       href={href}
       className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-card transition-all hover:-translate-y-1 hover:shadow-lift"
     >
-      {photoSrc ? (
+      {photoSrc && (
         <Photo
           src={photoSrc}
           label={photoLabel}
@@ -35,8 +35,6 @@ export function ProgramCard({
           className="rounded-none"
           sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
         />
-      ) : (
-        <ImagePlaceholder label={photoLabel} ratio="aspect-[16/10]" className="rounded-none border-0" />
       )}
       <div className="flex flex-1 flex-col p-6">
         <span className="font-display text-sm font-bold text-coral">{index}</span>
@@ -52,6 +50,8 @@ export function ProgramCard({
 }
 
 /* ---- StoryCard ------------------------------------------------------- */
+// Currently unrendered: Play4Ward has no testimonials yet, and the pages hide
+// blocks with no real content. Wire this back in once real quotes arrive.
 export function StoryCard({
   quote,
   name,

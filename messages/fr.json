@@ -475,6 +475,7 @@
     },
     "upcomingTitle": "À venir",
     "note": "[REMPLACER : événements réels avec date, lieu, description, éligibilité et inscription. Les entrées ci-dessous sont des exemples.]",
+    "empty": "Aucun événement programmé pour le moment. Suivez-nous sur Instagram pour les actualités au quotidien.",
     "items": [
       {
         "date": "12 SEPT",
@@ -514,6 +515,7 @@
       "intro": "Le site est la trace permanente du travail de PLAY4WARD. Instagram reste utile pour la communication au quotidien."
     },
     "note": "[REMPLACER : publiez de courts articles — réussites d'athlètes, résultats de tournois, nouveaux partenariats, dons d'équipement, nouveaux entraîneurs, visites communautaires.]",
+    "empty": "Aucun article publié pour le moment. Suivez-nous sur Instagram pour les actualités au quotidien.",
     "items": [
       {
         "date": "[DATE]",

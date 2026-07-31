@@ -5,6 +5,7 @@ import { PageHero } from '@/components/PageHero';
 import { Section } from '@/components/Section';
 import { Button } from '@/components/Button';
 import { CTASection } from '@/components/CTASection';
+import { real } from '@/lib/placeholder';
 import { links } from '@/lib/config';
 
 export default function SupportPage({
@@ -42,7 +43,9 @@ export default function SupportPage({
           <Button href={links.donate} external variant="primary" size="lg">
             {t('money.cta')}
           </Button>
-          <span className="ml-3 text-xs text-ink/40">{t('money.methodNote')}</span>
+          {real(t('money.methodNote')) && (
+            <span className="ml-3 text-xs text-ink/40">{t('money.methodNote')}</span>
+          )}
         </div>
       </Section>
 
@@ -58,7 +61,9 @@ export default function SupportPage({
             </span>
           ))}
         </div>
-        <p className="mt-6 text-sm text-ink/50">{t('equipment.note')}</p>
+        {real(t('equipment.note')) && (
+          <p className="mt-6 text-sm text-ink/50">{t('equipment.note')}</p>
+        )}
       </Section>
 
       {/* Sponsor packages */}

@@ -3,8 +3,10 @@ import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { PageHero } from '@/components/PageHero';
 import { Section } from '@/components/Section';
-import { ImagePlaceholder } from '@/components/ImagePlaceholder';
 import { Button } from '@/components/Button';
+import { real } from '@/lib/placeholder';
+import { Photo } from '@/components/Photo';
+import { partnersInCategory } from '@/lib/partners';
 
 export default function PartnersPage({
   params,
@@ -26,15 +28,32 @@ export default function PartnersPage({
           {categories.map((cat, i) => (
             <div key={i} className="rounded-2xl bg-white p-7 shadow-card">
               <h3 className="text-lg text-blue">{cat.title}</h3>
-              <p className="mt-3 text-sm leading-relaxed text-ink/70">{cat.body}</p>
-              <div className="mt-5 grid grid-cols-2 gap-3">
-                <ImagePlaceholder label="[REPLACE: logo]" ratio="aspect-[3/2]" tone="sand" />
-                <ImagePlaceholder label="[REPLACE: logo]" ratio="aspect-[3/2]" tone="sand" />
-              </div>
+              {real(cat.body) && (
+                <p className="mt-3 text-sm leading-relaxed text-ink/70">{cat.body}</p>
+              )}
+              {partnersInCategory(i).length > 0 && (
+                <div className="mt-5 grid grid-cols-2 gap-3">
+                  {partnersInCategory(i).map((partner) => (
+                    <div
+                      key={partner.name}
+                      className="flex items-center justify-center rounded-xl bg-white p-3"
+                    >
+                      <Photo
+                        src={partner.logo}
+                        label={partner.name}
+                        ratio="aspect-[3/2]"
+                        fit="contain"
+                        sizes="(min-width: 640px) 20vw, 40vw"
+                        className="rounded-none"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>
-        <p className="mt-6 text-sm text-ink/50">{t('note')}</p>
+        {real(t('note')) && <p className="mt-6 text-sm text-ink/50">{t('note')}</p>}
       </Section>
 
       <Section tone="ink" center>
