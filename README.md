@@ -146,6 +146,16 @@ with no code. Saving commits to GitHub, which triggers a redeploy.
 After that, editors visit `https://play4ward.vercel.app/admin`, log in via
 TinaCloud, edit, and hit save — changes go live automatically.
 
+**Who can edit:** there is no password. Authentication is TinaCloud's GitHub login,
+so only collaborators on the TinaCloud project can save. The `/admin` page itself is
+a public static file, and the GitHub repo is public, so the content is readable
+either way — but writes require a TinaCloud session.
+
+**Routing note:** `/admin` needs two things to resolve, both already in place — an
+`admin` exclusion in the `src/middleware.ts` matcher (otherwise next-intl redirects
+to `/fr/admin`, which 404s) and the `/admin` → `/admin/index.html` rewrite in
+`next.config.mjs` (Next serves public files only at their exact path).
+
 ## Deploying
 
 **Vercel (easiest):** push to GitHub and import the repo at vercel.com. No config

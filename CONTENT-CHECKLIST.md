@@ -153,6 +153,17 @@ dates** being shown publicly as if real. They are no longer rendered.
       benefit from a read-through.
 
 ## CMS
+- [x] ✅ `/admin` now resolves. It was returning **404**: the next-intl middleware
+      redirected `/admin` to `/fr/admin` (not a route), and even without that, Next
+      does not serve `public/admin/index.html` at `/admin`. Fixed with a middleware
+      exclusion plus a rewrite. The Tina admin itself was building fine all along —
+      it was only reachable at the exact URL `/admin/index.html`.
+- [ ] **There is no password on `/admin`.** Access is TinaCloud's GitHub login: only
+      people you add as collaborators on the TinaCloud project can save changes. The
+      page itself is publicly loadable (it is a static file), and the GitHub repo is
+      public, so site content is public either way — but nobody can write without a
+      TinaCloud session. If you want the page itself gated, that needs Vercel
+      Deployment Protection or an equivalent, which is separate from Tina.
 - [ ] **Regenerate `tina/tina-lock.json`.** It is the compiled schema TinaCloud
       reads, it is committed to the repo, and it is currently **stale** — it still
       describes the old shape (`mission.moveForward`, flat `about.team.members`)
