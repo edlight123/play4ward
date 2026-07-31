@@ -53,7 +53,7 @@
     "programsHead": {
       "eyebrow": "Pwogram nou yo",
       "title": "Sa nou ofri jèn yo",
-      "intro": "Antrènman estriktire, lidèchip, aksyon kominotè ak konpetisyon — fèt pou jèn 13 a 18 an.",
+      "intro": "Antrènman estriktire, lidèchip, aksyon kominotè ak konpetisyon — fèt pou jèn 12–19 an.",
       "cta": "Dekouvri"
     },
     "storyHead": {
@@ -95,7 +95,7 @@
     "center": {
       "title": "Sant Antrènman Andbòl",
       "desc": "Sesyon antrènman andbòl ak ankadreman ak materyèl ki apwopriye.",
-      "photo": "Jèn atlèt k ap antrene pandan yon sesyon PLAY4WARD"
+      "photo": "Jèn atlèt k ap fè egzèsis ak nechèl ritm ak kòn pandan yon sesyon PLAY4WARD nan Jakmèl"
     },
     "leadership": {
       "title": "Lidèchip atravè espò",
@@ -123,8 +123,8 @@
       "eyebrow": "Istwa nou",
       "title": "Poukisa nou egziste",
       "body1": "PLAY4WARD te fonde pa Rony Francillon ak Vasty Jean François, ki te grandi ap jwe andbòl ann Ayiti. Lè yo te nan lise, pa t gen okenn teren espò nan kominote yo, ni mwayen pou achte soulye oswa materyèl. Manman yo t ap deja fè tout sa l kapab pou peye yon bon lekòl pou yo, kidonk akademi espò samdi yo — kote anpil kamarad klas yo t ap ale — te rete lwen posiblite yo. Yo te jwe kanmenm: gòl yo te fèt ak sak yo, epi yo te sèvi ak yon boul foutbòl olye yon boul andbòl paske antrenè a te gen twò piti.",
-      "body2": "Andbòl te prèske pa konnen nan lekòl yo, kidonk yo pa t janm ba li anpil enpòtans. Konvèsasyon sa yo te bay fristrasyon, men sou teren an, menm gwoup zanmi sa a te jwenn yon vrè kominote ak yon santiman apatenans. Se kontras sa a ki fè PLAY4WARD egziste. Nan Jakmèl, jèn ki vle jwe toujou gen tou piti aksè ak espò ki ankadre, ak bon materyèl, ak opòtinite lidèchip yon ekip pote — se poutèt sa n ap bati espas nou pa t genyen an, epi n ap bati l pou tout moun ka patisipe, kèlkeswa milye kote yo soti.",
-      "photo": "Yon sesyon antrènman PLAY4WARD nan Jakmèl"
+      "body2": "Andbòl te prèske pa konnen nan lekòl yo, kidonk yo pa t janm ba li anpil enpòtans. Konvèsasyon sa yo te bay fristrasyon, men sou teren an, menm gwoup zanmi sa a te jwenn yon vrè kominote ak yon santiman apatenans. Se kontras sa a ki fè PLAY4WARD egziste. Nan Jakmèl, jèn ki vle jwe toujou gen tou piti aksè ak espò ki ankadre, ak bon materyèl, ak opòtinite lidèchip yon ekip pote — se poutèt sa n ap bati espas nou pa t genyen an, epi n ap bati l pou tout moun ka patisipe, kèlkeswa milye kote yo soti. PLAY4WARD te lanse an 2026, apre plis pase dezan travay nan kad pwogram IOC Young Leaders la.",
+      "photo": "Yon jwè PLAY4WARD ak yon boul andbòl bò kote banyè ekip la"
     },
     "mv": {
       "missionTitle": "Misyon nou",
@@ -228,7 +228,7 @@
         "Jèn yo jwe andbòl ak materyèl ki gen bon jan kalite, nan yon anviwònman ki adapte, epi ekip antrenè nou an veye pou chak atlèt gen enstalasyon ki byen ekipe pou eksplore talan yo an sekirite epi devlope disiplin yo. Antrènman sa yo pa vize sèlman eksèlans espòtif: yo se yon mwayen pou bati konfyans nan tèt ou, yon santiman apatenans ak konpetans esansyèl pou lavi."
       ],
       "whoTitle": "Kiyès ki ka patisipe?",
-      "who": "Jèn 13 a 18 an ki vle devlope konpetans andbòl ak lidèchip yo.",
+      "who": "Jèn 12–19 an ki vle devlope konpetans andbòl ak lidèchip yo.",
       "receiveTitle": "Sa patisipan yo resevwa",
       "receive": [
         "Ankadreman estriktire ak antrènman regilye",
@@ -246,15 +246,15 @@
       "details": [
         {
           "label": "Laj",
-          "value": "13 a 18 an"
+          "value": "12–19 an"
         },
         {
           "label": "Kote",
-          "value": "[RANPLASE: kote antrènman, Jakmèl]"
+          "value": "Teren lekòl, Jakmèl"
         },
         {
           "label": "Orè",
-          "value": "[RANPLASE: jou ak lè]"
+          "value": "Sesyon chak semèn"
         },
         {
           "label": "Pri",
@@ -262,14 +262,14 @@
         },
         {
           "label": "Ekipman yo bay",
-          "value": "[RANPLASE: sa yo bay]"
+          "value": "Boul andbòl, kòn, nechèl ritm ak chasib"
         },
         {
           "label": "Sa pou pote",
           "value": "[RANPLASE: sa patisipan yo pote]"
         }
       ],
-      "photo": "Jèn atlèt k ap antrene nan sant PLAY4WARD"
+      "photo": "Jèn atlèt k ap fè egzèsis ak nechèl ritm ak kòn pandan yon sesyon PLAY4WARD nan Jakmèl"
     },
     "leadership": {
       "eyebrow": "Lidèchip atravè espò",
@@ -420,12 +420,12 @@
     "hero": {
       "eyebrow": "Antre nan PLAY4WARD",
       "title": "Ou pare pou monte sou teren an?",
-      "intro": "PLAY4WARD ap rekrite jèn 13 a 18 an ki vle devlope konpetans andbòl ak lidèchip yo.",
+      "intro": "PLAY4WARD ap rekrite jèn 12–19 an ki vle devlope konpetans andbòl ak lidèchip yo.",
       "cta": "Ouvè fòm enskripsyon an"
     },
     "who": {
       "title": "Kiyès ki ka antre?",
-      "body": "Jèn 13 a 18 an ki enterese devlope konpetans andbòl ak lidèchip yo."
+      "body": "Jèn 12–19 an ki enterese devlope konpetans andbòl ak lidèchip yo."
     },
     "receive": {
       "title": "Sa patisipan yo resevwa",
@@ -441,7 +441,7 @@
       "items": [
         {
           "title": "Antre kòm atlèt",
-          "body": "Jèn 13 a 18 an ki pare pou antrene epi grandi."
+          "body": "Jèn 12–19 an ki pare pou antrene epi grandi."
         },
         {
           "title": "Antre kòm antrenè",
@@ -481,7 +481,7 @@
         "tag": "Rekritman",
         "title": "Jou rekritman — sezon 2026",
         "place": "[RANPLASE: kote, Jakmèl]",
-        "description": "Sesyon enfòmasyon ak tès pou jèn 13 a 18 an."
+        "description": "Sesyon enfòmasyon ak tès pou jèn 12–19 an."
       },
       {
         "date": "05 OKT",

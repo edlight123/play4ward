@@ -53,7 +53,7 @@
     "programsHead": {
       "eyebrow": "Nos programmes",
       "title": "Ce que nous proposons aux jeunes",
-      "intro": "Un entraînement structuré, du leadership, des actions communautaires et des compétitions — pensés pour les 13 à 18 ans.",
+      "intro": "Un entraînement structuré, du leadership, des actions communautaires et des compétitions — pensés pour les 12 à 19 ans.",
       "cta": "Découvrir"
     },
     "storyHead": {
@@ -95,7 +95,7 @@
     "center": {
       "title": "Centre d'entraînement de handball",
       "desc": "Séances d'entraînement en handball avec encadrement et matériel adapté.",
-      "photo": "De jeunes athlètes à l'entraînement lors d'une séance PLAY4WARD"
+      "photo": "De jeunes athlètes à l'entraînement — échelle de rythme et cônes — lors d'une séance PLAY4WARD à Jacmel"
     },
     "leadership": {
       "title": "Leadership par le sport",
@@ -123,8 +123,8 @@
       "eyebrow": "Notre histoire",
       "title": "Pourquoi nous existons",
       "body1": "PLAY4WARD a été fondé par Rony Francillon et Vasty Jean François, qui ont grandi en jouant au handball en Haïti. Au lycée, il n'y avait aucun terrain de sport dans leur communauté, ni de quoi s'acheter des chaussures ou du matériel. Leur mère faisait déjà de son mieux pour leur offrir une bonne école : les académies sportives du samedi, que fréquentaient beaucoup de leurs camarades, restaient hors de portée. Ils ont joué quand même — des buts faits avec leurs sacs à dos, et un ballon de football en guise de ballon de handball, faute d'équipement.",
-      "body2": "Le handball était à peine connu dans leur école, et n'y recevait donc que peu d'attention. Ces conversations étaient frustrantes, mais sur le terrain, ce même groupe d'amis trouvait une véritable communauté et un sentiment d'appartenance. C'est de ce contraste qu'est né PLAY4WARD. À Jacmel, les jeunes qui veulent jouer n'ont toujours qu'un accès limité au sport encadré, à un équipement correct et aux occasions de leadership qu'offre une équipe. Nous construisons donc l'espace qui nous a manqué — et nous le construisons pour que chacun puisse y participer, quel que soit son milieu.",
-      "photo": "Une séance d'entraînement PLAY4WARD à Jacmel"
+      "body2": "Le handball était à peine connu dans leur école, et n'y recevait donc que peu d'attention. Ces conversations étaient frustrantes, mais sur le terrain, ce même groupe d'amis trouvait une véritable communauté et un sentiment d'appartenance. C'est de ce contraste qu'est né PLAY4WARD. À Jacmel, les jeunes qui veulent jouer n'ont toujours qu'un accès limité au sport encadré, à un équipement correct et aux occasions de leadership qu'offre une équipe. Nous construisons donc l'espace qui nous a manqué — et nous le construisons pour que chacun puisse y participer, quel que soit son milieu. PLAY4WARD a été lancé en 2026, après plus de deux ans de travail dans le cadre du programme IOC Young Leaders.",
+      "photo": "Une joueuse de PLAY4WARD avec un ballon, à côté de la bannière de l'équipe"
     },
     "mv": {
       "missionTitle": "Notre mission",
@@ -228,7 +228,7 @@
         "Les jeunes jouent au handball avec du matériel de qualité, dans un environnement adapté, et notre encadrement veille à ce que chaque athlète dispose d'installations bien équipées pour explorer ses talents en toute sécurité et développer sa discipline. Ces entraînements ne visent pas seulement l'excellence sportive : ils sont un moyen de bâtir la confiance en soi, un sentiment d'appartenance et des compétences essentielles pour la vie."
       ],
       "whoTitle": "Qui peut participer ?",
-      "who": "Les jeunes de 13 à 18 ans désireux de développer leurs compétences en handball et en leadership.",
+      "who": "Les jeunes de 12 à 19 ans désireux de développer leurs compétences en handball et en leadership.",
       "receiveTitle": "Ce que reçoivent les participants",
       "receive": [
         "Un encadrement structuré et des entraînements réguliers",
@@ -246,15 +246,15 @@
       "details": [
         {
           "label": "Âges",
-          "value": "13 à 18 ans"
+          "value": "12 à 19 ans"
         },
         {
           "label": "Lieu",
-          "value": "[REMPLACER : lieu d'entraînement, Jacmel]"
+          "value": "Terrain scolaire, Jacmel"
         },
         {
           "label": "Horaires",
-          "value": "[REMPLACER : jours et heures]"
+          "value": "Séances hebdomadaires"
         },
         {
           "label": "Coût",
@@ -262,14 +262,14 @@
         },
         {
           "label": "Équipement fourni",
-          "value": "[REMPLACER : ce qui est fourni]"
+          "value": "Ballons de handball, cônes, échelles de rythme et chasubles"
         },
         {
           "label": "À apporter",
           "value": "[REMPLACER : ce que les participants apportent]"
         }
       ],
-      "photo": "De jeunes athlètes à l'entraînement au centre PLAY4WARD"
+      "photo": "De jeunes athlètes à l'entraînement — échelle de rythme et cônes — lors d'une séance PLAY4WARD à Jacmel"
     },
     "leadership": {
       "eyebrow": "Leadership par le sport",
@@ -420,12 +420,12 @@
     "hero": {
       "eyebrow": "Rejoindre PLAY4WARD",
       "title": "Prêt·e à monter sur le terrain ?",
-      "intro": "PLAY4WARD recrute des jeunes de 13 à 18 ans qui veulent développer leurs compétences en handball et en leadership.",
+      "intro": "PLAY4WARD recrute des jeunes de 12 à 19 ans qui veulent développer leurs compétences en handball et en leadership.",
       "cta": "Remplir le formulaire d'inscription"
     },
     "who": {
       "title": "Qui peut rejoindre ?",
-      "body": "Les jeunes de 13 à 18 ans intéressés par le développement de leurs compétences en handball et en leadership."
+      "body": "Les jeunes de 12 à 19 ans intéressés par le développement de leurs compétences en handball et en leadership."
     },
     "receive": {
       "title": "Ce que reçoivent les participants",
@@ -441,7 +441,7 @@
       "items": [
         {
           "title": "Rejoindre comme athlète",
-          "body": "Jeunes de 13 à 18 ans prêts à s'entraîner et à progresser."
+          "body": "Jeunes de 12 à 19 ans prêts à s'entraîner et à progresser."
         },
         {
           "title": "Rejoindre comme entraîneur",
@@ -481,7 +481,7 @@
         "tag": "Recrutement",
         "title": "Journée de recrutement — saison 2026",
         "place": "[REMPLACER : lieu, Jacmel]",
-        "description": "Session d'information et essais pour les jeunes de 13 à 18 ans."
+        "description": "Session d'information et essais pour les jeunes de 12 à 19 ans."
       },
       {
         "date": "05 OCT",

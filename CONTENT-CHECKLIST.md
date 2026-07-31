@@ -30,20 +30,32 @@ outstanding item below still shows as a clearly-marked placeholder.
 
 ## Programs
 - [x] ✅ Program card descriptions — official "Ce que nous faisons" wording → `programCards`
-- [ ] Training schedule, location, and cost → `programs.center.details` (5 fields)
-- [ ] What equipment is provided vs. what participants bring → `programs.center.details`
+- [x] ✅ Age range corrected to **12–19** in 7 places (the site previously said 13–18,
+      which had no source; the July 2026 fund application says "youth between the ages
+      of 12 and 19"). **Please confirm** — this is recruitment eligibility.
+- [x] ✅ Location "School field, Jacmel", Schedule "Weekly sessions", and Equipment
+      provided "handballs, cones, agility ladders, bibs" → `programs.center.details`,
+      all sourced from the fund application
+- [ ] **Cost** and **what to bring** → `programs.center.details`. Not stated in any
+      document we hold, so still placeholders.
+- [ ] A more specific schedule (which day, what time) and the name of the school /
+      venue, if you want those public
 
 ## Proof & media
 - [x] ✅ Team photo with banner → `public/photos/team-banner.jpg` (home hero)
-- [x] ✅ Training-session graphic → `public/photos/training-session.jpg`
-      (about story, training-centre card and section)
+- [x] ✅ Clean training photo, no overlay → `public/photos/training-drills.jpg`
+      (training-centre card + programs page). Extracted from the `video` file in the
+      shared Drive folder: a letterboxed landscape clip, bars auto-cropped.
+- [x] ✅ Player beside the team banner → `public/photos/player-banner.jpg`
+      (about story, portrait 4/5). Also from the video.
 - [ ] Photos for the remaining slots: **leadership workshop**, **school clinic**,
-      **tournament day**, and **athlete portraits**. Note the two photos above are
-      reused across pages; more variety would help.
-- [ ] A clean training photo **without** the SDG/title overlay baked in —
-      `training-session.jpg` is a designed graphic, not a plain photograph
+      **tournament day**, and **athlete portraits**. The video is entirely training
+      footage, so it cannot honestly fill those three — they are different activities.
+      Frames are also only 1080px wide; real photographs would be sharper.
 - [ ] 3 participant or parent testimonials → `impact.stories`, home featured story
-- [ ] Confirmed, documented impact numbers → `impact.dashboard.stats` (8 values, all `[—]`)
+- [ ] Confirmed, documented impact numbers → `impact.dashboard.stats` (8 values, all `[—]`).
+      The July 2026 fund application says "attendance continues to grow with every
+      session" but gives no figures anywhere.
 
 ## Partners & support
 - [x] ✅ Confirmed supporters named: IOC Young Leaders / Olympism 365, and the
@@ -66,7 +78,11 @@ outstanding item below still shows as a clearly-marked placeholder.
 - [x] ✅ General organization email (`play4wardsport@gmail.com`) → `contact.methods.general`,
       `contact.inquiries`
 - [x] ✅ Instagram handle `@play4ward_haiti` → already correct in `content/settings.json`
-- [ ] WhatsApp / phone (organization, not personal) → `contact.methods.whatsapp`
+- [ ] WhatsApp / phone (organization, not personal) → `contact.methods.whatsapp`.
+      The fund application lists **971-427-7066** and **jfrvasty@gmail.com**, but both
+      are an individual team member's personal details and the contact page states
+      "We don't publish a personal phone number." Not published — confirm whether that
+      number is the organization's before it goes on the site.
 - [ ] **Registration form URL** → `content/settings.json` (`registrationForm`).
       The "Formulaire de recrutement" in the shared folder is a **private copy** —
       it returns HTTP 401. It must be published and set to accept responses before

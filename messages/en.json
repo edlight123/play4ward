@@ -53,7 +53,7 @@
     "programsHead": {
       "eyebrow": "Our programs",
       "title": "What we offer young people",
-      "intro": "Structured training, leadership, community outreach, and competition — built for ages 13 to 18.",
+      "intro": "Structured training, leadership, community outreach, and competition — built for ages 12 to 19.",
       "cta": "Explore"
     },
     "storyHead": {
@@ -95,7 +95,7 @@
     "center": {
       "title": "Handball Training Center",
       "desc": "Coached handball training sessions with proper equipment.",
-      "photo": "Young athletes running agility drills at a Play4Ward session"
+      "photo": "Young athletes running agility-ladder and cone drills at a Play4Ward session in Jacmel"
     },
     "leadership": {
       "title": "Leadership through sport",
@@ -123,8 +123,8 @@
       "eyebrow": "Our story",
       "title": "Why we exist",
       "body1": "Play4Ward was founded by Rony Francillon and Vasty Jean François, who grew up playing handball in Haiti. In high school there was no sports field in their community and no money for shoes or gear. Their mother was already stretching to pay for a good education, so the Saturday sports academies many of their classmates attended stayed out of reach. They played anyway — goals made from backpacks, and a football standing in for a handball because their coach only had a few.",
-      "body2": "Handball was barely known at their school, so it was never given much importance. Those conversations were frustrating, but out on the playing field that same group of friends found real community and belonging. That contrast is why Play4Ward exists. Young people in Jacmel who want to play still have little access to coached sport, proper equipment, or the leadership opportunities a team brings — so we are building the space we didn't have, and building it so everyone gets to take part, whatever their background.",
-      "photo": "A Play4Ward training session in Jacmel"
+      "body2": "Handball was barely known at their school, so it was never given much importance. Those conversations were frustrating, but out on the playing field that same group of friends found real community and belonging. That contrast is why Play4Ward exists. Young people in Jacmel who want to play still have little access to coached sport, proper equipment, or the leadership opportunities a team brings — so we are building the space we didn't have, and building it so everyone gets to take part, whatever their background. Play4Ward launched in 2026, after more than two years of work through the IOC Young Leaders Programme.",
+      "photo": "A Play4Ward player with a handball beside the team banner"
     },
     "mv": {
       "missionTitle": "Our mission",
@@ -228,7 +228,7 @@
         "Young people play handball with high-quality gear in an adapted environment, and our coaching staff works to ensure every athlete has access to well-equipped facilities to safely explore their talents and build discipline. Ultimately these practices are not only about athletic excellence — they are a vehicle for self-confidence, a sense of belonging, and essential life skills."
       ],
       "whoTitle": "Who can join?",
-      "who": "Young people ages 13–18 interested in developing their handball and leadership skills.",
+      "who": "Young people ages 12–19 interested in developing their handball and leadership skills.",
       "receiveTitle": "What participants receive",
       "receive": [
         "Structured coaching and regular practices",
@@ -246,15 +246,15 @@
       "details": [
         {
           "label": "Ages",
-          "value": "13 to 18"
+          "value": "12 to 19"
         },
         {
           "label": "Location",
-          "value": "[REPLACE: training location, Jacmel]"
+          "value": "School field, Jacmel"
         },
         {
           "label": "Schedule",
-          "value": "[REPLACE: days and times]"
+          "value": "Weekly sessions"
         },
         {
           "label": "Cost",
@@ -262,14 +262,14 @@
         },
         {
           "label": "Equipment provided",
-          "value": "[REPLACE: what's provided]"
+          "value": "Handballs, cones, agility ladders, and bibs"
         },
         {
           "label": "What to bring",
           "value": "[REPLACE: what participants bring]"
         }
       ],
-      "photo": "Young athletes training at the Play4Ward centre"
+      "photo": "Young athletes running agility-ladder and cone drills at a Play4Ward session in Jacmel"
     },
     "leadership": {
       "eyebrow": "Leadership through sport",
@@ -420,12 +420,12 @@
     "hero": {
       "eyebrow": "Join Play4Ward",
       "title": "Ready to step onto the court?",
-      "intro": "Play4Ward is recruiting young people ages 13–18 who want to build their handball and leadership skills.",
+      "intro": "Play4Ward is recruiting young people ages 12–19 who want to build their handball and leadership skills.",
       "cta": "Open the registration form"
     },
     "who": {
       "title": "Who can join?",
-      "body": "Young people ages 13–18 interested in developing their handball and leadership skills."
+      "body": "Young people ages 12–19 interested in developing their handball and leadership skills."
     },
     "receive": {
       "title": "What participants receive",
@@ -441,7 +441,7 @@
       "items": [
         {
           "title": "Join as an athlete",
-          "body": "Ages 13–18 ready to train and grow."
+          "body": "Ages 12–19 ready to train and grow."
         },
         {
           "title": "Join as a coach",
@@ -481,7 +481,7 @@
         "tag": "Recruitment",
         "title": "Recruitment day — 2026 season",
         "place": "[REPLACE: location, Jacmel]",
-        "description": "Info session and tryouts for ages 13–18."
+        "description": "Info session and tryouts for ages 12–19."
       },
       {
         "date": "05 OCT",

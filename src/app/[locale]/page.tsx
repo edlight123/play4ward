@@ -22,7 +22,7 @@ const confirmedPartners = [
 // `photo` is set only where Play4Ward has a real image; the others keep their
 // labelled placeholders until photos arrive (see CONTENT-CHECKLIST.md).
 const programKeys = [
-  { key: 'center', href: '/programs#center', photo: '/photos/training-session.jpg' },
+  { key: 'center', href: '/programs#center', photo: '/photos/training-drills.jpg' },
   { key: 'leadership', href: '/programs#leadership' },
   { key: 'outreach', href: '/programs#outreach' },
   { key: 'tournaments', href: '/programs#tournaments' },

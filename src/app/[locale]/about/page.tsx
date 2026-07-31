@@ -42,9 +42,10 @@ export default function AboutPage({
             <p className="mt-4 leading-relaxed text-ink/75">{t('story.body2')}</p>
           </div>
           <Photo
-            src="/photos/training-session.jpg"
+            src="/photos/player-banner.jpg"
             label={t('story.photo')}
-            ratio="aspect-[3/2]"
+            ratio="aspect-[4/5]"
+            sizes="(min-width: 1024px) 45vw, 100vw"
           />
         </div>
       </Section>

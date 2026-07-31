@@ -91,7 +91,7 @@ export default function ProgramsPage({
 
           <div>
             <Photo
-              src="/photos/training-session.jpg"
+              src="/photos/training-drills.jpg"
               label={t('center.photo')}
               ratio="aspect-[3/2]"
               sizes="(min-width: 1024px) 40vw, 100vw"
