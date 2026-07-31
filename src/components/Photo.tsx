@@ -14,6 +14,7 @@ export function Photo({
   ratio = 'aspect-[4/3]',
   priority = false,
   sizes = '(min-width: 1024px) 50vw, 100vw',
+  fit = 'cover',
 }: {
   src: string;
   label: string;
@@ -21,6 +22,8 @@ export function Photo({
   ratio?: string;
   priority?: boolean;
   sizes?: string;
+  /** 'contain' for logos, which must not be cropped. */
+  fit?: 'cover' | 'contain';
 }) {
   return (
     <div className={`relative ${ratio} w-full overflow-hidden rounded-2xl ${className}`}>
@@ -30,7 +33,7 @@ export function Photo({
         fill
         priority={priority}
         sizes={sizes}
-        className="object-cover"
+        className={fit === 'contain' ? 'object-contain' : 'object-cover'}
       />
     </div>
   );

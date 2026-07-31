@@ -8,9 +8,12 @@ outstanding item below still shows as a clearly-marked placeholder.
 ✅ came from there.
 
 ## Brand & identity
-- [x] ✅ Official logo → `public/logo-play4ward.png`, wired into `src/components/Logo.tsx`
-- [ ] Logo as **SVG**, plus a light/knockout version for dark backgrounds
-      (the footer currently sets the PNG in a white pill because the mark is black)
+- [x] ✅ Official logo → `public/logo-play4ward.png`, wired into `src/components/Logo.tsx`.
+      Trimmed of its white margins and the white background knocked out to
+      transparency, so it sits directly on the cream header.
+- [ ] Logo as **SVG**, plus a light/knockout version for dark backgrounds. The
+      mark's player silhouette is black, so the footer still sets the logo in a
+      white pill — a light version would let it sit on dark cleanly.
 - [ ] Confirmed brand colors and fonts. Note the official assets use a
       **blue + gold** palette; `tailwind.config.ts` still uses coral as the accent.
 
@@ -45,8 +48,14 @@ outstanding item below still shows as a clearly-marked placeholder.
 ## Partners & support
 - [x] ✅ Confirmed supporters named: IOC Young Leaders / Olympism 365, and the
       EdLight Initiative → `partners.note`, `home.partnersHead.note`
-- [ ] Partner **logo files** + permission to display them (the home partners strip
-      is still four placeholder tiles)
+- [x] ✅ EdLight Initiative logo → `public/partners/edlight-initiative.png`, live in
+      the home partners strip (white background knocked out to transparency)
+- [ ] **IOC Young Leaders / Olympism 365 logo** as a standalone file. We only have
+      it embedded in composite graphics (the carousel slide and the banner photo),
+      which is not clean enough to crop. Add to `confirmedPartners` in
+      `src/app/[locale]/page.tsx` once you have it.
+- [ ] Remaining partner logo files + permission to display them (three placeholder
+      tiles left in the home strip)
 - [ ] Which category each supporter belongs to → `partners.categories` (5 of 6 still
       placeholders; only "Strategic partners" is filled)
 - [ ] Donation method / link → `content/settings.json` (`donate`)

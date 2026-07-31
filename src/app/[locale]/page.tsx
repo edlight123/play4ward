@@ -8,7 +8,16 @@ import { Section } from '@/components/Section';
 import { ProgramCard, StoryCard, EventCard } from '@/components/Cards';
 import { CTASection } from '@/components/CTASection';
 import { ImagePlaceholder } from '@/components/ImagePlaceholder';
+import { Photo } from '@/components/Photo';
 import { Button } from '@/components/Button';
+
+// Supporters we hold an actual logo file for. Names are proper nouns, so they
+// are not translated. Remaining tiles stay labelled placeholders until the other
+// logos arrive — notably IOC Young Leaders / Olympism 365, which we only have
+// embedded in composite graphics, not as a standalone asset.
+const confirmedPartners = [
+  { name: 'EdLight Initiative', logo: '/partners/edlight-initiative.png' },
+] as const;
 
 // `photo` is set only where Play4Ward has a real image; the others keep their
 // labelled placeholders until photos arrive (see CONTENT-CHECKLIST.md).
@@ -113,10 +122,25 @@ export default function HomePage({
         intro={t('partnersHead.intro')}
       >
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-          {[0, 1, 2, 3].map((i) => (
+          {confirmedPartners.map((p) => (
+            <div
+              key={p.name}
+              className="flex items-center justify-center rounded-2xl bg-white p-5 shadow-card"
+            >
+              <Photo
+                src={p.logo}
+                label={p.name}
+                ratio="aspect-[3/2]"
+                fit="contain"
+                sizes="(min-width: 640px) 25vw, 50vw"
+                className="rounded-none"
+              />
+            </div>
+          ))}
+          {Array.from({ length: Math.max(0, 4 - confirmedPartners.length) }).map((_, i) => (
             <ImagePlaceholder
-              key={i}
-              label={i === 0 ? 'EdLight [REPLACE: logo]' : '[REPLACE: partner logo]'}
+              key={`slot-${i}`}
+              label="[REPLACE: partner logo]"
               ratio="aspect-[3/2]"
               tone="sand"
             />
