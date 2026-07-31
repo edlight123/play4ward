@@ -421,7 +421,10 @@
       "eyebrow": "Join Play4Ward",
       "title": "Ready to step onto the court?",
       "intro": "Play4Ward is recruiting young people ages 12–19 who want to build their handball and leadership skills.",
-      "cta": "Open the registration form"
+      "cta": "Open the registration form",
+      "soonTitle": "Registration opens soon",
+      "soonBody": "Our registration form isn't open yet. Email us and we'll let you know the moment it is — and answer any questions in the meantime.",
+      "soonCta": "Email us"
     },
     "who": {
       "title": "Who can join?",
@@ -567,6 +570,8 @@
         }
       ],
       "cta": "Donate",
+      "soonNote": "Our online donation link is coming soon. Get in touch and we will arrange a contribution with you directly.",
+      "soonCta": "Contact us to give",
       "methodNote": "[REPLACE: real donation link or method.]"
     },
     "equipment": {

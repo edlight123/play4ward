@@ -5,7 +5,7 @@ import { PageHero } from '@/components/PageHero';
 import { Section } from '@/components/Section';
 import { Button } from '@/components/Button';
 import { CTASection } from '@/components/CTASection';
-import { links } from '@/lib/config';
+import { links, linkIsLive } from '@/lib/config';
 
 export default function JoinPage({
   params,
@@ -16,6 +16,7 @@ export default function JoinPage({
   setRequestLocale(locale);
 
   const t = useTranslations('join');
+  const email = useTranslations('contact')('methods.general');
   const options = t.raw('options.items') as { title: string; body: string }[];
 
   const blocks = [
@@ -27,9 +28,23 @@ export default function JoinPage({
   return (
     <>
       <PageHero eyebrow={t('hero.eyebrow')} title={t('hero.title')} intro={t('hero.intro')}>
-        <Button href={links.registrationForm} external variant="primary" size="lg">
-          {t('hero.cta')}
-        </Button>
+        {linkIsLive.registrationForm ? (
+          <Button href={links.registrationForm} external variant="primary" size="lg">
+            {t('hero.cta')}
+          </Button>
+        ) : (
+          <div className="max-w-xl rounded-2xl bg-white/10 p-6 ring-1 ring-white/20">
+            <p className="font-display text-sm font-bold uppercase tracking-[0.16em] text-gold">
+              {t('hero.soonTitle')}
+            </p>
+            <p className="mt-3 leading-relaxed text-white/85">{t('hero.soonBody')}</p>
+            <div className="mt-5">
+              <Button href={`mailto:${email}`} external variant="onDark" size="lg">
+                {t('hero.soonCta')}
+              </Button>
+            </div>
+          </div>
+        )}
       </PageHero>
 
       {/* Who / receive / expect */}
@@ -73,11 +88,20 @@ export default function JoinPage({
             <div>
               <h2 className="text-2xl text-gold">{t('safeguarding.title')}</h2>
               <p className="mt-3 leading-relaxed text-white/85">{t('safeguarding.body')}</p>
-              <p className="mt-4 text-sm text-white/60">{t('safeguarding.formNote')}</p>
+              {/* The form note describes a button that only exists once the form is live. */}
+              <p className="mt-4 text-sm text-white/60">
+                {linkIsLive.registrationForm ? t('safeguarding.formNote') : t('hero.soonBody')}
+              </p>
               <div className="mt-6">
-                <Button href={links.registrationForm} external variant="onDark" size="lg">
-                  {t('hero.cta')}
-                </Button>
+                {linkIsLive.registrationForm ? (
+                  <Button href={links.registrationForm} external variant="onDark" size="lg">
+                    {t('hero.cta')}
+                  </Button>
+                ) : (
+                  <Button href={`mailto:${email}`} external variant="onDark" size="lg">
+                    {t('hero.soonCta')}
+                  </Button>
+                )}
               </div>
             </div>
           </div>

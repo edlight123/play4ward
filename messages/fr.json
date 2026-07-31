@@ -421,7 +421,10 @@
       "eyebrow": "Rejoindre PLAY4WARD",
       "title": "Prêt·e à monter sur le terrain ?",
       "intro": "PLAY4WARD recrute des jeunes de 12 à 19 ans qui veulent développer leurs compétences en handball et en leadership.",
-      "cta": "Remplir le formulaire d'inscription"
+      "cta": "Remplir le formulaire d'inscription",
+      "soonTitle": "Inscriptions bientôt ouvertes",
+      "soonBody": "Notre formulaire d'inscription n'est pas encore ouvert. Écrivez-nous : nous vous préviendrons dès son ouverture et répondrons à vos questions d'ici là.",
+      "soonCta": "Nous écrire"
     },
     "who": {
       "title": "Qui peut rejoindre ?",
@@ -567,6 +570,8 @@
         }
       ],
       "cta": "Faire un don",
+      "soonNote": "Notre lien de don en ligne arrive bientôt. Contactez-nous et nous organiserons votre contribution directement avec vous.",
+      "soonCta": "Nous contacter pour donner",
       "methodNote": "[REMPLACER : lien ou méthode de don réels.]"
     },
     "equipment": {

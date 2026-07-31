@@ -1322,6 +1322,24 @@
             "type": "string",
             "name": "cta",
             "label": "CTA"
+          },
+          {
+            "type": "string",
+            "name": "soonTitle",
+            "label": "Coming-soon title (used while the form URL is unset)"
+          },
+          {
+            "type": "string",
+            "name": "soonBody",
+            "label": "Coming-soon body",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "soonCta",
+            "label": "Coming-soon button label"
           }
         ]
       },
@@ -1494,6 +1512,14 @@
         }
       },
       {
+        "type": "string",
+        "name": "empty",
+        "label": "Empty state message (shown when there are none)",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
         "type": "object",
         "name": "items",
         "label": "Items",
@@ -1567,6 +1593,14 @@
         "type": "string",
         "name": "note",
         "label": "Note",
+        "ui": {
+          "component": "textarea"
+        }
+      },
+      {
+        "type": "string",
+        "name": "empty",
+        "label": "Empty state message (shown when there are none)",
         "ui": {
           "component": "textarea"
         }
@@ -1681,6 +1715,19 @@
             "type": "string",
             "name": "cta",
             "label": "CTA"
+          },
+          {
+            "type": "string",
+            "name": "soonNote",
+            "label": "Coming-soon note (used while the donation URL is unset)",
+            "ui": {
+              "component": "textarea"
+            }
+          },
+          {
+            "type": "string",
+            "name": "soonCta",
+            "label": "Coming-soon button label"
           },
           {
             "type": "string",

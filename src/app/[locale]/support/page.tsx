@@ -6,7 +6,7 @@ import { Section } from '@/components/Section';
 import { Button } from '@/components/Button';
 import { CTASection } from '@/components/CTASection';
 import { real } from '@/lib/placeholder';
-import { links } from '@/lib/config';
+import { links, linkIsLive } from '@/lib/config';
 
 export default function SupportPage({
   params,
@@ -17,6 +17,7 @@ export default function SupportPage({
   setRequestLocale(locale);
 
   const t = useTranslations('support');
+  const email = useTranslations('contact')('methods.general');
   const tiers = t.raw('money.tiers') as { amount: string; body: string }[];
   const equipment = t.raw('equipment.items') as string[];
   const sponsors = t.raw('sponsor.items') as { title: string; body: string }[];
@@ -40,11 +41,24 @@ export default function SupportPage({
         </div>
         <p className="mt-6 text-sm text-ink/50">{t('money.note')}</p>
         <div className="mt-6">
-          <Button href={links.donate} external variant="primary" size="lg">
-            {t('money.cta')}
-          </Button>
-          {real(t('money.methodNote')) && (
-            <span className="ml-3 text-xs text-ink/40">{t('money.methodNote')}</span>
+          {linkIsLive.donate ? (
+            <>
+              <Button href={links.donate} external variant="primary" size="lg">
+                {t('money.cta')}
+              </Button>
+              {real(t('money.methodNote')) && (
+                <span className="ml-3 text-xs text-ink/40">{t('money.methodNote')}</span>
+              )}
+            </>
+          ) : (
+            <div className="max-w-xl rounded-2xl border-2 border-dashed border-ink/15 bg-white/60 p-6">
+              <p className="leading-relaxed text-ink/75">{t('money.soonNote')}</p>
+              <div className="mt-4">
+                <Button href={`mailto:${email}`} external variant="primary">
+                  {t('money.soonCta')}
+                </Button>
+              </div>
+            </div>
           )}
         </div>
       </Section>

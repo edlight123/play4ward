@@ -87,7 +87,10 @@ dates** being shown publicly as if real. They are no longer rendered.
       tiles left in the home strip)
 - [ ] Which category each supporter belongs to → `partners.categories` (5 of 6 still
       placeholders; only "Strategic partners" is filled)
-- [ ] Donation method / link → `content/settings.json` (`donate`)
+- [ ] Donation method / link → `content/settings.json` (`donate`). The seeded value
+      is a dead placeholder, so the Support page no longer shows a broken Donate
+      button — it invites people to email instead. Paste a real URL in `/admin` and
+      the button returns by itself.
 - [ ] Real donation amounts calculated from budget → `support.money.tiers`
 - [ ] Whether used equipment is accepted, and where to deliver it → `support.equipment.note`
 
@@ -102,8 +105,12 @@ dates** being shown publicly as if real. They are no longer rendered.
       number is the organization's before it goes on the site.
 - [ ] **Registration form URL** → `content/settings.json` (`registrationForm`).
       The "Formulaire de recrutement" in the shared folder is a **private copy** —
-      it returns HTTP 401. It must be published and set to accept responses before
-      the Join button can point at it.
+      it returns HTTP 401. Publish it and set it to accept responses, then paste the
+      URL in `/admin`.
+      Until then the Join page shows an "Inscriptions bientôt ouvertes" panel with an
+      email button rather than a dead link, and the safeguarding block swaps its
+      "the button below opens our Google Form" note for the same message. Both switch
+      back automatically once the URL is set (`linkIsLive` in `src/lib/config.ts`).
 - [ ] Dedicated role addresses, if wanted. All three inquiry types currently route
       to the single general address.
 

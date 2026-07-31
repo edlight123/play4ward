@@ -421,7 +421,10 @@
       "eyebrow": "Antre nan PLAY4WARD",
       "title": "Ou pare pou monte sou teren an?",
       "intro": "PLAY4WARD ap rekrite jèn 12–19 an ki vle devlope konpetans andbòl ak lidèchip yo.",
-      "cta": "Ouvè fòm enskripsyon an"
+      "cta": "Ouvè fòm enskripsyon an",
+      "soonTitle": "Enskripsyon ap louvri talè",
+      "soonBody": "Fòmilè enskripsyon nou an poko louvri. Ekri nou: n ap fè w konnen kou li louvri, epi n ap reponn kesyon ou yo nan mitan tan an.",
+      "soonCta": "Ekri nou"
     },
     "who": {
       "title": "Kiyès ki ka antre?",
@@ -567,6 +570,8 @@
         }
       ],
       "cta": "Fè yon don",
+      "soonNote": "Lyen don an liy nou an ap vini talè. Kontakte nou epi n ap òganize kontribisyon ou dirèkteman avè w.",
+      "soonCta": "Kontakte nou pou fè yon don",
       "methodNote": "[RANPLASE: vrè lyen oswa metòd don.]"
     },
     "equipment": {
