@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { HomeHero } from '@/components/HomeHero';
 import { ImpactStrip } from '@/components/Stats';
 import { MissionPillars } from '@/components/MissionPillars';
+import { SupportedBy } from '@/components/SupportedBy';
 import { Section } from '@/components/Section';
 import { ProgramCard, EventCard } from '@/components/Cards';
 import { CTASection } from '@/components/CTASection';
@@ -50,6 +51,7 @@ export default function HomePage({
     <>
       <HomeHero />
       <ImpactStrip message={t('impactStrip')} />
+      <SupportedBy />
 
       {/* Mission — Play / Lead / Move Forward */}
       <Section

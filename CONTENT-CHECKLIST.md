@@ -79,10 +79,17 @@ dates** being shown publicly as if real. They are no longer rendered.
       EdLight Initiative → `partners.note`, `home.partnersHead.note`
 - [x] ✅ EdLight Initiative logo → `public/partners/edlight-initiative.png`, live in
       the home partners strip (white background knocked out to transparency)
-- [ ] **IOC Young Leaders / Olympism 365 logo** as a standalone file. We only have
-      it embedded in composite graphics (the carousel slide and the banner photo),
-      which is not clean enough to crop. Add to `confirmedPartners` in
-      `src/app/[locale]/page.tsx` once you have it.
+- [x] ✅ **IOC Young Leaders / Olympism 365 logo** → `public/partners/ioc-young-leaders.png`,
+      cropped from the flat supporter credit at the foot of Play4Ward's own carousel
+      slide (not the photographed banner, which is on fabric) and made transparent.
+      450×82 native, shown at 36px high, so it is sharp at 2× but would not survive
+      being blown up much larger — a vector or high-res original would be better.
+      **Check the IOC's brand guidelines:** the Olympic rings are a protected mark.
+      Play4Ward already shows this exact credit on its own banner and posts, so the
+      site mirrors existing practice, but the terms are worth confirming.
+- [x] ✅ "Supported by" bar high on the home page (`src/components/SupportedBy.tsx`),
+      showing both supporter logos right under the hero — the first credibility signal
+      a new visitor gets. Driven by `confirmedPartners`, so it needs no separate edit.
 - [ ] Remaining partner logo files + permission to display them (three placeholder
       tiles left in the home strip)
 - [ ] Which category each supporter belongs to → `partners.categories` (5 of 6 still

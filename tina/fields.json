@@ -227,6 +227,11 @@
         }
       },
       {
+        "type": "string",
+        "name": "supportedBy",
+        "label": "\"Supported by\" label"
+      },
+      {
         "type": "object",
         "name": "missionHead",
         "label": "Mission Head",
