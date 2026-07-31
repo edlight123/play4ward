@@ -5,6 +5,7 @@ import { HomeHero } from '@/components/HomeHero';
 import { ImpactStrip } from '@/components/Stats';
 import { MissionPillars } from '@/components/MissionPillars';
 import { SupportedBy } from '@/components/SupportedBy';
+import { TrainingVideo } from '@/components/TrainingVideo';
 import { Section } from '@/components/Section';
 import { ProgramCard, EventCard } from '@/components/Cards';
 import { CTASection } from '@/components/CTASection';
@@ -61,6 +62,20 @@ export default function HomePage({
         intro={t('missionHead.intro')}
       >
         <MissionPillars />
+      </Section>
+
+      {/* Training footage */}
+      <Section tone="white">
+        <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+          <TrainingVideo label={t('videoHead.title')} />
+          <div>
+            <span className="eyebrow text-coral">{t('videoHead.eyebrow')}</span>
+            <h2 className="mt-4 text-3xl leading-tight sm:text-4xl">{t('videoHead.title')}</h2>
+            <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink/70">
+              {t('videoHead.intro')}
+            </p>
+          </div>
+        </div>
       </Section>
 
       {/* Programs preview */}
